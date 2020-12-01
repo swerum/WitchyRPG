@@ -3,34 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextBox : MonoBehaviour
+namespace WitchyRPG.DialogueSystem
 {
-    [SerializeField] Vector2 position = Vector2.zero;
-    [Header("Child Components")]
-    [SerializeField] Image image = null;
-    [SerializeField] Text speechText = null;
-
-    SpeechInfo[] speechInfos;
-    int counter = 0;
-
-    public void SetTextBoxVariables(SpeechInfo[] speechInfos, Transform canvas)
+    public class TextBox : MonoBehaviour
     {
-        transform.SetParent(canvas);
-        GetComponent<RectTransform>().anchoredPosition = position;
-        this.speechInfos = speechInfos;
-        PlayNextText();
-    }
+        [SerializeField] Vector2 position = Vector2.zero;
+        [Header("Child Components")]
+        [SerializeField] Image image = null;
+        [SerializeField] Text speechText = null;
 
-    public void PlayNextText()
-    {
-        if (counter >= speechInfos.Length)
+        SpeechInfo[] speechInfos;
+        int counter = 0;
+
+        public void SetTextBoxVariables(SpeechInfo[] speechInfos, Transform canvas)
         {
-            Destroy(gameObject);
-            return;
+            transform.SetParent(canvas);
+            GetComponent<RectTransform>().anchoredPosition = position;
+            this.speechInfos = speechInfos;
+            PlayNextText();
         }
-        SpeechInfo speechInfo = speechInfos[counter];
-        image.sprite = speechInfo.face;
-        speechText.text = speechInfo.text;
-        counter++;
+
+        public void PlayNextText()
+        {
+            if (counter >= speechInfos.Length)
+            {
+                Destroy(gameObject);
+                return;
+            }
+            SpeechInfo speechInfo = speechInfos[counter];
+            image.sprite = speechInfo.face;
+            speechText.text = speechInfo.text;
+            counter++;
+        }
     }
 }

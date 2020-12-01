@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCManager : MonoBehaviour
+namespace WitchyRPG.DialogueSystem
 {
-    [SerializeField]List<DirectedMovement> npcs = new List<DirectedMovement>();
-    void Start()
+    public class NPCManager : MonoBehaviour
     {
-        foreach (DirectedMovement npc in npcs)
+        [SerializeField] List<DirectedMovement> npcs = new List<DirectedMovement>();
+        void Start()
         {
-            npc.AddDestination(new Vector2(0, 1));
-            npc.AddDestination(new Vector2(1, 1));
-            npc.AddDestination(new Vector2(-1, 1));
+            foreach (DirectedMovement npc in npcs)
+            {
+                npc.AddDestination(new Vector2(0, 1));
+                npc.AddDestination(new Vector2(1, 1));
+                npc.AddDestination(new Vector2(-1, 1));
+            }
         }
     }
 }
