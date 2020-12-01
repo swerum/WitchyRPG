@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //inputs can be changed under Edit --> Project Settings --> Input Manager
         float xDirection = Input.GetAxis("PlayerRight");
         float yDirection = Input.GetAxis("PlayerUp");
         Vector2 pos = transform.position;
