@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float playerSpeed = 0.01f;
+    Rigidbody2D rb;
+    private void Start() { rb = GetComponent<Rigidbody2D>(); }
 
-    void Update()
+    void FixedUpdate()
     {
         //inputs can be changed under Edit --> Project Settings --> Input Manager
-        float xDirection = Input.GetAxis("PlayerRight");
-        float yDirection = Input.GetAxis("PlayerUp");
-        Vector2 pos = transform.position;
-        transform.position = new Vector2(pos.x + xDirection * playerSpeed, pos.y + yDirection * playerSpeed);
+        Vector2 movement = new Vector2(Input.GetAxis("PlayerRight")*playerSpeed, Input.GetAxis("PlayerUp")*playerSpeed);
+        rb.velocity = movement;
     }
 }
