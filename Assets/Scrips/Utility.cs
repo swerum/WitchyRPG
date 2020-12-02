@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //a class containing commonly used functions
-public class Utility { 
+public class Utility {
 
     /// <summary>
     /// Get distance between two objects
@@ -45,5 +45,16 @@ public class Utility {
         else if (pos1.y < pos2.y - speed) { return 1; }
         else return 0;
     }
+
+    /// <summary>
+    /// takes a 2d position and snaps it to a grid with its gridsize set in the Utility class
+    /// </summary>
+    /// <param name="pos">The position you want to snap</param>
+    /// <returns>The closest position on the grid</returns>
+    public static Vector2 SnapToGrid(Vector2 pos, float gridSize)
+    {
+        return new Vector2(pos.x - pos.x % gridSize, pos.y - pos.y % gridSize);
+    }
+
 
 }

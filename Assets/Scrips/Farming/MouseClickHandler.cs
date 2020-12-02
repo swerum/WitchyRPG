@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MouseClickHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Camera main;
+    private void Start() { main = Camera.main; }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Vector2 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
+        if (Input.GetMouseButtonDown(0)) Debug.Log(mousePos + " is snapped to " + Utility.SnapToGrid(mousePos, 0.08f));
+        mousePos = Utility.SnapToGrid(mousePos, 0.08f);
+        transform.position = mousePos + new Vector2(-0.04f, 0.04f);
     }
 }
