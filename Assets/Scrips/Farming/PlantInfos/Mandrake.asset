@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fce77293624b46dc84b810440b503e2, type: 3}
   m_Name: Mandrake
   m_EditorClassIdentifier: 
-  days: 
   plantName: Mandrake
+  seedBagSprite: {fileID: -8565772621480470827, guid: 527f1c522218446c6861880cb5c4db90,
+    type: 3}
+  days: 010000000200000003000000
+  plantSprites:
+  - {fileID: -8565772621480470827, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: 3333669216844848712, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: 4420579314074768574, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: 1424126403081524601, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
   itemNeeded: 1
-  seedBagSprite: {fileID: 0}
-  seedsPlantedSprite: {fileID: 0}
-  saplingSprite: {fileID: 0}
-  youngPlantSprite: {fileID: 0}
-  harvestableSprite: {fileID: 0}

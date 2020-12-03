@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum FarmAction { Nothing, Plow, Plant, Harvest};
+public enum FarmAction { Nothing, Plow, Plant, Harvest, Water};
 
 public class MouseClickHandler : MonoBehaviour
 {
@@ -37,6 +37,7 @@ public class MouseClickHandler : MonoBehaviour
     {
         //get FarmableTile
         FarmableTile farmableTile = obj.GetComponent<FarmableTile>();
+        Debug.Log(farmableTile);
         if (farmableTile == null) return;
         //do farm action with non-null farmableTile
         switch (farmAction)

@@ -1,0 +1,5294 @@
+fileFormatVersion: 2
+guid: 527f1c522218446c6861880cb5c4db90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1424126403081524601
+    second: crop_spritesheet-1.png-2_0
+  - first:
+      213: 4420579314074768574
+    second: crop_spritesheet-1.png-2_1
+  - first:
+      213: 3333669216844848712
+    second: crop_spritesheet-1.png-2_2
+  - first:
+      213: -5114641712890332578
+    second: crop_spritesheet-1.png-2_3
+  - first:
+      213: 2849451078186657715
+    second: crop_spritesheet-1.png-2_4
+  - first:
+      213: -8565772621480470827
+    second: crop_spritesheet-1.png-2_5
+  - first:
+      213: 1807006464251523102
+    second: crop_spritesheet-1.png-2_6
+  - first:
+      213: 6977987744849003832
+    second: crop_spritesheet-1.png-2_7
+  - first:
+      213: -4482845900409715397
+    second: crop_spritesheet-1.png-2_8
+  - first:
+      213: -4389300426860592350
+    second: crop_spritesheet-1.png-2_9
+  - first:
+      213: 3206460273558535483
+    second: crop_spritesheet-1.png-2_10
+  - first:
+      213: 6426767542675897286
+    second: crop_spritesheet-1.png-2_11
+  - first:
+      213: -1104945060024926252
+    second: crop_spritesheet-1.png-2_12
+  - first:
+      213: -5595859447497972490
+    second: crop_spritesheet-1.png-2_13
+  - first:
+      213: -8417433976052490294
+    second: crop_spritesheet-1.png-2_14
+  - first:
+      213: -4603131970694738855
+    second: crop_spritesheet-1.png-2_15
+  - first:
+      213: -7957322761170915563
+    second: crop_spritesheet-1.png-2_16
+  - first:
+      213: 2111202108594649051
+    second: crop_spritesheet-1.png-2_17
+  - first:
+      213: 3886712687791719733
+    second: crop_spritesheet-1.png-2_18
+  - first:
+      213: -4220049174570125457
+    second: crop_spritesheet-1.png-2_19
+  - first:
+      213: 799254076541177316
+    second: crop_spritesheet-1.png-2_20
+  - first:
+      213: 7493792675741893037
+    second: crop_spritesheet-1.png-2_21
+  - first:
+      213: -486256744313178145
+    second: crop_spritesheet-1.png-2_22
+  - first:
+      213: -6314576126087700879
+    second: crop_spritesheet-1.png-2_23
+  - first:
+      213: 4510247599669408262
+    second: crop_spritesheet-1.png-2_24
+  - first:
+      213: 346225372608758878
+    second: crop_spritesheet-1.png-2_25
+  - first:
+      213: -8783313316344293527
+    second: crop_spritesheet-1.png-2_26
+  - first:
+      213: -1532695362299937854
+    second: crop_spritesheet-1.png-2_27
+  - first:
+      213: -2322462860575968364
+    second: crop_spritesheet-1.png-2_28
+  - first:
+      213: 3851842948300242124
+    second: crop_spritesheet-1.png-2_29
+  - first:
+      213: -6476708126193007672
+    second: crop_spritesheet-1.png-2_30
+  - first:
+      213: 1031396368455003661
+    second: crop_spritesheet-1.png-2_31
+  - first:
+      213: 1381071904999706203
+    second: crop_spritesheet-1.png-2_32
+  - first:
+      213: 3908926308139517730
+    second: crop_spritesheet-1.png-2_33
+  - first:
+      213: -1324182643737742193
+    second: crop_spritesheet-1.png-2_34
+  - first:
+      213: 3251748064371464989
+    second: crop_spritesheet-1.png-2_35
+  - first:
+      213: -4416573594712894941
+    second: crop_spritesheet-1.png-2_36
+  - first:
+      213: -6291843329623033393
+    second: crop_spritesheet-1.png-2_37
+  - first:
+      213: -463888695442654855
+    second: crop_spritesheet-1.png-2_38
+  - first:
+      213: -1931597197152931136
+    second: crop_spritesheet-1.png-2_39
+  - first:
+      213: 4454695921944226911
+    second: crop_spritesheet-1.png-2_40
+  - first:
+      213: -6825000334871114244
+    second: crop_spritesheet-1.png-2_41
+  - first:
+      213: -2618009861821681314
+    second: crop_spritesheet-1.png-2_42
+  - first:
+      213: -4406141893730529692
+    second: crop_spritesheet-1.png-2_43
+  - first:
+      213: -6493350595360746
+    second: crop_spritesheet-1.png-2_44
+  - first:
+      213: -699376338655313377
+    second: crop_spritesheet-1.png-2_45
+  - first:
+      213: 3855011388705539473
+    second: crop_spritesheet-1.png-2_46
+  - first:
+      213: 6942762931087159639
+    second: crop_spritesheet-1.png-2_47
+  - first:
+      213: 5816915001493457546
+    second: crop_spritesheet-1.png-2_48
+  - first:
+      213: 6362551869307703056
+    second: crop_spritesheet-1.png-2_49
+  - first:
+      213: 755955961689691533
+    second: crop_spritesheet-1.png-2_50
+  - first:
+      213: -5644378321271685338
+    second: crop_spritesheet-1.png-2_51
+  - first:
+      213: 8389906097766943455
+    second: crop_spritesheet-1.png-2_52
+  - first:
+      213: 371476586061825088
+    second: crop_spritesheet-1.png-2_53
+  - first:
+      213: 1249621723206161735
+    second: crop_spritesheet-1.png-2_54
+  - first:
+      213: 6641218731731113465
+    second: crop_spritesheet-1.png-2_55
+  - first:
+      213: 1054197691106870223
+    second: crop_spritesheet-1.png-2_56
+  - first:
+      213: 1448293275506375405
+    second: crop_spritesheet-1.png-2_57
+  - first:
+      213: 500645796097912697
+    second: crop_spritesheet-1.png-2_58
+  - first:
+      213: 8488244766298542508
+    second: crop_spritesheet-1.png-2_59
+  - first:
+      213: -3896343082716999008
+    second: crop_spritesheet-1.png-2_60
+  - first:
+      213: 1954476196984119588
+    second: crop_spritesheet-1.png-2_61
+  - first:
+      213: 5661824941798700361
+    second: crop_spritesheet-1.png-2_62
+  - first:
+      213: -4753808007827083653
+    second: crop_spritesheet-1.png-2_63
+  - first:
+      213: -7594920115691184630
+    second: crop_spritesheet-1.png-2_64
+  - first:
+      213: 6999912964406191008
+    second: crop_spritesheet-1.png-2_65
+  - first:
+      213: -4892357179500170950
+    second: crop_spritesheet-1.png-2_66
+  - first:
+      213: -5124201804233109499
+    second: crop_spritesheet-1.png-2_67
+  - first:
+      213: 3879271723920946931
+    second: crop_spritesheet-1.png-2_68
+  - first:
+      213: -9050280923650893395
+    second: crop_spritesheet-1.png-2_69
+  - first:
+      213: 8132468168349446699
+    second: crop_spritesheet-1.png-2_70
+  - first:
+      213: -8624910729370903257
+    second: crop_spritesheet-1.png-2_71
+  - first:
+      213: -2959027420464179596
+    second: crop_spritesheet-1.png-2_72
+  - first:
+      213: 8533484789760004662
+    second: crop_spritesheet-1.png-2_73
+  - first:
+      213: -5789850334464536313
+    second: crop_spritesheet-1.png-2_74
+  - first:
+      213: -293195242467725161
+    second: crop_spritesheet-1.png-2_75
+  - first:
+      213: 3041240551777503238
+    second: crop_spritesheet-1.png-2_76
+  - first:
+      213: 5328100488004098537
+    second: crop_spritesheet-1.png-2_77
+  - first:
+      213: -7119128233264638247
+    second: crop_spritesheet-1.png-2_78
+  - first:
+      213: 5562906803580566967
+    second: crop_spritesheet-1.png-2_79
+  - first:
+      213: -4084730288082062769
+    second: crop_spritesheet-1.png-2_80
+  - first:
+      213: -1913470292388050264
+    second: crop_spritesheet-1.png-2_81
+  - first:
+      213: -6595117804121318410
+    second: crop_spritesheet-1.png-2_82
+  - first:
+      213: 600890669778551240
+    second: crop_spritesheet-1.png-2_83
+  - first:
+      213: -820049605111634916
+    second: crop_spritesheet-1.png-2_84
+  - first:
+      213: -4743365979110164697
+    second: crop_spritesheet-1.png-2_85
+  - first:
+      213: 3275385924049443889
+    second: crop_spritesheet-1.png-2_86
+  - first:
+      213: 7765283151560163723
+    second: crop_spritesheet-1.png-2_87
+  - first:
+      213: 8103750832792664807
+    second: crop_spritesheet-1.png-2_88
+  - first:
+      213: 1170545399085015244
+    second: crop_spritesheet-1.png-2_89
+  - first:
+      213: -7429283587000056500
+    second: crop_spritesheet-1.png-2_90
+  - first:
+      213: 3319089598898627033
+    second: crop_spritesheet-1.png-2_91
+  - first:
+      213: -413626785444259202
+    second: crop_spritesheet-1.png-2_92
+  - first:
+      213: -1472330372551574893
+    second: crop_spritesheet-1.png-2_93
+  - first:
+      213: -6797946262577988612
+    second: crop_spritesheet-1.png-2_94
+  - first:
+      213: -393850188715140109
+    second: crop_spritesheet-1.png-2_95
+  - first:
+      213: 4827457094181442873
+    second: crop_spritesheet-1.png-2_96
+  - first:
+      213: -6763813231099621579
+    second: crop_spritesheet-1.png-2_97
+  - first:
+      213: 2349949116537698755
+    second: crop_spritesheet-1.png-2_98
+  - first:
+      213: 5438439640784455447
+    second: crop_spritesheet-1.png-2_99
+  - first:
+      213: 4298725609540785633
+    second: crop_spritesheet-1.png-2_100
+  - first:
+      213: 1919501796097852045
+    second: crop_spritesheet-1.png-2_101
+  - first:
+      213: -5542812715426330952
+    second: crop_spritesheet-1.png-2_102
+  - first:
+      213: -8663466808376555011
+    second: crop_spritesheet-1.png-2_103
+  - first:
+      213: -5904124482660527080
+    second: crop_spritesheet-1.png-2_104
+  - first:
+      213: -5226688016740103899
+    second: crop_spritesheet-1.png-2_105
+  - first:
+      213: 6551087692241934149
+    second: crop_spritesheet-1.png-2_106
+  - first:
+      213: -5226132227131954901
+    second: crop_spritesheet-1.png-2_107
+  - first:
+      213: -3789456766989615228
+    second: crop_spritesheet-1.png-2_108
+  - first:
+      213: 6960235928129758374
+    second: crop_spritesheet-1.png-2_109
+  - first:
+      213: 4334701331865099243
+    second: crop_spritesheet-1.png-2_110
+  - first:
+      213: 6311140317312029859
+    second: crop_spritesheet-1.png-2_111
+  - first:
+      213: 1576429388052067147
+    second: crop_spritesheet-1.png-2_112
+  - first:
+      213: -9075205210558579520
+    second: crop_spritesheet-1.png-2_113
+  - first:
+      213: -2395491661140113231
+    second: crop_spritesheet-1.png-2_114
+  - first:
+      213: -2076910534551524361
+    second: crop_spritesheet-1.png-2_115
+  - first:
+      213: -4995413468158149371
+    second: crop_spritesheet-1.png-2_116
+  - first:
+      213: 8102288994010720704
+    second: crop_spritesheet-1.png-2_117
+  - first:
+      213: -4747271625216060911
+    second: crop_spritesheet-1.png-2_118
+  - first:
+      213: -8382425053931446348
+    second: crop_spritesheet-1.png-2_119
+  - first:
+      213: -8053742918556244153
+    second: crop_spritesheet-1.png-2_120
+  - first:
+      213: -3453897483067084536
+    second: crop_spritesheet-1.png-2_121
+  - first:
+      213: -3624892121039102983
+    second: crop_spritesheet-1.png-2_122
+  - first:
+      213: -3771993607812897823
+    second: crop_spritesheet-1.png-2_123
+  - first:
+      213: -3914770666420228315
+    second: crop_spritesheet-1.png-2_124
+  - first:
+      213: -9190064116511486844
+    second: crop_spritesheet-1.png-2_125
+  - first:
+      213: -8539425930332948341
+    second: crop_spritesheet-1.png-2_126
+  - first:
+      213: -819783584157551402
+    second: crop_spritesheet-1.png-2_127
+  - first:
+      213: -8484067688034726762
+    second: crop_spritesheet-1.png-2_128
+  - first:
+      213: -5793204613363294833
+    second: crop_spritesheet-1.png-2_129
+  - first:
+      213: -7701484937764102694
+    second: crop_spritesheet-1.png-2_130
+  - first:
+      213: 5757767418377850702
+    second: crop_spritesheet-1.png-2_131
+  - first:
+      213: 3140419482018513947
+    second: crop_spritesheet-1.png-2_132
+  - first:
+      213: -1825177930273594588
+    second: crop_spritesheet-1.png-2_133
+  - first:
+      213: 2815523206046478015
+    second: crop_spritesheet-1.png-2_134
+  - first:
+      213: 717304416336143463
+    second: crop_spritesheet-1.png-2_135
+  - first:
+      213: 862701039667118683
+    second: crop_spritesheet-1.png-2_136
+  - first:
+      213: -1826831874920676869
+    second: crop_spritesheet-1.png-2_137
+  - first:
+      213: -454400102731458623
+    second: crop_spritesheet-1.png-2_138
+  - first:
+      213: 3683748784493339290
+    second: crop_spritesheet-1.png-2_139
+  - first:
+      213: -4053822894358329563
+    second: crop_spritesheet-1.png-2_140
+  - first:
+      213: 7361048557447284837
+    second: crop_spritesheet-1.png-2_141
+  - first:
+      213: -5129085203964039235
+    second: crop_spritesheet-1.png-2_142
+  - first:
+      213: 8960155915540524933
+    second: crop_spritesheet-1.png-2_143
+  - first:
+      213: 2251802891052327467
+    second: crop_spritesheet-1.png-2_144
+  - first:
+      213: -4790321486132227602
+    second: crop_spritesheet-1.png-2_145
+  - first:
+      213: 3951107559725091886
+    second: crop_spritesheet-1.png-2_146
+  - first:
+      213: 1039086294627931167
+    second: crop_spritesheet-1.png-2_147
+  - first:
+      213: -5672474792930567397
+    second: crop_spritesheet-1.png-2_148
+  - first:
+      213: -2276599617754911971
+    second: crop_spritesheet-1.png-2_149
+  - first:
+      213: 6556175700507298428
+    second: crop_spritesheet-1.png-2_150
+  - first:
+      213: -4604515631963302016
+    second: crop_spritesheet-1.png-2_151
+  - first:
+      213: -6271270785780018854
+    second: crop_spritesheet-1.png-2_152
+  - first:
+      213: 9020398005026481116
+    second: crop_spritesheet-1.png-2_153
+  - first:
+      213: 6883116561339656568
+    second: crop_spritesheet-1.png-2_154
+  - first:
+      213: 4621617197194587305
+    second: crop_spritesheet-1.png-2_155
+  - first:
+      213: -1255372703829194597
+    second: crop_spritesheet-1.png-2_156
+  - first:
+      213: 8251641666083326987
+    second: crop_spritesheet-1.png-2_157
+  - first:
+      213: 4684953312508641391
+    second: crop_spritesheet-1.png-2_158
+  - first:
+      213: -7629612256037314725
+    second: crop_spritesheet-1.png-2_159
+  - first:
+      213: 2927395794832739819
+    second: crop_spritesheet-1.png-2_160
+  - first:
+      213: 1660020487731375970
+    second: crop_spritesheet-1.png-2_161
+  - first:
+      213: -7874568502884057113
+    second: crop_spritesheet-1.png-2_162
+  - first:
+      213: 1883947266235984260
+    second: crop_spritesheet-1.png-2_163
+  - first:
+      213: -6785126933331349062
+    second: crop_spritesheet-1.png-2_164
+  - first:
+      213: -678726196082416071
+    second: crop_spritesheet-1.png-2_165
+  - first:
+      213: 2537284425097346329
+    second: crop_spritesheet-1.png-2_166
+  - first:
+      213: 7018274181264410501
+    second: crop_spritesheet-1.png-2_167
+  - first:
+      213: 4930818812772567227
+    second: crop_spritesheet-1.png-2_168
+  - first:
+      213: -6840457922477951418
+    second: crop_spritesheet-1.png-2_169
+  - first:
+      213: -997958998254716634
+    second: crop_spritesheet-1.png-2_170
+  - first:
+      213: 2570753088784139499
+    second: crop_spritesheet-1.png-2_171
+  - first:
+      213: 8778538208760599357
+    second: crop_spritesheet-1.png-2_172
+  - first:
+      213: 1265239312644204020
+    second: crop_spritesheet-1.png-2_173
+  - first:
+      213: 592259876340282978
+    second: crop_spritesheet-1.png-2_174
+  - first:
+      213: -3129089817336993949
+    second: crop_spritesheet-1.png-2_175
+  - first:
+      213: 6253968764278864841
+    second: crop_spritesheet-1.png-2_176
+  - first:
+      213: -8788513591070501026
+    second: crop_spritesheet-1.png-2_177
+  - first:
+      213: 2870131055615061194
+    second: crop_spritesheet-1.png-2_178
+  - first:
+      213: 3088944863538051032
+    second: crop_spritesheet-1.png-2_179
+  - first:
+      213: -3353252839770664815
+    second: crop_spritesheet-1.png-2_180
+  - first:
+      213: -5096221132850702804
+    second: crop_spritesheet-1.png-2_181
+  - first:
+      213: -5432883303021905200
+    second: crop_spritesheet-1.png-2_182
+  - first:
+      213: 8508303583193037248
+    second: crop_spritesheet-1.png-2_183
+  - first:
+      213: -5956387872849937628
+    second: crop_spritesheet-1.png-2_184
+  - first:
+      213: -5019347053530851175
+    second: crop_spritesheet-1.png-2_185
+  - first:
+      213: 2772962547819296187
+    second: crop_spritesheet-1.png-2_186
+  - first:
+      213: -5216788054663274043
+    second: crop_spritesheet-1.png-2_187
+  - first:
+      213: 408169535940718062
+    second: crop_spritesheet-1.png-2_188
+  - first:
+      213: 6220828346878688080
+    second: crop_spritesheet-1.png-2_189
+  - first:
+      213: 3959945369651629880
+    second: crop_spritesheet-1.png-2_190
+  - first:
+      213: 7792638647501123060
+    second: crop_spritesheet-1.png-2_191
+  - first:
+      213: -589314258030480553
+    second: crop_spritesheet-1.png-2_192
+  - first:
+      213: 3707306183426350553
+    second: crop_spritesheet-1.png-2_193
+  - first:
+      213: -2161985042290291270
+    second: crop_spritesheet-1.png-2_194
+  - first:
+      213: -8081810422212572055
+    second: crop_spritesheet-1.png-2_195
+  - first:
+      213: -6114683784502501058
+    second: crop_spritesheet-1.png-2_196
+  - first:
+      213: 4486869075781577456
+    second: crop_spritesheet-1.png-2_197
+  - first:
+      213: -2177442878280021602
+    second: crop_spritesheet-1.png-2_198
+  - first:
+      213: 5093024582481873115
+    second: crop_spritesheet-1.png-2_199
+  - first:
+      213: 297771571859110971
+    second: crop_spritesheet-1.png-2_200
+  - first:
+      213: -7191797324144620991
+    second: crop_spritesheet-1.png-2_201
+  - first:
+      213: -359214394707406525
+    second: crop_spritesheet-1.png-2_202
+  - first:
+      213: 5369011501200797719
+    second: crop_spritesheet-1.png-2_203
+  - first:
+      213: 8518984271993952558
+    second: crop_spritesheet-1.png-2_204
+  - first:
+      213: -879132277194404127
+    second: crop_spritesheet-1.png-2_205
+  - first:
+      213: -6231586394057954328
+    second: crop_spritesheet-1.png-2_206
+  - first:
+      213: -1885302671210973763
+    second: crop_spritesheet-1.png-2_207
+  - first:
+      213: -5326445922328225756
+    second: crop_spritesheet-1.png-2_208
+  - first:
+      213: -386593432610177510
+    second: crop_spritesheet-1.png-2_209
+  - first:
+      213: -8236638307959502249
+    second: crop_spritesheet-1.png-2_210
+  - first:
+      213: 487878111516408136
+    second: crop_spritesheet-1.png-2_211
+  - first:
+      213: 761524744150820898
+    second: crop_spritesheet-1.png-2_212
+  - first:
+      213: 1710519032182856686
+    second: crop_spritesheet-1.png-2_213
+  - first:
+      213: 7184429208409548559
+    second: crop_spritesheet-1.png-2_214
+  - first:
+      213: -1369055292876624796
+    second: crop_spritesheet-1.png-2_215
+  - first:
+      213: -2660128625814105245
+    second: crop_spritesheet-1.png-2_216
+  - first:
+      213: 3860798684109934417
+    second: crop_spritesheet-1.png-2_217
+  - first:
+      213: 6985824824805820754
+    second: crop_spritesheet-1.png-2_218
+  - first:
+      213: -5517034973839272434
+    second: crop_spritesheet-1.png-2_219
+  - first:
+      213: 7568490847988144385
+    second: crop_spritesheet-1.png-2_220
+  - first:
+      213: -2323270513372572170
+    second: crop_spritesheet-1.png-2_221
+  - first:
+      213: -9080096412851963899
+    second: crop_spritesheet-1.png-2_222
+  - first:
+      213: 5281375214173935090
+    second: crop_spritesheet-1.png-2_223
+  - first:
+      213: -1847660074848492922
+    second: crop_spritesheet-1.png-2_224
+  - first:
+      213: -6421821115885236918
+    second: crop_spritesheet-1.png-2_225
+  - first:
+      213: -7423969170137094830
+    second: crop_spritesheet-1.png-2_226
+  - first:
+      213: 7799251442949200670
+    second: crop_spritesheet-1.png-2_227
+  - first:
+      213: 1658963024158073604
+    second: crop_spritesheet-1.png-2_228
+  - first:
+      213: -3391353741730758336
+    second: crop_spritesheet-1.png-2_229
+  - first:
+      213: 9102038344787281981
+    second: crop_spritesheet-1.png-2_230
+  - first:
+      213: 1309799787790675727
+    second: crop_spritesheet-1.png-2_231
+  - first:
+      213: -7137489123069892751
+    second: crop_spritesheet-1.png-2_232
+  - first:
+      213: 6815088660021922297
+    second: crop_spritesheet-1.png-2_233
+  - first:
+      213: -9100161594033062867
+    second: crop_spritesheet-1.png-2_234
+  - first:
+      213: -9150738116972717460
+    second: crop_spritesheet-1.png-2_235
+  - first:
+      213: -9085780916061317882
+    second: crop_spritesheet-1.png-2_236
+  - first:
+      213: -2394575712771714156
+    second: crop_spritesheet-1.png-2_237
+  - first:
+      213: -1358801856934443809
+    second: crop_spritesheet-1.png-2_238
+  - first:
+      213: 3017541430479482839
+    second: crop_spritesheet-1.png-2_239
+  - first:
+      213: -6961542649649197228
+    second: crop_spritesheet-1.png-2_240
+  - first:
+      213: -768941263011319321
+    second: crop_spritesheet-1.png-2_241
+  - first:
+      213: -8047921091412735748
+    second: crop_spritesheet-1.png-2_242
+  - first:
+      213: 7461753295303838872
+    second: crop_spritesheet-1.png-2_243
+  - first:
+      213: -7970690967103406257
+    second: crop_spritesheet-1.png-2_244
+  - first:
+      213: 2133408550233874570
+    second: crop_spritesheet-1.png-2_245
+  - first:
+      213: 2086421356439668363
+    second: crop_spritesheet-1.png-2_246
+  - first:
+      213: 8896123310493871536
+    second: crop_spritesheet-1.png-2_247
+  - first:
+      213: 7100830946695803941
+    second: crop_spritesheet-1.png-2_248
+  - first:
+      213: 4138676357297595640
+    second: crop_spritesheet-1.png-2_249
+  - first:
+      213: -4435408650401894194
+    second: crop_spritesheet-1.png-2_250
+  - first:
+      213: 3641230416954766045
+    second: crop_spritesheet-1.png-2_251
+  - first:
+      213: 7388838450350307116
+    second: crop_spritesheet-1.png-2_252
+  - first:
+      213: -8722809942165036750
+    second: crop_spritesheet-1.png-2_253
+  - first:
+      213: -2554017659089989400
+    second: crop_spritesheet-1.png-2_254
+  - first:
+      213: 3495751832931888077
+    second: crop_spritesheet-1.png-2_255
+  - first:
+      213: -51931976507003713
+    second: crop_spritesheet-1.png-2_256
+  - first:
+      213: -5271883801639197883
+    second: crop_spritesheet-1.png-2_257
+  - first:
+      213: 6676222348359229487
+    second: crop_spritesheet-1.png-2_258
+  - first:
+      213: -5337001886244902086
+    second: crop_spritesheet-1.png-2_259
+  - first:
+      213: -7301950969045820645
+    second: crop_spritesheet-1.png-2_260
+  - first:
+      213: 8084068495428079702
+    second: crop_spritesheet-1.png-2_261
+  - first:
+      213: -5174847209411447218
+    second: crop_spritesheet-1.png-2_262
+  - first:
+      213: 2640421390152266666
+    second: crop_spritesheet-1.png-2_263
+  - first:
+      213: -1226492365046184370
+    second: crop_spritesheet-1.png-2_264
+  - first:
+      213: 1318742557829908963
+    second: crop_spritesheet-1.png-2_265
+  - first:
+      213: 4976234688964862691
+    second: crop_spritesheet-1.png-2_266
+  - first:
+      213: 7388540322259956101
+    second: crop_spritesheet-1.png-2_267
+  - first:
+      213: 6083503179300390504
+    second: crop_spritesheet-1.png-2_268
+  - first:
+      213: 6365205808296775873
+    second: crop_spritesheet-1.png-2_269
+  - first:
+      213: 6289680074104152210
+    second: crop_spritesheet-1.png-2_270
+  - first:
+      213: -2790198321365285143
+    second: crop_spritesheet-1.png-2_271
+  - first:
+      213: 2045073868976636179
+    second: crop_spritesheet-1.png-2_272
+  - first:
+      213: 765751010821067247
+    second: crop_spritesheet-1.png-2_273
+  - first:
+      213: -8680661801128847801
+    second: crop_spritesheet-1.png-2_274
+  - first:
+      213: -4924234314624861993
+    second: crop_spritesheet-1.png-2_275
+  - first:
+      213: 2534336358179650241
+    second: crop_spritesheet-1.png-2_276
+  - first:
+      213: 8686501797610664746
+    second: crop_spritesheet-1.png-2_277
+  - first:
+      213: -438954825103890960
+    second: crop_spritesheet-1.png-2_278
+  - first:
+      213: 1892637671916537962
+    second: crop_spritesheet-1.png-2_279
+  - first:
+      213: -4775160109232284792
+    second: crop_spritesheet-1.png-2_280
+  - first:
+      213: 3361697381387680577
+    second: crop_spritesheet-1.png-2_281
+  - first:
+      213: -2184102548583029101
+    second: crop_spritesheet-1.png-2_282
+  - first:
+      213: -4953350627843019354
+    second: crop_spritesheet-1.png-2_283
+  - first:
+      213: 2278654554652146565
+    second: crop_spritesheet-1.png-2_284
+  - first:
+      213: 5639315863298398876
+    second: crop_spritesheet-1.png-2_285
+  - first:
+      213: 5207594570946166029
+    second: crop_spritesheet-1.png-2_286
+  - first:
+      213: 991062439230871058
+    second: crop_spritesheet-1.png-2_287
+  - first:
+      213: 7413653870963571853
+    second: crop_spritesheet-1.png-2_288
+  - first:
+      213: -139099498396871865
+    second: crop_spritesheet-1.png-2_289
+  - first:
+      213: 3654171023725848570
+    second: crop_spritesheet-1.png-2_290
+  - first:
+      213: -5673580717089021736
+    second: crop_spritesheet-1.png-2_291
+  - first:
+      213: 8874840355184551863
+    second: crop_spritesheet-1.png-2_292
+  - first:
+      213: 9079158287097283100
+    second: crop_spritesheet-1.png-2_293
+  - first:
+      213: -520995117085426396
+    second: crop_spritesheet-1.png-2_294
+  - first:
+      213: 9200322007216121942
+    second: crop_spritesheet-1.png-2_295
+  - first:
+      213: -2158410989308495190
+    second: crop_spritesheet-1.png-2_296
+  - first:
+      213: -3013657042645440147
+    second: crop_spritesheet-1.png-2_297
+  - first:
+      213: 5275675459631294742
+    second: crop_spritesheet-1.png-2_298
+  - first:
+      213: 1707619630441046205
+    second: crop_spritesheet-1.png-2_299
+  - first:
+      213: 7403096695831902228
+    second: crop_spritesheet-1.png-2_300
+  - first:
+      213: -8422797542386223748
+    second: crop_spritesheet-1.png-2_301
+  - first:
+      213: 8819051289198468901
+    second: crop_spritesheet-1.png-2_302
+  - first:
+      213: 6587754373004484243
+    second: crop_spritesheet-1.png-2_303
+  - first:
+      213: 5568693769350594996
+    second: crop_spritesheet-1.png-2_304
+  - first:
+      213: -3099054188102695726
+    second: crop_spritesheet-1.png-2_305
+  - first:
+      213: -5362614505416315159
+    second: crop_spritesheet-1.png-2_306
+  - first:
+      213: -6328499735547058963
+    second: crop_spritesheet-1.png-2_307
+  - first:
+      213: 2428330991852903227
+    second: crop_spritesheet-1.png-2_308
+  - first:
+      213: -7297366192257588372
+    second: crop_spritesheet-1.png-2_309
+  - first:
+      213: -2430148818976968890
+    second: crop_spritesheet-1.png-2_310
+  - first:
+      213: -6885321505034123155
+    second: crop_spritesheet-1.png-2_311
+  - first:
+      213: -1224157130521913848
+    second: crop_spritesheet-1.png-2_312
+  - first:
+      213: -796163265576874473
+    second: crop_spritesheet-1.png-2_313
+  - first:
+      213: 6722789143248467025
+    second: crop_spritesheet-1.png-2_314
+  - first:
+      213: -7513382493357085790
+    second: crop_spritesheet-1.png-2_315
+  - first:
+      213: 2370274389567400845
+    second: crop_spritesheet-1.png-2_316
+  - first:
+      213: 6161998084395168835
+    second: crop_spritesheet-1.png-2_317
+  - first:
+      213: -3856618123844731033
+    second: crop_spritesheet-1.png-2_318
+  - first:
+      213: 8731618880038326855
+    second: crop_spritesheet-1.png-2_319
+  - first:
+      213: 2427451542307653800
+    second: crop_spritesheet-1.png-2_320
+  - first:
+      213: -5613496620224385671
+    second: crop_spritesheet-1.png-2_321
+  - first:
+      213: -5187574578283093116
+    second: crop_spritesheet-1.png-2_322
+  - first:
+      213: -6557560446593006892
+    second: crop_spritesheet-1.png-2_323
+  - first:
+      213: 1730079688597547472
+    second: crop_spritesheet-1.png-2_324
+  - first:
+      213: 7903491133687796526
+    second: crop_spritesheet-1.png-2_325
+  - first:
+      213: 5744842029746040131
+    second: crop_spritesheet-1.png-2_326
+  - first:
+      213: 5009490684181583524
+    second: crop_spritesheet-1.png-2_327
+  - first:
+      213: -316457592597128907
+    second: crop_spritesheet-1.png-2_328
+  - first:
+      213: 6390677574981366515
+    second: crop_spritesheet-1.png-2_329
+  - first:
+      213: 5390560117453117533
+    second: crop_spritesheet-1.png-2_330
+  - first:
+      213: -3777312044780811097
+    second: crop_spritesheet-1.png-2_331
+  - first:
+      213: -2882930533469823621
+    second: crop_spritesheet-1.png-2_332
+  - first:
+      213: -6501554119078453613
+    second: crop_spritesheet-1.png-2_333
+  - first:
+      213: 1870402367041189604
+    second: crop_spritesheet-1.png-2_334
+  - first:
+      213: -8916692743605595308
+    second: crop_spritesheet-1.png-2_335
+  - first:
+      213: -1553626614607397219
+    second: crop_spritesheet-1.png-2_336
+  - first:
+      213: -555576830655698883
+    second: crop_spritesheet-1.png-2_337
+  - first:
+      213: 7244325493091318686
+    second: crop_spritesheet-1.png-2_338
+  - first:
+      213: -3429252706615318821
+    second: crop_spritesheet-1.png-2_339
+  - first:
+      213: 2247144296359896614
+    second: crop_spritesheet-1.png-2_340
+  - first:
+      213: 5560982056381288112
+    second: crop_spritesheet-1.png-2_341
+  - first:
+      213: 7241595533272919974
+    second: crop_spritesheet-1.png-2_342
+  - first:
+      213: -6124214603464395956
+    second: crop_spritesheet-1.png-2_343
+  - first:
+      213: 8045271508079601343
+    second: crop_spritesheet-1.png-2_344
+  - first:
+      213: 6439308925974643144
+    second: crop_spritesheet-1.png-2_345
+  - first:
+      213: -2280938179154047196
+    second: crop_spritesheet-1.png-2_346
+  - first:
+      213: 3249299293756199919
+    second: crop_spritesheet-1.png-2_347
+  - first:
+      213: -2952789882015885708
+    second: crop_spritesheet-1.png-2_348
+  - first:
+      213: 8145899994176904613
+    second: crop_spritesheet-1.png-2_349
+  - first:
+      213: 6843761653886408075
+    second: crop_spritesheet-1.png-2_350
+  - first:
+      213: -5757149207527036205
+    second: crop_spritesheet-1.png-2_351
+  - first:
+      213: 6091138555950422437
+    second: crop_spritesheet-1.png-2_352
+  - first:
+      213: 881607461186364553
+    second: crop_spritesheet-1.png-2_353
+  - first:
+      213: 5989395389373558391
+    second: crop_spritesheet-1.png-2_354
+  - first:
+      213: -3213534631607979836
+    second: crop_spritesheet-1.png-2_355
+  - first:
+      213: -8830288639674037839
+    second: crop_spritesheet-1.png-2_356
+  - first:
+      213: -4829200109980493110
+    second: crop_spritesheet-1.png-2_357
+  - first:
+      213: 4513997740431000386
+    second: crop_spritesheet-1.png-2_358
+  - first:
+      213: -4240815798946309483
+    second: crop_spritesheet-1.png-2_359
+  - first:
+      213: -1198509744539398688
+    second: crop_spritesheet-1.png-2_360
+  - first:
+      213: 4033252844726873974
+    second: crop_spritesheet-1.png-2_361
+  - first:
+      213: 6977465028289550942
+    second: crop_spritesheet-1.png-2_362
+  - first:
+      213: -6147784461384406574
+    second: crop_spritesheet-1.png-2_363
+  - first:
+      213: 1061262365683440660
+    second: crop_spritesheet-1.png-2_364
+  - first:
+      213: -7782692921550119404
+    second: crop_spritesheet-1.png-2_365
+  - first:
+      213: -4600893202067074604
+    second: crop_spritesheet-1.png-2_366
+  - first:
+      213: 7456995493800344085
+    second: crop_spritesheet-1.png-2_367
+  - first:
+      213: -8660201551351710825
+    second: crop_spritesheet-1.png-2_368
+  - first:
+      213: 6622125012320154477
+    second: crop_spritesheet-1.png-2_369
+  - first:
+      213: 7862275847829264123
+    second: crop_spritesheet-1.png-2_370
+  - first:
+      213: 5853145358599846697
+    second: crop_spritesheet-1.png-2_371
+  - first:
+      213: -5059344311019979673
+    second: crop_spritesheet-1.png-2_372
+  - first:
+      213: -269512901686661285
+    second: crop_spritesheet-1.png-2_373
+  - first:
+      213: -3428622412958664704
+    second: crop_spritesheet-1.png-2_374
+  - first:
+      213: -6648363093551954233
+    second: crop_spritesheet-1.png-2_375
+  - first:
+      213: 3607539842009647542
+    second: crop_spritesheet-1.png-2_376
+  - first:
+      213: 3243880427403740904
+    second: crop_spritesheet-1.png-2_377
+  - first:
+      213: 5934731200476467780
+    second: crop_spritesheet-1.png-2_378
+  - first:
+      213: 6406630796863683575
+    second: crop_spritesheet-1.png-2_379
+  - first:
+      213: 8337855714387628520
+    second: crop_spritesheet-1.png-2_380
+  - first:
+      213: 6406388726633921021
+    second: crop_spritesheet-1.png-2_381
+  - first:
+      213: 5436045049680306994
+    second: crop_spritesheet-1.png-2_382
+  - first:
+      213: 7221510883022395271
+    second: crop_spritesheet-1.png-2_383
+  - first:
+      213: -7006626161783449361
+    second: crop_spritesheet-1.png-2_384
+  - first:
+      213: 8295099679923216324
+    second: crop_spritesheet-1.png-2_385
+  - first:
+      213: -9084138250982632172
+    second: crop_spritesheet-1.png-2_386
+  - first:
+      213: -4163847281098788618
+    second: crop_spritesheet-1.png-2_387
+  - first:
+      213: -6117265239048428499
+    second: crop_spritesheet-1.png-2_388
+  - first:
+      213: -2485992810726084524
+    second: crop_spritesheet-1.png-2_389
+  - first:
+      213: -5220879275272234176
+    second: crop_spritesheet-1.png-2_390
+  - first:
+      213: 3955814291323350017
+    second: crop_spritesheet-1.png-2_391
+  - first:
+      213: 2223350284298574599
+    second: crop_spritesheet-1.png-2_392
+  - first:
+      213: -5898852117796976702
+    second: crop_spritesheet-1.png-2_393
+  - first:
+      213: 8471522399034326879
+    second: crop_spritesheet-1.png-2_394
+  - first:
+      213: 8258508622072407012
+    second: crop_spritesheet-1.png-2_395
+  - first:
+      213: -290746591494121037
+    second: crop_spritesheet-1.png-2_396
+  - first:
+      213: 2836664193276549278
+    second: crop_spritesheet-1.png-2_397
+  - first:
+      213: -7305763212892820136
+    second: crop_spritesheet-1.png-2_398
+  - first:
+      213: 3764487233632990733
+    second: crop_spritesheet-1.png-2_399
+  - first:
+      213: -4599605366294752628
+    second: crop_spritesheet-1.png-2_400
+  - first:
+      213: 4067409107561449942
+    second: crop_spritesheet-1.png-2_401
+  - first:
+      213: 8486443297641658294
+    second: crop_spritesheet-1.png-2_402
+  - first:
+      213: -6044281203062977522
+    second: crop_spritesheet-1.png-2_403
+  - first:
+      213: 2469447972844483023
+    second: crop_spritesheet-1.png-2_404
+  - first:
+      213: 6269380161811400636
+    second: crop_spritesheet-1.png-2_405
+  - first:
+      213: -8930028360307206719
+    second: crop_spritesheet-1.png-2_406
+  - first:
+      213: 8452941778999055953
+    second: crop_spritesheet-1.png-2_407
+  - first:
+      213: 8714298897771382813
+    second: crop_spritesheet-1.png-2_408
+  - first:
+      213: -881165324197177283
+    second: crop_spritesheet-1.png-2_409
+  - first:
+      213: 5816565333140659182
+    second: crop_spritesheet-1.png-2_410
+  - first:
+      213: 4652109235246159880
+    second: crop_spritesheet-1.png-2_411
+  - first:
+      213: -3789606707100376624
+    second: crop_spritesheet-1.png-2_412
+  - first:
+      213: 3518166371933303685
+    second: crop_spritesheet-1.png-2_413
+  - first:
+      213: -4417131873267460900
+    second: crop_spritesheet-1.png-2_414
+  - first:
+      213: 2995122462598181737
+    second: crop_spritesheet-1.png-2_415
+  - first:
+      213: -4207241950509330708
+    second: crop_spritesheet-1.png-2_416
+  - first:
+      213: -3644686586785981711
+    second: crop_spritesheet-1.png-2_417
+  - first:
+      213: 2155519060950266482
+    second: crop_spritesheet-1.png-2_418
+  - first:
+      213: 194038715985548958
+    second: crop_spritesheet-1.png-2_419
+  - first:
+      213: 9049426755542110240
+    second: crop_spritesheet-1.png-2_420
+  - first:
+      213: 8326989631577501492
+    second: crop_spritesheet-1.png-2_421
+  - first:
+      213: -2130236583165807475
+    second: crop_spritesheet-1.png-2_422
+  - first:
+      213: -4684171954352137245
+    second: crop_spritesheet-1.png-2_423
+  - first:
+      213: 8542061772499272649
+    second: crop_spritesheet-1.png-2_424
+  - first:
+      213: 3812992181272883331
+    second: crop_spritesheet-1.png-2_425
+  - first:
+      213: -8522536851692089403
+    second: crop_spritesheet-1.png-2_426
+  - first:
+      213: -526393513172515519
+    second: crop_spritesheet-1.png-2_427
+  - first:
+      213: 2846043857367007011
+    second: crop_spritesheet-1.png-2_428
+  - first:
+      213: 1847080835083677845
+    second: crop_spritesheet-1.png-2_429
+  - first:
+      213: 227162571984331457
+    second: crop_spritesheet-1.png-2_430
+  - first:
+      213: 3144215537152344897
+    second: crop_spritesheet-1.png-2_431
+  - first:
+      213: -3529438701783881107
+    second: crop_spritesheet-1.png-2_432
+  - first:
+      213: 8768566644943554750
+    second: crop_spritesheet-1.png-2_433
+  - first:
+      213: 1213923485763501095
+    second: crop_spritesheet-1.png-2_434
+  - first:
+      213: 6690194672357763802
+    second: crop_spritesheet-1.png-2_435
+  - first:
+      213: -1815874285971463788
+    second: crop_spritesheet-1.png-2_436
+  - first:
+      213: 4865393525030789626
+    second: crop_spritesheet-1.png-2_437
+  - first:
+      213: -3905644284180245262
+    second: crop_spritesheet-1.png-2_438
+  - first:
+      213: 7207176134231658763
+    second: crop_spritesheet-1.png-2_439
+  - first:
+      213: 1105390564707744393
+    second: crop_spritesheet-1.png-2_440
+  - first:
+      213: -2847931858265559965
+    second: crop_spritesheet-1.png-2_441
+  - first:
+      213: -334986629844953330
+    second: crop_spritesheet-1.png-2_442
+  - first:
+      213: 2035417284433914674
+    second: crop_spritesheet-1.png-2_443
+  - first:
+      213: -4895628458514240122
+    second: crop_spritesheet-1.png-2_444
+  - first:
+      213: 3796269670007988956
+    second: crop_spritesheet-1.png-2_445
+  - first:
+      213: -6307438711481190501
+    second: crop_spritesheet-1.png-2_446
+  - first:
+      213: 7369262989373507373
+    second: crop_spritesheet-1.png-2_447
+  - first:
+      213: -1554204030951216929
+    second: crop_spritesheet-1.png-2_448
+  - first:
+      213: -7919297978354493876
+    second: crop_spritesheet-1.png-2_449
+  - first:
+      213: 3619981089910511484
+    second: crop_spritesheet-1.png-2_450
+  - first:
+      213: 8099579889235476059
+    second: crop_spritesheet-1.png-2_451
+  - first:
+      213: 1348476155442411286
+    second: crop_spritesheet-1.png-2_452
+  - first:
+      213: 7480092492791014049
+    second: crop_spritesheet-1.png-2_453
+  - first:
+      213: 9056387217377375169
+    second: crop_spritesheet-1.png-2_454
+  - first:
+      213: 8564536950489872471
+    second: crop_spritesheet-1.png-2_455
+  - first:
+      213: -4891662868162153044
+    second: crop_spritesheet-1.png-2_456
+  - first:
+      213: 994221066263574795
+    second: crop_spritesheet-1.png-2_457
+  - first:
+      213: -711092540349361217
+    second: crop_spritesheet-1.png-2_458
+  - first:
+      213: 674126439856661105
+    second: crop_spritesheet-1.png-2_459
+  - first:
+      213: 1374528231359264725
+    second: crop_spritesheet-1.png-2_460
+  - first:
+      213: -7899368601789726523
+    second: crop_spritesheet-1.png-2_461
+  - first:
+      213: -3349251542210465071
+    second: crop_spritesheet-1.png-2_462
+  - first:
+      213: 6218110719277307151
+    second: crop_spritesheet-1.png-2_463
+  - first:
+      213: -3594024965162883714
+    second: crop_spritesheet-1.png-2_464
+  - first:
+      213: 8827354043538238852
+    second: crop_spritesheet-1.png-2_465
+  - first:
+      213: 2618373987443553039
+    second: crop_spritesheet-1.png-2_466
+  - first:
+      213: -3785029608281273249
+    second: crop_spritesheet-1.png-2_467
+  - first:
+      213: -6807800117827267666
+    second: crop_spritesheet-1.png-2_468
+  - first:
+      213: -520917580540240657
+    second: crop_spritesheet-1.png-2_469
+  - first:
+      213: 6206982538701944416
+    second: crop_spritesheet-1.png-2_470
+  - first:
+      213: -6425852775807090988
+    second: crop_spritesheet-1.png-2_471
+  - first:
+      213: -6795997994372903232
+    second: crop_spritesheet-1.png-2_472
+  - first:
+      213: -3146152351831715041
+    second: crop_spritesheet-1.png-2_473
+  - first:
+      213: 8696928146139205713
+    second: crop_spritesheet-1.png-2_474
+  - first:
+      213: -3800343829147089486
+    second: crop_spritesheet-1.png-2_475
+  - first:
+      213: 2371905637591999736
+    second: crop_spritesheet-1.png-2_476
+  - first:
+      213: 6618763750736551337
+    second: crop_spritesheet-1.png-2_477
+  - first:
+      213: -5566362402306292934
+    second: crop_spritesheet-1.png-2_478
+  - first:
+      213: 4627997015532883919
+    second: crop_spritesheet-1.png-2_479
+  - first:
+      213: -8049035558431366502
+    second: crop_spritesheet-1.png-2_480
+  - first:
+      213: -6684268497332920433
+    second: crop_spritesheet-1.png-2_481
+  - first:
+      213: 1473125302898695340
+    second: crop_spritesheet-1.png-2_482
+  - first:
+      213: -8520591011411701859
+    second: crop_spritesheet-1.png-2_483
+  - first:
+      213: -992695345048079602
+    second: crop_spritesheet-1.png-2_484
+  - first:
+      213: -7525862733771399491
+    second: crop_spritesheet-1.png-2_485
+  - first:
+      213: -4907219498957085062
+    second: crop_spritesheet-1.png-2_486
+  - first:
+      213: -641874759645136863
+    second: crop_spritesheet-1.png-2_487
+  - first:
+      213: -3046515612259841942
+    second: crop_spritesheet-1.png-2_488
+  - first:
+      213: -1829035550471028478
+    second: crop_spritesheet-1.png-2_489
+  - first:
+      213: 208470038000507507
+    second: crop_spritesheet-1.png-2_490
+  - first:
+      213: -3481960859589636934
+    second: crop_spritesheet-1.png-2_491
+  - first:
+      213: 8683983943415369054
+    second: crop_spritesheet-1.png-2_492
+  - first:
+      213: 2180202563919360850
+    second: crop_spritesheet-1.png-2_493
+  - first:
+      213: -3270223553117038352
+    second: crop_spritesheet-1.png-2_494
+  - first:
+      213: -947454807210568963
+    second: crop_spritesheet-1.png-2_495
+  - first:
+      213: 4283090905747987119
+    second: crop_spritesheet-1.png-2_496
+  - first:
+      213: -2361038715906932406
+    second: crop_spritesheet-1.png-2_497
+  - first:
+      213: 7773238226496564806
+    second: crop_spritesheet-1.png-2_498
+  - first:
+      213: -5297385073200912402
+    second: crop_spritesheet-1.png-2_499
+  - first:
+      213: -1035230735369396169
+    second: crop_spritesheet-1.png-2_500
+  - first:
+      213: 3185857071346973733
+    second: crop_spritesheet-1.png-2_501
+  - first:
+      213: -5050491242021555539
+    second: crop_spritesheet-1.png-2_502
+  - first:
+      213: 8570146574972080468
+    second: crop_spritesheet-1.png-2_503
+  - first:
+      213: 8305854677154349748
+    second: crop_spritesheet-1.png-2_504
+  - first:
+      213: 7409160678353470719
+    second: crop_spritesheet-1.png-2_505
+  - first:
+      213: -8983513881964390904
+    second: crop_spritesheet-1.png-2_506
+  - first:
+      213: 5783703298975400404
+    second: crop_spritesheet-1.png-2_507
+  - first:
+      213: 5188286760311234693
+    second: crop_spritesheet-1.png-2_508
+  - first:
+      213: -6506285541501772729
+    second: crop_spritesheet-1.png-2_509
+  - first:
+      213: -2575059811595033466
+    second: crop_spritesheet-1.png-2_510
+  - first:
+      213: -8531953630803546989
+    second: crop_spritesheet-1.png-2_511
+  - first:
+      213: 616021755922650839
+    second: crop_spritesheet-1.png-2_512
+  - first:
+      213: 5614165009353737628
+    second: crop_spritesheet-1.png-2_513
+  - first:
+      213: 8460643592625947593
+    second: crop_spritesheet-1.png-2_514
+  - first:
+      213: 8638630927788814101
+    second: crop_spritesheet-1.png-2_515
+  - first:
+      213: 4444240429836360094
+    second: crop_spritesheet-1.png-2_516
+  - first:
+      213: -8131082101365322901
+    second: crop_spritesheet-1.png-2_517
+  - first:
+      213: -8110740265780814237
+    second: crop_spritesheet-1.png-2_518
+  - first:
+      213: 8373851053411585701
+    second: crop_spritesheet-1.png-2_519
+  - first:
+      213: 6519552392403610603
+    second: crop_spritesheet-1.png-2_520
+  - first:
+      213: -7048952152320791464
+    second: crop_spritesheet-1.png-2_521
+  - first:
+      213: -3375942348499991891
+    second: crop_spritesheet-1.png-2_522
+  - first:
+      213: 2575487327929734391
+    second: crop_spritesheet-1.png-2_523
+  - first:
+      213: -7643280001967223184
+    second: crop_spritesheet-1.png-2_524
+  - first:
+      213: -8989776130359061491
+    second: crop_spritesheet-1.png-2_525
+  - first:
+      213: -9001833407549986294
+    second: crop_spritesheet-1.png-2_526
+  - first:
+      213: -2187085091679645251
+    second: crop_spritesheet-1.png-2_527
+  - first:
+      213: -8315136704004457156
+    second: crop_spritesheet-1.png-2_528
+  - first:
+      213: 7313327226740258213
+    second: crop_spritesheet-1.png-2_529
+  - first:
+      213: 7588160622194310219
+    second: crop_spritesheet-1.png-2_530
+  - first:
+      213: -1344452549783665101
+    second: crop_spritesheet-1.png-2_531
+  - first:
+      213: 5240205124509306624
+    second: crop_spritesheet-1.png-2_532
+  - first:
+      213: 178439569488474361
+    second: crop_spritesheet-1.png-2_533
+  - first:
+      213: 5488033681124563307
+    second: crop_spritesheet-1.png-2_534
+  - first:
+      213: 3264600245853826428
+    second: crop_spritesheet-1.png-2_535
+  - first:
+      213: 204113524103785185
+    second: crop_spritesheet-1.png-2_536
+  - first:
+      213: 3344437728063589834
+    second: crop_spritesheet-1.png-2_537
+  - first:
+      213: 7947773008929948367
+    second: crop_spritesheet-1.png-2_538
+  - first:
+      213: 792803227429294388
+    second: crop_spritesheet-1.png-2_539
+  - first:
+      213: -28804448824174405
+    second: crop_spritesheet-1.png-2_540
+  - first:
+      213: 5707999871540349906
+    second: crop_spritesheet-1.png-2_541
+  - first:
+      213: 5010320684005373353
+    second: crop_spritesheet-1.png-2_542
+  - first:
+      213: -5564030984214909142
+    second: crop_spritesheet-1.png-2_543
+  - first:
+      213: -4187069071257875791
+    second: crop_spritesheet-1.png-2_544
+  - first:
+      213: -4864599687577216101
+    second: crop_spritesheet-1.png-2_545
+  - first:
+      213: 8514147086111334892
+    second: crop_spritesheet-1.png-2_546
+  - first:
+      213: 339557540368418250
+    second: crop_spritesheet-1.png-2_547
+  - first:
+      213: -4148029595548360620
+    second: crop_spritesheet-1.png-2_548
+  - first:
+      213: 363569214816430951
+    second: crop_spritesheet-1.png-2_549
+  - first:
+      213: 4969932248324030048
+    second: crop_spritesheet-1.png-2_550
+  - first:
+      213: -6912368933425738846
+    second: crop_spritesheet-1.png-2_551
+  - first:
+      213: 4639595734618170698
+    second: crop_spritesheet-1.png-2_552
+  - first:
+      213: 7340748484253665313
+    second: crop_spritesheet-1.png-2_553
+  - first:
+      213: -436699416723681309
+    second: crop_spritesheet-1.png-2_554
+  - first:
+      213: 5854992023731667538
+    second: crop_spritesheet-1.png-2_555
+  - first:
+      213: -4530690949250933095
+    second: crop_spritesheet-1.png-2_556
+  - first:
+      213: 2458756616747392068
+    second: crop_spritesheet-1.png-2_557
+  - first:
+      213: 2537769740334700527
+    second: crop_spritesheet-1.png-2_558
+  - first:
+      213: -8647408209342252437
+    second: crop_spritesheet-1.png-2_559
+  - first:
+      213: -5757585166625878579
+    second: crop_spritesheet-1.png-2_560
+  - first:
+      213: 1228731193758225194
+    second: crop_spritesheet-1.png-2_561
+  - first:
+      213: 9179398680630955294
+    second: crop_spritesheet-1.png-2_562
+  - first:
+      213: -8420945105465218728
+    second: crop_spritesheet-1.png-2_563
+  - first:
+      213: 7465756664009081070
+    second: crop_spritesheet-1.png-2_564
+  - first:
+      213: 2386268210885510488
+    second: crop_spritesheet-1.png-2_565
+  - first:
+      213: -6417388947115532446
+    second: crop_spritesheet-1.png-2_566
+  - first:
+      213: 696910833513902599
+    second: crop_spritesheet-1.png-2_567
+  - first:
+      213: -229960940447218396
+    second: crop_spritesheet-1.png-2_568
+  - first:
+      213: -378848932873707687
+    second: crop_spritesheet-1.png-2_569
+  - first:
+      213: -1273184451374347198
+    second: crop_spritesheet-1.png-2_570
+  - first:
+      213: -1422573859947390414
+    second: crop_spritesheet-1.png-2_571
+  - first:
+      213: -7642261304096294156
+    second: crop_spritesheet-1.png-2_572
+  - first:
+      213: -294648990127585675
+    second: crop_spritesheet-1.png-2_573
+  - first:
+      213: -988183542807270960
+    second: crop_spritesheet-1.png-2_574
+  - first:
+      213: -3690745983329409655
+    second: crop_spritesheet-1.png-2_575
+  - first:
+      213: -468327254132655060
+    second: crop_spritesheet-1.png-2_576
+  - first:
+      213: 7448351746091193465
+    second: crop_spritesheet-1.png-2_577
+  - first:
+      213: -6798094387004388112
+    second: crop_spritesheet-1.png-2_578
+  - first:
+      213: 3060105418594702363
+    second: crop_spritesheet-1.png-2_579
+  - first:
+      213: 5205356870875537528
+    second: crop_spritesheet-1.png-2_580
+  - first:
+      213: -4913204661998414600
+    second: crop_spritesheet-1.png-2_581
+  - first:
+      213: 2098353768201752270
+    second: crop_spritesheet-1.png-2_582
+  - first:
+      213: 5741279508164450894
+    second: crop_spritesheet-1.png-2_583
+  - first:
+      213: -3411783215296165560
+    second: crop_spritesheet-1.png-2_584
+  - first:
+      213: 8795299890553294224
+    second: crop_spritesheet-1.png-2_585
+  - first:
+      213: -3306189839218104571
+    second: crop_spritesheet-1.png-2_586
+  - first:
+      213: 7087724171521187774
+    second: crop_spritesheet-1.png-2_587
+  - first:
+      213: 3802096146732584023
+    second: crop_spritesheet-1.png-2_588
+  - first:
+      213: 3855162682709969983
+    second: crop_spritesheet-1.png-2_589
+  - first:
+      213: 1814436235137379114
+    second: crop_spritesheet-1.png-2_590
+  - first:
+      213: 3571254739633814422
+    second: crop_spritesheet-1.png-2_591
+  - first:
+      213: 7653797535565955450
+    second: crop_spritesheet-1.png-2_592
+  - first:
+      213: -2824871313263478169
+    second: crop_spritesheet-1.png-2_593
+  - first:
+      213: -8497708734700427235
+    second: crop_spritesheet-1.png-2_594
+  - first:
+      213: 789532074917342636
+    second: crop_spritesheet-1.png-2_595
+  - first:
+      213: 5381006199130575601
+    second: crop_spritesheet-1.png-2_596
+  - first:
+      213: 1955517900031325103
+    second: crop_spritesheet-1.png-2_597
+  - first:
+      213: -7517141321969040858
+    second: crop_spritesheet-1.png-2_598
+  - first:
+      213: -8126761161184811435
+    second: crop_spritesheet-1.png-2_599
+  - first:
+      213: -5117756620445418045
+    second: crop_spritesheet-1.png-2_600
+  - first:
+      213: 6180658294248383020
+    second: crop_spritesheet-1.png-2_601
+  - first:
+      213: -4997741500324727838
+    second: crop_spritesheet-1.png-2_602
+  - first:
+      213: -3378590984733365894
+    second: crop_spritesheet-1.png-2_603
+  - first:
+      213: -3744125413459123142
+    second: crop_spritesheet-1.png-2_604
+  - first:
+      213: 389586048185162957
+    second: crop_spritesheet-1.png-2_605
+  - first:
+      213: 3158220196575785612
+    second: crop_spritesheet-1.png-2_606
+  - first:
+      213: -7177423394663266756
+    second: crop_spritesheet-1.png-2_607
+  - first:
+      213: -8760722638622930665
+    second: crop_spritesheet-1.png-2_608
+  - first:
+      213: 813500334688698461
+    second: crop_spritesheet-1.png-2_609
+  - first:
+      213: -8554967991481784212
+    second: crop_spritesheet-1.png-2_610
+  - first:
+      213: 4257372790969583257
+    second: crop_spritesheet-1.png-2_611
+  - first:
+      213: 8733261465641159042
+    second: crop_spritesheet-1.png-2_612
+  - first:
+      213: 4051424619764466402
+    second: crop_spritesheet-1.png-2_613
+  - first:
+      213: -8823787752643557370
+    second: crop_spritesheet-1.png-2_614
+  - first:
+      213: -570643553425594386
+    second: crop_spritesheet-1.png-2_615
+  - first:
+      213: 2291224940344522509
+    second: crop_spritesheet-1.png-2_616
+  - first:
+      213: -402051269977040415
+    second: crop_spritesheet-1.png-2_617
+  - first:
+      213: 3269636875227122767
+    second: crop_spritesheet-1.png-2_618
+  - first:
+      213: 1786488916908942974
+    second: crop_spritesheet-1.png-2_619
+  - first:
+      213: -3396018693968039759
+    second: crop_spritesheet-1.png-2_620
+  - first:
+      213: -1939243418188845369
+    second: crop_spritesheet-1.png-2_621
+  - first:
+      213: -4610408931086827566
+    second: crop_spritesheet-1.png-2_622
+  - first:
+      213: 6269295543743284519
+    second: crop_spritesheet-1.png-2_623
+  - first:
+      213: -2313829430835878048
+    second: crop_spritesheet-1.png-2_624
+  - first:
+      213: -2851219758683046845
+    second: crop_spritesheet-1.png-2_625
+  - first:
+      213: -8968494613186276544
+    second: crop_spritesheet-1.png-2_626
+  - first:
+      213: -2772958198929753089
+    second: crop_spritesheet-1.png-2_627
+  - first:
+      213: -4181048530453623571
+    second: crop_spritesheet-1.png-2_628
+  - first:
+      213: 7311967284831731346
+    second: crop_spritesheet-1.png-2_629
+  - first:
+      213: 2366494002837858458
+    second: crop_spritesheet-1.png-2_630
+  - first:
+      213: 3890943174067995524
+    second: crop_spritesheet-1.png-2_631
+  - first:
+      213: -3689214870765657476
+    second: crop_spritesheet-1.png-2_632
+  - first:
+      213: -6253374458424706430
+    second: crop_spritesheet-1.png-2_633
+  - first:
+      213: 197482287973384327
+    second: crop_spritesheet-1.png-2_634
+  - first:
+      213: 1204400710920939741
+    second: crop_spritesheet-1.png-2_635
+  - first:
+      213: -4336438341023896929
+    second: crop_spritesheet-1.png-2_636
+  - first:
+      213: 3546813935118799877
+    second: crop_spritesheet-1.png-2_637
+  - first:
+      213: 4201403348582539277
+    second: crop_spritesheet-1.png-2_638
+  - first:
+      213: -3097253521579572864
+    second: crop_spritesheet-1.png-2_639
+  - first:
+      213: -6551424619750130711
+    second: crop_spritesheet-1.png-2_640
+  - first:
+      213: -6858787462852096551
+    second: crop_spritesheet-1.png-2_641
+  - first:
+      213: -2384580054535104019
+    second: crop_spritesheet-1.png-2_642
+  - first:
+      213: 1132127266747054497
+    second: crop_spritesheet-1.png-2_643
+  - first:
+      213: -5277039975198695164
+    second: crop_spritesheet-1.png-2_644
+  - first:
+      213: 1844798714349777657
+    second: crop_spritesheet-1.png-2_645
+  - first:
+      213: 1139475889798582890
+    second: crop_spritesheet-1.png-2_646
+  - first:
+      213: -925964125828556698
+    second: crop_spritesheet-1.png-2_647
+  - first:
+      213: -3521535498193579722
+    second: crop_spritesheet-1.png-2_648
+  - first:
+      213: -986805531254575734
+    second: crop_spritesheet-1.png-2_649
+  - first:
+      213: -4892924088175192358
+    second: crop_spritesheet-1.png-2_650
+  - first:
+      213: 4070175287326341991
+    second: crop_spritesheet-1.png-2_651
+  - first:
+      213: 9096249189304276463
+    second: crop_spritesheet-1.png-2_652
+  - first:
+      213: -5894771211424604737
+    second: crop_spritesheet-1.png-2_653
+  - first:
+      213: -5115133999028770789
+    second: crop_spritesheet-1.png-2_654
+  - first:
+      213: -5943161349169790652
+    second: crop_spritesheet-1.png-2_655
+  - first:
+      213: -3671160989799337282
+    second: crop_spritesheet-1.png-2_656
+  - first:
+      213: 8365592128819113402
+    second: crop_spritesheet-1.png-2_657
+  - first:
+      213: 7444937365123350632
+    second: crop_spritesheet-1.png-2_658
+  - first:
+      213: 6651276087715284652
+    second: crop_spritesheet-1.png-2_659
+  - first:
+      213: -3869454886808754360
+    second: crop_spritesheet-1.png-2_660
+  - first:
+      213: 3652595347491683195
+    second: crop_spritesheet-1.png-2_661
+  - first:
+      213: 5919259077969335912
+    second: crop_spritesheet-1.png-2_662
+  - first:
+      213: -8015353635375401380
+    second: crop_spritesheet-1.png-2_663
+  - first:
+      213: 475111964204313191
+    second: crop_spritesheet-1.png-2_664
+  - first:
+      213: 8580386879987512818
+    second: crop_spritesheet-1.png-2_665
+  - first:
+      213: -745882797328838163
+    second: crop_spritesheet-1.png-2_666
+  - first:
+      213: 6838509108061279415
+    second: crop_spritesheet-1.png-2_667
+  - first:
+      213: -295475632401533513
+    second: crop_spritesheet-1.png-2_668
+  - first:
+      213: -4808070210239058927
+    second: crop_spritesheet-1.png-2_669
+  - first:
+      213: -1702040493347727536
+    second: crop_spritesheet-1.png-2_670
+  - first:
+      213: 655225677206662086
+    second: crop_spritesheet-1.png-2_671
+  - first:
+      213: 209386941627928424
+    second: crop_spritesheet-1.png-2_672
+  - first:
+      213: -2687135849992469069
+    second: crop_spritesheet-1.png-2_673
+  - first:
+      213: 4577677372047651108
+    second: crop_spritesheet-1.png-2_674
+  - first:
+      213: 7808813047511866808
+    second: crop_spritesheet-1.png-2_675
+  - first:
+      213: 4321058011241712465
+    second: crop_spritesheet-1.png-2_676
+  - first:
+      213: 2829175005811636191
+    second: crop_spritesheet-1.png-2_677
+  - first:
+      213: -2288924759391751934
+    second: crop_spritesheet-1.png-2_678
+  - first:
+      213: -4538693497760185244
+    second: crop_spritesheet-1.png-2_679
+  - first:
+      213: 4507153270547702956
+    second: crop_spritesheet-1.png-2_680
+  - first:
+      213: 4203440658513372007
+    second: crop_spritesheet-1.png-2_681
+  - first:
+      213: -6041492258471330512
+    second: crop_spritesheet-1.png-2_682
+  - first:
+      213: 2456108311933996693
+    second: crop_spritesheet-1.png-2_683
+  - first:
+      213: -8544607532446144579
+    second: crop_spritesheet-1.png-2_684
+  - first:
+      213: 7413550632813817531
+    second: crop_spritesheet-1.png-2_685
+  - first:
+      213: 1687116912725278356
+    second: crop_spritesheet-1.png-2_686
+  - first:
+      213: 6526019783182588443
+    second: crop_spritesheet-1.png-2_687
+  - first:
+      213: 7792657680748208687
+    second: crop_spritesheet-1.png-2_688
+  - first:
+      213: 4578586977647850378
+    second: crop_spritesheet-1.png-2_689
+  - first:
+      213: 2455360720197381901
+    second: crop_spritesheet-1.png-2_690
+  - first:
+      213: -8186759184254245208
+    second: crop_spritesheet-1.png-2_691
+  - first:
+      213: -3673495363616116976
+    second: crop_spritesheet-1.png-2_692
+  - first:
+      213: 7196754409094281360
+    second: crop_spritesheet-1.png-2_693
+  - first:
+      213: -4460665021721021702
+    second: crop_spritesheet-1.png-2_694
+  - first:
+      213: -3766178437982404436
+    second: crop_spritesheet-1.png-2_695
+  - first:
+      213: 7235008620462770961
+    second: crop_spritesheet-1.png-2_696
+  - first:
+      213: 7739007928216668003
+    second: crop_spritesheet-1.png-2_697
+  - first:
+      213: 1274029135543858215
+    second: crop_spritesheet-1.png-2_698
+  - first:
+      213: -1262299420623494754
+    second: crop_spritesheet-1.png-2_699
+  - first:
+      213: 391856483846263359
+    second: crop_spritesheet-1.png-2_700
+  - first:
+      213: -9039157773541175580
+    second: crop_spritesheet-1.png-2_701
+  - first:
+      213: 5473400038544281329
+    second: crop_spritesheet-1.png-2_702
+  - first:
+      213: 3226472626782248805
+    second: crop_spritesheet-1.png-2_703
+  - first:
+      213: 737838837951006756
+    second: crop_spritesheet-1.png-2_704
+  - first:
+      213: -5748687537782796511
+    second: crop_spritesheet-1.png-2_705
+  - first:
+      213: -2808812373879552599
+    second: crop_spritesheet-1.png-2_706
+  - first:
+      213: -9214757086678789371
+    second: crop_spritesheet-1.png-2_707
+  - first:
+      213: 4795993790012215219
+    second: crop_spritesheet-1.png-2_708
+  - first:
+      213: -7433216888160786623
+    second: crop_spritesheet-1.png-2_709
+  - first:
+      213: -6493461436816118463
+    second: crop_spritesheet-1.png-2_710
+  - first:
+      213: 4075835846412663498
+    second: crop_spritesheet-1.png-2_711
+  - first:
+      213: 6074893124139726851
+    second: crop_spritesheet-1.png-2_712
+  - first:
+      213: 337639089635394630
+    second: crop_spritesheet-1.png-2_713
+  - first:
+      213: 5234990835853095589
+    second: crop_spritesheet-1.png-2_714
+  - first:
+      213: -5669532187295891570
+    second: crop_spritesheet-1.png-2_715
+  - first:
+      213: 2094184989411008089
+    second: crop_spritesheet-1.png-2_716
+  - first:
+      213: 3620802798418306953
+    second: crop_spritesheet-1.png-2_717
+  - first:
+      213: 1088290284403643189
+    second: crop_spritesheet-1.png-2_718
+  - first:
+      213: 5243458691114464045
+    second: crop_spritesheet-1.png-2_719
+  - first:
+      213: 7033497417397226034
+    second: crop_spritesheet-1.png-2_720
+  - first:
+      213: -2853277098034663993
+    second: crop_spritesheet-1.png-2_721
+  - first:
+      213: -8494965186834972603
+    second: crop_spritesheet-1.png-2_722
+  - first:
+      213: -4822781545638758066
+    second: crop_spritesheet-1.png-2_723
+  - first:
+      213: -631581703654807841
+    second: crop_spritesheet-1.png-2_724
+  - first:
+      213: 4071996801210450746
+    second: crop_spritesheet-1.png-2_725
+  - first:
+      213: -5736529308034946854
+    second: crop_spritesheet-1.png-2_726
+  - first:
+      213: 9154920886559600816
+    second: crop_spritesheet-1.png-2_727
+  - first:
+      213: -5397992745669072941
+    second: crop_spritesheet-1.png-2_728
+  - first:
+      213: -4503891526730334195
+    second: crop_spritesheet-1.png-2_729
+  - first:
+      213: 622850725441606136
+    second: crop_spritesheet-1.png-2_730
+  - first:
+      213: -6856074970434652912
+    second: crop_spritesheet-1.png-2_731
+  - first:
+      213: 1601786841655812114
+    second: crop_spritesheet-1.png-2_732
+  - first:
+      213: 8769754118748808032
+    second: crop_spritesheet-1.png-2_733
+  - first:
+      213: -2354243552882052242
+    second: crop_spritesheet-1.png-2_734
+  - first:
+      213: -4540581258938840078
+    second: crop_spritesheet-1.png-2_735
+  - first:
+      213: -3484756707744010426
+    second: crop_spritesheet-1.png-2_736
+  - first:
+      213: 2646824671668575519
+    second: crop_spritesheet-1.png-2_737
+  - first:
+      213: -2134482873172165376
+    second: crop_spritesheet-1.png-2_738
+  - first:
+      213: -2095879410114628244
+    second: crop_spritesheet-1.png-2_739
+  - first:
+      213: 8024837533176900098
+    second: crop_spritesheet-1.png-2_740
+  - first:
+      213: -4569439537973996698
+    second: crop_spritesheet-1.png-2_741
+  - first:
+      213: -3015403347890640014
+    second: crop_spritesheet-1.png-2_742
+  - first:
+      213: 3281537194329768955
+    second: crop_spritesheet-1.png-2_743
+  - first:
+      213: -5571862284681806293
+    second: crop_spritesheet-1.png-2_744
+  - first:
+      213: -4366340329874712571
+    second: crop_spritesheet-1.png-2_745
+  - first:
+      213: -2056924168543288954
+    second: crop_spritesheet-1.png-2_746
+  - first:
+      213: -5615798549299591317
+    second: crop_spritesheet-1.png-2_747
+  - first:
+      213: -5243506921883679994
+    second: crop_spritesheet-1.png-2_748
+  - first:
+      213: -3239820115596026570
+    second: crop_spritesheet-1.png-2_749
+  - first:
+      213: 8647601058526744560
+    second: crop_spritesheet-1.png-2_750
+  - first:
+      213: 8803885617947756575
+    second: crop_spritesheet-1.png-2_751
+  - first:
+      213: 1599281238797934347
+    second: crop_spritesheet-1.png-2_752
+  - first:
+      213: -5484949951641305857
+    second: crop_spritesheet-1.png-2_753
+  - first:
+      213: -4035443519199789526
+    second: crop_spritesheet-1.png-2_754
+  - first:
+      213: 8553067215764791905
+    second: crop_spritesheet-1.png-2_755
+  - first:
+      213: -6064716417442854090
+    second: crop_spritesheet-1.png-2_756
+  - first:
+      213: 1859205169477312035
+    second: crop_spritesheet-1.png-2_757
+  - first:
+      213: 4567198877053460786
+    second: crop_spritesheet-1.png-2_758
+  - first:
+      213: -6558951932961026799
+    second: crop_spritesheet-1.png-2_759
+  - first:
+      213: -1600887661573574174
+    second: crop_spritesheet-1.png-2_760
+  - first:
+      213: 1528574884662716719
+    second: crop_spritesheet-1.png-2_761
+  - first:
+      213: 3130972845747951064
+    second: crop_spritesheet-1.png-2_762
+  - first:
+      213: -7135975672347161860
+    second: crop_spritesheet-1.png-2_763
+  - first:
+      213: 7201490964309699172
+    second: crop_spritesheet-1.png-2_764
+  - first:
+      213: -7658821391056632631
+    second: crop_spritesheet-1.png-2_765
+  - first:
+      213: -4421288171973392531
+    second: crop_spritesheet-1.png-2_766
+  - first:
+      213: 1772789876609140667
+    second: crop_spritesheet-1.png-2_767
+  - first:
+      213: 6837831759339948975
+    second: crop_spritesheet-1.png-2_768
+  - first:
+      213: -5911401031075785469
+    second: crop_spritesheet-1.png-2_769
+  - first:
+      213: -5437261420640123966
+    second: crop_spritesheet-1.png-2_770
+  - first:
+      213: -4968256560889307497
+    second: crop_spritesheet-1.png-2_771
+  - first:
+      213: -584887637150287134
+    second: crop_spritesheet-1.png-2_772
+  - first:
+      213: -8177762176334695125
+    second: crop_spritesheet-1.png-2_773
+  - first:
+      213: 3169241351658669899
+    second: crop_spritesheet-1.png-2_774
+  - first:
+      213: 3425578975434572079
+    second: crop_spritesheet-1.png-2_775
+  - first:
+      213: -9111435167172909997
+    second: crop_spritesheet-1.png-2_776
+  - first:
+      213: -4110036352699848413
+    second: crop_spritesheet-1.png-2_777
+  - first:
+      213: -9143043626538424443
+    second: crop_spritesheet-1.png-2_778
+  - first:
+      213: 2322720431877437827
+    second: crop_spritesheet-1.png-2_779
+  - first:
+      213: -2436364288408970727
+    second: crop_spritesheet-1.png-2_780
+  - first:
+      213: 3645099040762843681
+    second: crop_spritesheet-1.png-2_781
+  - first:
+      213: -8528642075621103967
+    second: crop_spritesheet-1.png-2_782
+  - first:
+      213: 5436462607614093680
+    second: crop_spritesheet-1.png-2_783
+  - first:
+      213: 4370446651418858365
+    second: crop_spritesheet-1.png-2_784
+  - first:
+      213: -6619495969438094775
+    second: crop_spritesheet-1.png-2_785
+  - first:
+      213: 7216471325401934638
+    second: crop_spritesheet-1.png-2_786
+  - first:
+      213: 3547768063966193145
+    second: crop_spritesheet-1.png-2_787
+  - first:
+      213: 166639012718193561
+    second: crop_spritesheet-1.png-2_788
+  - first:
+      213: -511873985383903181
+    second: crop_spritesheet-1.png-2_789
+  - first:
+      213: 7735799710918684629
+    second: crop_spritesheet-1.png-2_790
+  - first:
+      213: -170208603617795971
+    second: crop_spritesheet-1.png-2_791
+  - first:
+      213: 5720072226212178930
+    second: crop_spritesheet-1.png-2_792
+  - first:
+      213: -7642297283341776812
+    second: crop_spritesheet-1.png-2_793
+  - first:
+      213: -2429319711028806629
+    second: crop_spritesheet-1.png-2_794
+  - first:
+      213: 5612993024794400980
+    second: crop_spritesheet-1.png-2_795
+  - first:
+      213: -136415521118017473
+    second: crop_spritesheet-1.png-2_796
+  - first:
+      213: 4428704586299956605
+    second: crop_spritesheet-1.png-2_797
+  - first:
+      213: 3119353059868997823
+    second: crop_spritesheet-1.png-2_798
+  - first:
+      213: -6734250395196656458
+    second: crop_spritesheet-1.png-2_799
+  - first:
+      213: -3263515447095052734
+    second: crop_spritesheet-1.png-2_800
+  - first:
+      213: 2174728506880602172
+    second: crop_spritesheet-1.png-2_801
+  - first:
+      213: -5567128103710546180
+    second: crop_spritesheet-1.png-2_802
+  - first:
+      213: 9099182205854165017
+    second: crop_spritesheet-1.png-2_803
+  - first:
+      213: -5722787227595833907
+    second: crop_spritesheet-1.png-2_804
+  - first:
+      213: 6498867506839438823
+    second: crop_spritesheet-1.png-2_805
+  - first:
+      213: -113580339383325319
+    second: crop_spritesheet-1.png-2_806
+  - first:
+      213: 668401303698273162
+    second: crop_spritesheet-1.png-2_807
+  - first:
+      213: -8136129912082502868
+    second: crop_spritesheet-1.png-2_808
+  - first:
+      213: -1206605416591639633
+    second: crop_spritesheet-1.png-2_809
+  - first:
+      213: 2426785670184187583
+    second: crop_spritesheet-1.png-2_810
+  - first:
+      213: -1492861040622818111
+    second: crop_spritesheet-1.png-2_811
+  - first:
+      213: -2602922583985437861
+    second: crop_spritesheet-1.png-2_812
+  - first:
+      213: -5993122061472126731
+    second: crop_spritesheet-1.png-2_813
+  - first:
+      213: 5883544874113754954
+    second: crop_spritesheet-1.png-2_814
+  - first:
+      213: 6921994068421749478
+    second: crop_spritesheet-1.png-2_815
+  - first:
+      213: 6977375265572325887
+    second: crop_spritesheet-1.png-2_816
+  - first:
+      213: 4516145969937199248
+    second: crop_spritesheet-1.png-2_817
+  - first:
+      213: 1484053251323882718
+    second: crop_spritesheet-1.png-2_818
+  - first:
+      213: -5639973395444018374
+    second: crop_spritesheet-1.png-2_819
+  - first:
+      213: -5544823188148011334
+    second: crop_spritesheet-1.png-2_820
+  - first:
+      213: 5440236646506165555
+    second: crop_spritesheet-1.png-2_821
+  - first:
+      213: 2299997430693981445
+    second: crop_spritesheet-1.png-2_822
+  - first:
+      213: -2501425496338410155
+    second: crop_spritesheet-1.png-2_823
+  - first:
+      213: -5520084484479166081
+    second: crop_spritesheet-1.png-2_824
+  - first:
+      213: 7000820452684739492
+    second: crop_spritesheet-1.png-2_825
+  - first:
+      213: 3068917380620613492
+    second: crop_spritesheet-1.png-2_826
+  - first:
+      213: 2786512525745499029
+    second: crop_spritesheet-1.png-2_827
+  - first:
+      213: 5768540442132316418
+    second: crop_spritesheet-1.png-2_828
+  - first:
+      213: 2634060183590195485
+    second: crop_spritesheet-1.png-2_829
+  - first:
+      213: 1211488316082275794
+    second: crop_spritesheet-1.png-2_830
+  - first:
+      213: -1054620954581467450
+    second: crop_spritesheet-1.png-2_831
+  - first:
+      213: -4614801622307206728
+    second: crop_spritesheet-1.png-2_832
+  - first:
+      213: -3101104913348682576
+    second: crop_spritesheet-1.png-2_833
+  - first:
+      213: -1808009436179285652
+    second: crop_spritesheet-1.png-2_834
+  - first:
+      213: -5701981154857753853
+    second: crop_spritesheet-1.png-2_835
+  - first:
+      213: 1438130213640013206
+    second: crop_spritesheet-1.png-2_836
+  - first:
+      213: 7221021859035150133
+    second: crop_spritesheet-1.png-2_837
+  - first:
+      213: 5407358637282124153
+    second: crop_spritesheet-1.png-2_838
+  - first:
+      213: -5467687496322933887
+    second: crop_spritesheet-1.png-2_839
+  - first:
+      213: 3851707410285645129
+    second: crop_spritesheet-1.png-2_840
+  - first:
+      213: -8212208686474368817
+    second: crop_spritesheet-1.png-2_841
+  - first:
+      213: -8899916365202366484
+    second: crop_spritesheet-1.png-2_842
+  - first:
+      213: -4848621085661387270
+    second: crop_spritesheet-1.png-2_843
+  - first:
+      213: 5292587386055111485
+    second: crop_spritesheet-1.png-2_844
+  - first:
+      213: -7905605142412862850
+    second: crop_spritesheet-1.png-2_845
+  - first:
+      213: 7545984934850141550
+    second: crop_spritesheet-1.png-2_846
+  - first:
+      213: 3244126726863517124
+    second: crop_spritesheet-1.png-2_847
+  - first:
+      213: 1553660914684989383
+    second: crop_spritesheet-1.png-2_848
+  - first:
+      213: -1403857984685557720
+    second: crop_spritesheet-1.png-2_849
+  - first:
+      213: 1844508463720789047
+    second: crop_spritesheet-1.png-2_850
+  - first:
+      213: 1111130999710018478
+    second: crop_spritesheet-1.png-2_851
+  - first:
+      213: 3897428670096529922
+    second: crop_spritesheet-1.png-2_852
+  - first:
+      213: -332808694932700617
+    second: crop_spritesheet-1.png-2_853
+  - first:
+      213: 6158024103587292480
+    second: crop_spritesheet-1.png-2_854
+  - first:
+      213: 1044951369332072914
+    second: crop_spritesheet-1.png-2_855
+  - first:
+      213: -6110661949544110365
+    second: crop_spritesheet-1.png-2_856
+  - first:
+      213: 1814185110442082403
+    second: crop_spritesheet-1.png-2_857
+  - first:
+      213: -4237859141043730287
+    second: crop_spritesheet-1.png-2_858
+  - first:
+      213: 5499738971053560924
+    second: crop_spritesheet-1.png-2_859
+  - first:
+      213: 8292394585436846762
+    second: crop_spritesheet-1.png-2_860
+  - first:
+      213: -3239324605618781194
+    second: crop_spritesheet-1.png-2_861
+  - first:
+      213: 976261690760071062
+    second: crop_spritesheet-1.png-2_862
+  - first:
+      213: 3553852884697181204
+    second: crop_spritesheet-1.png-2_863
+  - first:
+      213: -9168330236492988683
+    second: crop_spritesheet-1.png-2_864
+  - first:
+      213: 6862173023099451779
+    second: crop_spritesheet-1.png-2_865
+  - first:
+      213: 2455732534833000391
+    second: crop_spritesheet-1.png-2_866
+  - first:
+      213: 2327921334290465535
+    second: crop_spritesheet-1.png-2_867
+  - first:
+      213: 5067848790151054619
+    second: crop_spritesheet-1.png-2_868
+  - first:
+      213: -5860834342723246460
+    second: crop_spritesheet-1.png-2_869
+  - first:
+      213: 3496435802705783661
+    second: crop_spritesheet-1.png-2_870
+  - first:
+      213: -4552993538650122547
+    second: crop_spritesheet-1.png-2_871
+  - first:
+      213: -7042107779912775343
+    second: crop_spritesheet-1.png-2_872
+  - first:
+      213: 7967277515882962889
+    second: crop_spritesheet-1.png-2_873
+  - first:
+      213: 585157576592573601
+    second: crop_spritesheet-1.png-2_874
+  - first:
+      213: 7846429131220198335
+    second: crop_spritesheet-1.png-2_875
+  - first:
+      213: 8756716555930732375
+    second: crop_spritesheet-1.png-2_876
+  - first:
+      213: 7666506596535545962
+    second: crop_spritesheet-1.png-2_877
+  - first:
+      213: -5458297708551933656
+    second: crop_spritesheet-1.png-2_878
+  - first:
+      213: -1719218750299231508
+    second: crop_spritesheet-1.png-2_879
+  - first:
+      213: 61266821609570076
+    second: crop_spritesheet-1.png-2_880
+  - first:
+      213: -7527591911867662139
+    second: crop_spritesheet-1.png-2_881
+  - first:
+      213: 2821198300462872860
+    second: crop_spritesheet-1.png-2_882
+  - first:
+      213: -3549188750261280807
+    second: crop_spritesheet-1.png-2_883
+  - first:
+      213: -3629017660061412770
+    second: crop_spritesheet-1.png-2_884
+  - first:
+      213: 6232906409911880253
+    second: crop_spritesheet-1.png-2_885
+  - first:
+      213: 6381303094142108838
+    second: crop_spritesheet-1.png-2_886
+  - first:
+      213: -7416052087012691085
+    second: crop_spritesheet-1.png-2_887
+  - first:
+      213: -6983757108756321650
+    second: crop_spritesheet-1.png-2_888
+  - first:
+      213: 3708478065123519490
+    second: crop_spritesheet-1.png-2_889
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975dde21b6383c310800000000000000
+      internalID: 1424126403081524601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ddd4077d095d30800000000000000
+      internalID: 4420579314074768574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e11bc7d72934e20800000000000000
+      internalID: 3333669216844848712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ab6cde5742509b0800000000000000
+      internalID: -5114641712890332578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b76b2898a84b8720800000000000000
+      internalID: 2849451078186657715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6d3e52f23402980800000000000000
+      internalID: -8565772621480470827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10fb882ec6c31910800000000000000
+      internalID: 1807006464251523102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83501ca02eac6d060800000000000000
+      internalID: 6977987744849003832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35434b976bb9c1c0800000000000000
+      internalID: -4482845900409715397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223018c64821613c0800000000000000
+      internalID: -4389300426860592350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dbbd751a2af7c20800000000000000
+      internalID: 3206460273558535483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf4339707703950800000000000000
+      internalID: 6426767542675897286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df34e872527aa0f0800000000000000
+      internalID: -1104945060024926252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4aeda0b738752b0800000000000000
+      internalID: -5595859447497972490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf561175644f2b80800000000000000
+      internalID: -8417433976052490294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c0f707cd36e10c0800000000000000
+      internalID: -4603131970694738855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe641cb19e19190800000000000000
+      internalID: -7957322761170915563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7f6d3d12f7c4d10800000000000000
+      internalID: 2111202108594649051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53544dbc89060f530800000000000000
+      internalID: 3886712687791719733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67311f62af5f65c0800000000000000
+      internalID: -4220049174570125457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed05851955871b00800000000000000
+      internalID: 799254076541177316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1050a1cbc4ff760800000000000000
+      internalID: 7493792675741893037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7339d31187049f0800000000000000
+      internalID: -486256744313178145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e5169287e1e58a0800000000000000
+      internalID: -6314576126087700879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027a5bab4e979e30800000000000000
+      internalID: 4510247599669408262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54829a542a0ec400800000000000000
+      internalID: 346225372608758878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967175423176b1680800000000000000
+      internalID: -8783313316344293527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb393540b5cabae0800000000000000
+      internalID: -1532695362299937854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493f45f4554f4cfd0800000000000000
+      internalID: -2322462860575968364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7708e0ce747530800000000000000
+      internalID: 3851842948300242124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c34168364c1e16a0800000000000000
+      internalID: -6476708126193007672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e63645881405e00800000000000000
+      internalID: 1031396368455003661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e87c2949d8a2310800000000000000
+      internalID: 1381071904999706203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227c5d154cb4f3630800000000000000
+      internalID: 3908926308139517730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84364eb6ee8f9de0800000000000000
+      internalID: -1324182643737742193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bdce3d2a7802d20800000000000000
+      internalID: 3251748064371464989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32294c237bd25b2c0800000000000000
+      internalID: -4416573594712894941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9786bc3d1eea8a0800000000000000
+      internalID: -6291843329623033393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97932d470bfef89f0800000000000000
+      internalID: -463888695442654855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c23f8e45969135e0800000000000000
+      internalID: -1931597197152931136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cedd9c65242dd30800000000000000
+      internalID: 4454695921944226911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdc5181b5ab841a0800000000000000
+      internalID: -6825000334871114244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5136a7c6e5faabd0800000000000000
+      internalID: -2618009861821681314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_43
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e893ada4d3ad2c0800000000000000
+      internalID: -4406141893730529692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6188c50055ee8eff0800000000000000
+      internalID: -6493350595360746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12032aece05b46f0800000000000000
+      internalID: -699376338655313377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19501ecee60cf7530800000000000000
+      internalID: 3855011388705539473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_47
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751333bf916a95060800000000000000
+      internalID: 6942762931087159639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a88a0ef55d9b050800000000000000
+      internalID: 5816915001493457546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f451307335c4850800000000000000
+      internalID: 6362551869307703056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d855a5221f1bd7a00800000000000000
+      internalID: 755955961689691533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f7fae62d32ba1b0800000000000000
+      internalID: -5644378321271685338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4840f42fee6470800000000000000
+      internalID: 8389906097766943455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0440792acffb72500800000000000000
+      internalID: 371476586061825088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7459053265c875110800000000000000
+      internalID: 1249621723206161735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5d084ff395a2c50800000000000000
+      internalID: 6641218731731113465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc34675f63341ae00800000000000000
+      internalID: 1054197691106870223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaf4298f0f591410800000000000000
+      internalID: 1448293275506375405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f65b2f2b6a2f600800000000000000
+      internalID: 500645796097912697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca11bcd64ad4cc570800000000000000
+      internalID: 8488244766298542508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25a972c986de9c0800000000000000
+      internalID: -3896343082716999008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421e133feb1bf1b10800000000000000
+      internalID: 1954476196984119588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945bb5479c7d29e40800000000000000
+      internalID: 5661824941798700361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e2f0bbdc4170eb0800000000000000
+      internalID: -4753808007827083653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e12c6f46c699690800000000000000
+      internalID: -7594920115691184630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_65
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3251601cfa42160800000000000000
+      internalID: 6999912964406191008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317f89e01bda1cb0800000000000000
+      internalID: -4892357179500170950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001545bb9d23e8b0800000000000000
+      internalID: -5124201804233109499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f676836411f5d530800000000000000
+      internalID: 3879271723920946931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95b4c4371f66280800000000000000
+      internalID: -9050280923650893395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22f3a126b45cd070800000000000000
+      internalID: 8132468168349446699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d546c63692e4880800000000000000
+      internalID: -8624910729370903257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476979a1d3c6fe6d0800000000000000
+      internalID: -2959027420464179596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63218d534370d6670800000000000000
+      internalID: 8533484789760004662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7019097fbc156afa0800000000000000
+      internalID: -5789850334464536313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79070eafa7c5eebf0800000000000000
+      internalID: -293195242467725161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608063d2b28a43a20800000000000000
+      internalID: 3041240551777503238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9d1131a2731f940800000000000000
+      internalID: 5328100488004098537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69ec13796c33d90800000000000000
+      internalID: -7119128233264638247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_79
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdf50aa34a633d40800000000000000
+      internalID: 5562906803580566967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42f69fd17f1057c0800000000000000
+      internalID: -4084730288082062769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_81
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa82f538ecf175e0800000000000000
+      internalID: -1913470292388050264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb9e71bc4f6974a0800000000000000
+      internalID: -6595117804121318410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_83
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c14ff861eac65800800000000000000
+      internalID: 600890669778551240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c142f1d9a399e94f0800000000000000
+      internalID: -820049605111634916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727377ff5cd2c2eb0800000000000000
+      internalID: -4743365979110164697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1849e422847d20800000000000000
+      internalID: 3275385924049443889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81c11552e3d3cb60800000000000000
+      internalID: 7765283151560163723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf1e8627e467070800000000000000
+      internalID: 8103750832792664807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc02ee1b6dc9e3010800000000000000
+      internalID: 1170545399085015244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45c83d80f1e5e890800000000000000
+      internalID: -7429283587000056500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_91
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1eb08a766cf0e20800000000000000
+      internalID: 3319089598898627033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a120051a0824af0800000000000000
+      internalID: -413626785444259202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_93
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a7b00b35b319be0800000000000000
+      internalID: -1472330372551574893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_94
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb38d824e7d8a1a0800000000000000
+      internalID: -6797946262577988612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_95
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd9ee0753c88af0800000000000000
+      internalID: -393850188715140109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935df1376a29ef240800000000000000
+      internalID: 4827457094181442873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_97
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f4839d3bb1222a0800000000000000
+      internalID: -6763813231099621579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9f87b5542bc9020800000000000000
+      internalID: 2349949116537698755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7174c590a08397b40800000000000000
+      internalID: 5438439640784455447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e59d8f8a2428ab30800000000000000
+      internalID: 4298725609540785633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82032ea6b073aa10800000000000000
+      internalID: 1919501796097852045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6ce70d339f313b0800000000000000
+      internalID: -5542812715426330952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_103
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9045bb6de25c780800000000000000
+      internalID: -8663466808376555011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814155d7016501ea0800000000000000
+      internalID: -5904124482660527080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_105
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5294a62e0f21777b0800000000000000
+      internalID: -5226688016740103899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_106
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54793840c832aea50800000000000000
+      internalID: 6551087692241934149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_107
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29249cbd6c0977b0800000000000000
+      internalID: -5226132227131954901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f32e7d525296bc0800000000000000
+      internalID: -3789456766989615228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4e51123b9b79060800000000000000
+      internalID: 6960235928129758374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb5b3525e3f72c30800000000000000
+      internalID: 4334701331865099243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_111
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a497054eaca59750800000000000000
+      internalID: 6311140317312029859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4374581d2a90e510800000000000000
+      internalID: 1576429388052067147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccb1e881f46e0280800000000000000
+      internalID: -9075205210558579520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8455ba60181ced0800000000000000
+      internalID: -2395491661140113231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_115
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb2acd6fd45d23e0800000000000000
+      internalID: -2076910534551524361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d3b34eae9bcaab0800000000000000
+      internalID: -4995413468158149371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_117
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9e09b89ec117070800000000000000
+      internalID: 8102288994010720704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_118
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11294b6eb9d4e1eb0800000000000000
+      internalID: -4747271625216060911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crop_spritesheet-1.png-2_119
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfd41053d4abab80800000000000000
+      internalID: -8382425053931446348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

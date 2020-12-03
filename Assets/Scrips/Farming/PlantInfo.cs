@@ -12,7 +12,7 @@ public class PlantInfo : ScriptableObject
     //the plant you get from this
 
     [Header("The Growth Process")]
-    [Tooltip("The number of days needed to get from one stage of growth to the next. Must be equal in size to the plantSprites Array.")]
+    [Tooltip("The number of days needed to get from one stage of growth to the next. Length must be one less thanthe Plant Sprites Array Length.")]
     public int[] days;
     [Tooltip("An array of sprites showing the plant at its different stages of growth.")]
     public Sprite[] plantSprites = new Sprite[4];
