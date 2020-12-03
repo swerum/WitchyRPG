@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fce77293624b46dc84b810440b503e2, type: 3}
-  m_Name: Mandrake
+  m_Name: MandrakePlantInfo
   m_EditorClassIdentifier: 
   plantName: Mandrake
   seedBagSprite: {fileID: -8565772621480470827, guid: 527f1c522218446c6861880cb5c4db90,
     type: 3}
+  harvest: {fileID: 11400000, guid: 0a7ead538e4cd4cba89ba0bfa4521954, type: 2}
   days: 010000000200000003000000
   plantSprites:
   - {fileID: -8565772621480470827, guid: 527f1c522218446c6861880cb5c4db90, type: 3}

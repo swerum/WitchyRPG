@@ -9,6 +9,7 @@ public class PlantInfo : ScriptableObject
     public string plantName;
     [Tooltip("The Sprite of the seedBag used for planting")]
     public Sprite seedBagSprite = null;
+    public Item harvest = null;
     //the plant you get from this
 
     [Header("The Growth Process")]

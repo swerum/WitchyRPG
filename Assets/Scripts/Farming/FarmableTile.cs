@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class FarmableTile : MonoBehaviour
 {
-    [SerializeField] Sprite defaultSprite = null;
+    [SerializeField] Sprite defaultSprite   = null;
+    [SerializeField] Inventory inventory    = null;
 
     //private variables
-    bool            watered     = false;
-    bool            harvestable = false;
+    bool            watered                 = false;
+    bool            harvestable             = false;
 
-    int             daysSincePlanting = 0;
+    int             daysSincePlanting       = 0;
     int             currentPlantSpriteIndex = -1;
 
-    FarmAction      farmActionTaken  = FarmAction.Nothing;
+    FarmAction      farmActionTaken         = FarmAction.Nothing;
 
-    PlantInfo       currentPlant      = null;
+    PlantInfo       currentPlant            = null;
     SpriteRenderer  spriteRenderer;
 
 
@@ -23,7 +24,6 @@ public class FarmableTile : MonoBehaviour
 
     public void PlowField(Sprite plowedTileSprite)
     {
-        Debug.Log(name + " is being plowed");
         //if something is already there, destroy it
         currentPlant = null;
         harvestable = false;
@@ -42,7 +42,6 @@ public class FarmableTile : MonoBehaviour
         farmActionTaken = FarmAction.Plant;
     }
 
-    [ContextMenu("Water Plant")]
     public void WaterPlant()
     {
         if (farmActionTaken != FarmAction.Plant) return;
@@ -58,7 +57,6 @@ public class FarmableTile : MonoBehaviour
             daysSincePlanting++;
             //check if the sprite index has changed
             int newIndex = GetPlantStage(daysSincePlanting);
-            Debug.Log("Days: " + daysSincePlanting + " and new sprite index: " + newIndex);
             if (newIndex != currentPlantSpriteIndex)
             {
                 currentPlantSpriteIndex = newIndex;
@@ -73,10 +71,11 @@ public class FarmableTile : MonoBehaviour
     {
         if (!harvestable) return;
         //put plant in inventory
-        currentPlant = null;
         spriteRenderer.sprite = defaultSprite;
         farmActionTaken = FarmAction.Nothing;
         spriteRenderer.sprite = defaultSprite;
+        inventory.AddToInventory(currentPlant.harvest);
+        currentPlant = null;
     }
 
     private int GetPlantStage(int numDays)

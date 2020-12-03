@@ -46,6 +46,7 @@ public class MouseClickHandler : MonoBehaviour
             case FarmAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
             case FarmAction.Plant: farmableTile.PlantSomething(plant); break;
             case FarmAction.Harvest: farmableTile.Harvest(); break;
+            case FarmAction.Water: farmableTile.WaterPlant(); break;
         }
     }
 
