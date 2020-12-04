@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemApplication { None, ProtectFromSound, HealPlayer};
-
 [CreateAssetMenu(fileName = "Item", menuName = "Item", order = 1)]
 public class Item : ScriptableObject
 {
     public string itemName;
     public float price = 5f;
-    public ItemApplication itemApplication;
+    public ItemAction itemAction;
     public int numItem = 1;
     public Sprite sprite;
+    [Header("If this is a seed, add a Plant Info")]
+    public PlantInfo plant;
 }

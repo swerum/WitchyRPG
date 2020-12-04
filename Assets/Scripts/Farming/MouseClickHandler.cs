@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum FarmAction { Nothing, Plow, Plant, Harvest, Water};
+public enum ItemAction { Nothing, Plow, Plant, Harvest, Water};
 
 public class MouseClickHandler : MonoBehaviour
 {
     [SerializeField] Sprite plowedTileSprite = null;
-    [SerializeField] FarmAction farmAction = FarmAction.Nothing;
+    [SerializeField] ItemAction clickAction = ItemAction.Nothing;
+    [SerializeField] Inventory inventory = null;
+    public ItemAction ClickAction { set { clickAction = value; } }
     [SerializeField] PlantInfo plant = null;
+    public PlantInfo Plant { set { plant = value; } }
+
     Camera main;
+    FarmableTile currentFarmableTile = null;
 
     private void Start() { main = Camera.main; }
 
@@ -23,30 +28,27 @@ public class MouseClickHandler : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //get clicked on object
-            GameObject obj = GettMouseClickObject();
-            if (obj == null) return;
+            //GameObject obj = GettMouseClickObject();
+            //if (obj == null) return;
             //click on the object
-            ClickOnFarmableTile(obj);
+            ClickOnFarmableTile(currentFarmableTile);
         }
     }
 
     /// <summary>
-    /// if you clicked on a farmable tile, do the current farmaction on it
+    /// if you clicked on a farmable tile, do the current ItemAction on it
     /// </summary>
-    private void ClickOnFarmableTile(GameObject obj)
+    private void ClickOnFarmableTile(FarmableTile farmableTile)
     {
-        //get FarmableTile
-        FarmableTile farmableTile = obj.GetComponent<FarmableTile>();
-        Debug.Log(farmableTile);
         if (farmableTile == null) return;
         //do farm action with non-null farmableTile
-        switch (farmAction)
+        switch (clickAction)
         {
-            case FarmAction.Nothing: break;
-            case FarmAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
-            case FarmAction.Plant: farmableTile.PlantSomething(plant); break;
-            case FarmAction.Harvest: farmableTile.Harvest(); break;
-            case FarmAction.Water: farmableTile.WaterPlant(); break;
+            case ItemAction.Nothing: break;
+            case ItemAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
+            case ItemAction.Plant: farmableTile.PlantSomething(plant); inventory.ReduceCurrentItem(1); break;
+            case ItemAction.Harvest: farmableTile.Harvest(); break;
+            case ItemAction.Water: farmableTile.WaterPlant(); break;
         }
     }
 
@@ -61,6 +63,18 @@ public class MouseClickHandler : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
         if (hit.collider == null) return null;
         return hit.collider.gameObject;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
+        if (farmableTile != null) { currentFarmableTile = farmableTile; }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
+        if (farmableTile == currentFarmableTile) { currentFarmableTile = null; }
     }
 
 }

@@ -20,5 +20,5 @@ public class PlantInfo : ScriptableObject
 
     [Header("Harvesting")]
     [Tooltip("The item needed to harvest this item")]
-    public ItemApplication itemNeeded = ItemApplication.None;
+    public ItemAction itemNeeded = ItemAction.Nothing;
 }

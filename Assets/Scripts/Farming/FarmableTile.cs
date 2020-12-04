@@ -14,7 +14,7 @@ public class FarmableTile : MonoBehaviour
     int             daysSincePlanting       = 0;
     int             currentPlantSpriteIndex = -1;
 
-    FarmAction      farmActionTaken         = FarmAction.Nothing;
+    ItemAction      ItemActionTaken         = ItemAction.Nothing;
 
     PlantInfo       currentPlant            = null;
     SpriteRenderer  spriteRenderer;
@@ -28,23 +28,23 @@ public class FarmableTile : MonoBehaviour
         currentPlant = null;
         harvestable = false;
         spriteRenderer.sprite = plowedTileSprite;
-        farmActionTaken = FarmAction.Plow;
+        ItemActionTaken = ItemAction.Plow;
     }
 
     public void PlantSomething(PlantInfo plant)
     {
-        if (farmActionTaken != FarmAction.Plow) return;
+        if (ItemActionTaken != ItemAction.Plow) return;
         spriteRenderer.sprite = plant.plantSprites[0];
         currentPlantSpriteIndex = 0;
         currentPlant = plant;
         daysSincePlanting = 0;
         harvestable = false;
-        farmActionTaken = FarmAction.Plant;
+        ItemActionTaken = ItemAction.Plant;
     }
 
     public void WaterPlant()
     {
-        if (farmActionTaken != FarmAction.Plant) return;
+        if (ItemActionTaken != ItemAction.Plant) return;
         watered = true;
         //add water overlay sprite?
     }
@@ -72,10 +72,11 @@ public class FarmableTile : MonoBehaviour
         if (!harvestable) return;
         //put plant in inventory
         spriteRenderer.sprite = defaultSprite;
-        farmActionTaken = FarmAction.Nothing;
+        ItemActionTaken = ItemAction.Nothing;
         spriteRenderer.sprite = defaultSprite;
         inventory.AddToInventory(currentPlant.harvest);
         currentPlant = null;
+        harvestable = false;
     }
 
     private int GetPlantStage(int numDays)
