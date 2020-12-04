@@ -2,21 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemAction { Nothing, Plow, Plant, Harvest, Water};
+public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound};
 
 public class MouseClickHandler : MonoBehaviour
 {
+    #region variables and initializing
     [SerializeField] Sprite plowedTileSprite = null;
-    [SerializeField] ItemAction clickAction = ItemAction.Nothing;
-    [SerializeField] Inventory inventory = null;
-    public ItemAction ClickAction { set { clickAction = value; } }
-    [SerializeField] PlantInfo plant = null;
-    public PlantInfo Plant { set { plant = value; } }
 
+    ItemAction clickAction = ItemAction.Nothing;
+    public ItemAction ClickAction { set { clickAction = value; } }
     Camera main;
     FarmableTile currentFarmableTile = null;
+    PlantInfo plant = null;
+    public PlantInfo Plant { set { plant = value; } }
 
     private void Start() { main = Camera.main; }
+    #endregion
+
+    #region singleton
+    private static MouseClickHandler _instance;
+
+    public static MouseClickHandler Instance { get { return _instance; } }
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
+    #endregion
 
     void Update()
     {
@@ -27,10 +47,6 @@ public class MouseClickHandler : MonoBehaviour
         //click tile and do action
         if (Input.GetMouseButtonDown(0))
         {
-            //get clicked on object
-            //GameObject obj = GettMouseClickObject();
-            //if (obj == null) return;
-            //click on the object
             ClickOnFarmableTile(currentFarmableTile);
         }
     }
@@ -46,7 +62,7 @@ public class MouseClickHandler : MonoBehaviour
         {
             case ItemAction.Nothing: break;
             case ItemAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
-            case ItemAction.Plant: farmableTile.PlantSomething(plant); inventory.ReduceCurrentItem(1); break;
+            case ItemAction.Plant: farmableTile.PlantSomething(plant); Inventory.Instance.ReduceCurrentItem(1); break;
             case ItemAction.Harvest: farmableTile.Harvest(); break;
             case ItemAction.Water: farmableTile.WaterPlant(); break;
         }

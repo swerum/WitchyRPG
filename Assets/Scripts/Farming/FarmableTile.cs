@@ -5,7 +5,6 @@ using UnityEngine;
 public class FarmableTile : MonoBehaviour
 {
     [SerializeField] Sprite defaultSprite   = null;
-    [SerializeField] Inventory inventory    = null;
 
     //private variables
     bool            watered                 = false;
@@ -70,11 +69,17 @@ public class FarmableTile : MonoBehaviour
     public void Harvest()
     {
         if (!harvestable) return;
-        //put plant in inventory
+        if (!Inventory.Instance.ContainsItemType(currentPlant.itemNeeded))
+        {
+            //if we don't have the item needed
+            Debug.Log("DEATH");
+            return;
+        }
+        //put plant in Inventory.Instance
         spriteRenderer.sprite = defaultSprite;
         ItemActionTaken = ItemAction.Nothing;
         spriteRenderer.sprite = defaultSprite;
-        inventory.AddToInventory(currentPlant.harvest);
+        Inventory.Instance.AddToInventory(currentPlant.harvest);
         currentPlant = null;
         harvestable = false;
     }

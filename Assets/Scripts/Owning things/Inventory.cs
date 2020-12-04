@@ -14,7 +14,6 @@ public class Inventory : MonoBehaviour
     [Header("References")]
     [SerializeField] List<GameObject> slots = new List<GameObject>();
     [SerializeField] GameObject selectionSprite = null;
-    [SerializeField] MouseClickHandler mouseClickHandler = null;
     int currentSelection = 0;
 
     private void Start()
@@ -47,18 +46,6 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    //public void ReduceInInventory(Item item, int reduceNum)
-    //{
-
-    //    if (items.Contains(item))
-    //    {
-    //        //add another item to list
-    //        int index = items.BinarySearch(item);
-    //        items[index].numItem += reduceNum;
-    //        UpdateSprites(index);
-    //    }
-    //}
-
     public void ReduceCurrentItem(int reduceNum)
     {
         if (currentSelection >= items.Count || items[currentSelection] == null) return;
@@ -75,9 +62,15 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public bool ItemTypeInInventory(ItemAction itemAction)
+    /// <summary>
+    /// Check if there is an item with a specified Item Action in the inventory.
+    /// </summary>
+    /// <param name="itemAction">The Item action we want to find an item with.</param>
+    /// <returns>True if such an item exists.</returns>
+    public bool ContainsItemType(ItemAction itemAction)
     {
-        return true;
+        Item specifiedItem = items.Find(x => x.itemAction == itemAction);
+        return (specifiedItem != null);
     }
     #endregion
 
@@ -108,10 +101,29 @@ public class Inventory : MonoBehaviour
         currentSelection = index;
         selectionSprite.transform.position = slots[currentSelection].transform.position;
         //change item function
-        if (currentSelection >= items.Count || items[currentSelection] == null) { mouseClickHandler.ClickAction = ItemAction.Nothing; }
+        if (currentSelection >= items.Count || items[currentSelection] == null) { MouseClickHandler.Instance.ClickAction = ItemAction.Nothing; }
         else {
-            mouseClickHandler.ClickAction = items[currentSelection].itemAction;
-            mouseClickHandler.Plant = items[currentSelection].plant;
+            MouseClickHandler.Instance.ClickAction = items[currentSelection].itemAction;
+            MouseClickHandler.Instance.Plant = items[currentSelection].plant;
+        }
+    }
+    #endregion
+
+    #region Singleton
+    private static Inventory _instance;
+
+    public static Inventory Instance { get { return _instance; } }
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
         }
     }
     #endregion

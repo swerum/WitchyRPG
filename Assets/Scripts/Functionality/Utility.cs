@@ -5,7 +5,6 @@ using UnityEngine;
 //a class containing commonly used functions
 public class Utility
 {
-
     /// <summary>
     /// Get distance between two objects
     /// </summary>
