@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelperGoblin : MonoBehaviour
+public class Goblin : MonoBehaviour
 {
     [Tooltip("What this goblin can do.")]
     [SerializeField] ItemAction goblinAction = ItemAction.Harvest;

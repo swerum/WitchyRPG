@@ -12,6 +12,7 @@ public class MouseClickHandler : MonoBehaviour
     public ItemAction ClickAction { set { clickAction = value; } }
     Camera main;
     FarmableTile currentFarmableTile = null;
+
     PlantInfo plant = null;
     public PlantInfo Plant { set { plant = value; } }
 

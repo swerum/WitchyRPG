@@ -15,13 +15,13 @@ public class DirectedMovement : MonoBehaviour
     Vector2 currentDestination;
     Vector2 ogPosition;
 
-    HelperGoblin goblin;
+    Goblin goblin;
     Queue<FarmableTile> farmableTiles = new Queue<FarmableTile>();
 
     private void Start()
     {
         ogPosition = transform.position;
-        if (TryGetComponent(out HelperGoblin g)) {
+        if (TryGetComponent(out Goblin g)) {
             goblin = g;
             farmableTiles = goblin.GetFarmableTileQueue();
             headedSomewhere = true;
