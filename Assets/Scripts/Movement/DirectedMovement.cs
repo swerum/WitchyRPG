@@ -18,21 +18,25 @@ public class DirectedMovement : MonoBehaviour
     Goblin goblin;
     Queue<FarmableTile> farmableTiles = new Queue<FarmableTile>();
 
-    private void Start()
-    {
-        ogPosition = transform.position;
-        if (TryGetComponent(out Goblin g)) {
-            goblin = g;
-            farmableTiles = goblin.GetFarmableTileQueue();
-            headedSomewhere = true;
-            currentDestination = farmableTiles.Peek().transform.position;
-        } else { Debug.LogError("No Helper Goblin Component found."); }
-    }
 
     void Update()
     {
         if (CheckAreMoving()) MoveTowardsDestination();
 
+    }
+
+    public void StartDoingChores()
+    {
+        if (headedSomewhere) return;
+        ogPosition = transform.position;
+        if (TryGetComponent(out Goblin g))
+        {
+            goblin = g;
+            farmableTiles = goblin.GetFarmableTileQueue();
+            currentDestination = farmableTiles.Peek().transform.position;
+            headedSomewhere = true;
+        }
+        else { Debug.LogError("No Helper Goblin Component found."); }
     }
 
     /// <summary>

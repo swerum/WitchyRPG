@@ -12,6 +12,7 @@ public class MouseClickHandler : MonoBehaviour
     public ItemAction ClickAction { set { clickAction = value; } }
     Camera main;
     FarmableTile currentFarmableTile = null;
+    Goblin currentGoblin;
 
     PlantInfo plant = null;
     public PlantInfo Plant { set { plant = value; } }
@@ -48,6 +49,12 @@ public class MouseClickHandler : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             ClickOnFarmableTile(currentFarmableTile);
+            if (currentGoblin != null) currentGoblin.GetComponent<DirectedMovement>().StartDoingChores();
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            Debug.Log(currentGoblin);
+            ClickOnGoblin(currentGoblin);
         }
     }
 
@@ -68,6 +75,32 @@ public class MouseClickHandler : MonoBehaviour
         }
     }
 
+    private void ClickOnGoblin(Goblin goblin)
+    {
+        if (goblin == null) return;
+        Item item = PlayerInventory.Instance.GetCurrentItem();
+        if (item == null) return;
+        goblin.Inventory.AddToInventory(item);
+        PlayerInventory.Instance.ReduceCurrentItem(1);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
+        if (farmableTile != null) { currentFarmableTile = farmableTile; }
+        Goblin g = collision.gameObject.GetComponent<Goblin>();
+        if (g != null) { currentGoblin = g; }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
+        if (farmableTile == currentFarmableTile) { currentFarmableTile = null; }
+        Goblin g = collision.gameObject.GetComponent<Goblin>();
+        if (g == currentGoblin) { currentGoblin = null; }
+    }
+
     private GameObject GettMouseClickObject()
     {
         Vector3 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
@@ -75,18 +108,6 @@ public class MouseClickHandler : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
         if (hit.collider == null) return null;
         return hit.collider.gameObject;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
-        if (farmableTile != null) { currentFarmableTile = farmableTile; }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
-        if (farmableTile == currentFarmableTile) { currentFarmableTile = null; }
     }
 
 }

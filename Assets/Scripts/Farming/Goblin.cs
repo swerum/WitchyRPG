@@ -13,6 +13,7 @@ public class Goblin : MonoBehaviour
 
     PlantInfo plantInfo;
     GoblinInventory goblinInventory;
+    public GoblinInventory Inventory { get { return goblinInventory; } }
 
     int indexOfPlant = -1;
 
@@ -39,9 +40,10 @@ public class Goblin : MonoBehaviour
             case ItemAction.Harvest: farmableTile.Harvest(); break;
             case ItemAction.Plant:
                 {
+                    GetPlantSeed();
                     if (indexOfPlant == -1) return;
                     farmableTile.PlantSomething(plantInfo);
-                    if (goblinInventory.ReduceItem(indexOfPlant, 1)) GetPlantSeed();
+                    goblinInventory.ReduceItem(indexOfPlant, 1);
                     break;
                 }
             case ItemAction.Plow: farmableTile.PlowField(); break;

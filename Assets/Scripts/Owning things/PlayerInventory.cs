@@ -36,6 +36,8 @@ public class PlayerInventory : Inventory
         if (ReduceItem(currentSelection, reduceNum)) ChangeSelection(currentSelection - 1);
     }
 
+    public Item GetCurrentItem() { return GetItemAtIndex(currentSelection); }
+
     #endregion
 
     #region private methods
