@@ -62,7 +62,7 @@ public class MouseClickHandler : MonoBehaviour
         {
             case ItemAction.Nothing: break;
             case ItemAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
-            case ItemAction.Plant: farmableTile.PlantSomething(plant); Inventory.Instance.ReduceCurrentItem(1); break;
+            case ItemAction.Plant: farmableTile.PlantSomething(plant); PlayerInventory.Instance.ReduceCurrentItem(1); break;
             case ItemAction.Harvest: farmableTile.Harvest(); break;
             case ItemAction.Water: farmableTile.WaterPlant(); break;
         }

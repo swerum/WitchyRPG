@@ -273,6 +273,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory
       objectReference: {fileID: 0}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 61a5bbb702808480ba2c6107bfa25c7f,
+        type: 2}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: fc71461ced961440ca34b52e7ce0e82c,
+        type: 2}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f6741daae3aa4fdba0cf47ea1dbafd6,
+        type: 2}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b52679e6115c455d9898f76e68799e9,
+        type: 2}
+    - target: {fileID: 4558309023543147244, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb,
+        type: 3}
+      propertyPath: items.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 93a9771a598b241cc8f071174d7eba7e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e78f02d2aaf5a4c72a4b46c1afe2b6bb, type: 3}
 --- !u!224 &327934488 stripped
@@ -474,7 +509,7 @@ PrefabInstance:
     - target: {fileID: 7347628522837274876, guid: e8163d2e3531942778d512f263fc0b40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7347628522837274876, guid: e8163d2e3531942778d512f263fc0b40,
         type: 3}
@@ -642,7 +677,7 @@ PrefabInstance:
     - target: {fileID: 7347628522837274876, guid: e8163d2e3531942778d512f263fc0b40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7347628522837274876, guid: e8163d2e3531942778d512f263fc0b40,
         type: 3}

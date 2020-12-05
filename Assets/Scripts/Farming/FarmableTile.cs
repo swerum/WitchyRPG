@@ -69,7 +69,7 @@ public class FarmableTile : MonoBehaviour
     public void Harvest()
     {
         if (!harvestable) return;
-        if (!Inventory.Instance.ContainsItemType(currentPlant.itemNeeded))
+        if (!PlayerInventory.Instance.ContainsItemType(currentPlant.itemNeeded))
         {
             //if we don't have the item needed
             Debug.Log("DEATH");
@@ -79,7 +79,7 @@ public class FarmableTile : MonoBehaviour
         spriteRenderer.sprite = defaultSprite;
         ItemActionTaken = ItemAction.Nothing;
         spriteRenderer.sprite = defaultSprite;
-        Inventory.Instance.AddToInventory(currentPlant.harvest);
+        PlayerInventory.Instance.AddToInventory(currentPlant.harvest);
         currentPlant = null;
         harvestable = false;
     }
