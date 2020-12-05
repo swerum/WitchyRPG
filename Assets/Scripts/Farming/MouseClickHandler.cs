@@ -7,7 +7,6 @@ public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound};
 public class MouseClickHandler : MonoBehaviour
 {
     #region variables and initializing
-    [SerializeField] Sprite plowedTileSprite = null;
 
     ItemAction clickAction = ItemAction.Nothing;
     public ItemAction ClickAction { set { clickAction = value; } }
@@ -61,17 +60,13 @@ public class MouseClickHandler : MonoBehaviour
         switch (clickAction)
         {
             case ItemAction.Nothing: break;
-            case ItemAction.Plow: farmableTile.PlowField(plowedTileSprite); break;
+            case ItemAction.Plow: farmableTile.PlowField(); break;
             case ItemAction.Plant: farmableTile.PlantSomething(plant); PlayerInventory.Instance.ReduceCurrentItem(1); break;
             case ItemAction.Harvest: farmableTile.Harvest(); break;
             case ItemAction.Water: farmableTile.WaterPlant(); break;
         }
     }
 
-    /// <summary>
-    /// Get the GameObject that the mouse clicked on
-    /// </summary>
-    /// <returns>the GameObject that the mouse clicked on</returns>
     private GameObject GettMouseClickObject()
     {
         Vector3 mousePos = main.ScreenToWorldPoint(Input.mousePosition);

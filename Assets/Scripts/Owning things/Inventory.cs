@@ -32,6 +32,12 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Reduces the number in inventory at index by reduceNum
+    /// </summary>
+    /// <param name="index"></param>
+    /// <param name="reduceNum"></param>
+    /// <returns>Returns true if the item at index was removed</returns>
     public bool ReduceItem(int index, int reduceNum)
     {
         if (index >= items.Count || items[index] == null) return false;
@@ -50,6 +56,21 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public int GetFirstIndexOfElementOfType(ItemAction itemAction)
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (items[i].itemAction == itemAction) return i;
+        }
+        return -1;
+    }
+
+    public Item GetItemAtIndex(int index)
+    {
+        if (index >= items.Count) return null;
+        return items[index];
+    }
+
     /// <summary>
     /// Check if there is an item with a specified Item Action in the inventory.
     /// </summary>
@@ -60,10 +81,8 @@ public class Inventory : MonoBehaviour
         Item specifiedItem = items.Find(x => x.itemAction == itemAction);
         return (specifiedItem != null);
     }
-    #endregion
 
-    #region private methods
-    protected void UpdateSprites(int index)
+    public void UpdateSprites(int index)
     {
         Item item = items[index];
         if (item == null) return;
@@ -73,7 +92,7 @@ public class Inventory : MonoBehaviour
         slot.transform.GetChild(0).GetComponent<Text>().text = "" + item.numItem;
     }
 
-    protected void UpdateAllSprites()
+    public void UpdateAllSprites()
     {
         for (int i = 0; i < items.Count; i++) { UpdateSprites(i); }
         for (int i = items.Count; i < slots.Count; i++) { slots[i].SetActive(false); }

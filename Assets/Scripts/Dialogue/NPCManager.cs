@@ -9,12 +9,6 @@ namespace WitchyRPG.DialogueSystem
         [SerializeField] List<DirectedMovement> npcs = new List<DirectedMovement>();
         void Start()
         {
-            foreach (DirectedMovement npc in npcs)
-            {
-                npc.AddDestination(new Vector2(0, 1));
-                npc.AddDestination(new Vector2(1, 1));
-                npc.AddDestination(new Vector2(-1, 1));
-            }
         }
     }
 }

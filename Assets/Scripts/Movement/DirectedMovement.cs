@@ -4,28 +4,36 @@ using UnityEngine;
 
 public class DirectedMovement : MonoBehaviour
 {
-
+    [Tooltip("How fast the goblin walks.")]
     [SerializeField] float walkSpeed = 5;
+    [Tooltip("How long they pause at each FarmableTile")]
     [SerializeField] float pauseTime = 1f;
 
     bool headedSomewhere = false;
     float time = -1f;
-    Vector2 currentDestination;
-    Queue<Vector2> destinations = new Queue<Vector2>();
 
+    Vector2 currentDestination;
+    Vector2 ogPosition;
+
+    HelperGoblin goblin;
+    Queue<FarmableTile> farmableTiles = new Queue<FarmableTile>();
+
+    private void Start()
+    {
+        ogPosition = transform.position;
+        if (TryGetComponent(out HelperGoblin g)) {
+            goblin = g;
+            farmableTiles = goblin.GetFarmableTileQueue();
+            headedSomewhere = true;
+            currentDestination = farmableTiles.Peek().transform.position;
+        } else { Debug.LogError("No Helper Goblin Component found."); }
+    }
 
     void Update()
     {
         if (CheckAreMoving()) MoveTowardsDestination();
 
     }
-
-    /// <summary>
-    /// Add a new destination to the destinations queue
-    /// </summary>
-    /// <param name="destination"></param>
-    public void AddDestination(Vector2 destination) { destinations.Enqueue(destination); headedSomewhere = true; }
-
 
     /// <summary>
     /// Checks if this player should be moving and handles timer for pausing between going to new destination
@@ -58,13 +66,13 @@ public class DirectedMovement : MonoBehaviour
             if (yDirection != 0) { transform.position = new Vector2(pos.x, pos.y + walkSpeed * yDirection); }
             else
             {
+                if (farmableTiles.Count == 0) { headedSomewhere = false; return; }
                 //get next position
-                if (destinations.Count == 0) { headedSomewhere = false; }
-                else
-                {
-                    time = 0f;
-                    currentDestination = destinations.Dequeue();
-                }
+                time = 0f;
+                FarmableTile farmableTile = farmableTiles.Dequeue();
+                goblin.farmTile(farmableTile);
+                if (farmableTiles.Count == 0) { currentDestination = ogPosition; return; }
+                currentDestination = farmableTiles.Peek().transform.position;
             }
         }
     }

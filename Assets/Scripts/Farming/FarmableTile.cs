@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FarmableTile : MonoBehaviour
 {
-    [SerializeField] Sprite defaultSprite   = null;
+    [SerializeField] Sprite defaultSprite    = null;
+    [SerializeField] Sprite plowedTileSprite = null;
 
     //private variables
     bool            watered                 = false;
@@ -21,7 +22,7 @@ public class FarmableTile : MonoBehaviour
 
     private void Start() { spriteRenderer = GetComponent<SpriteRenderer>(); }
 
-    public void PlowField(Sprite plowedTileSprite)
+    public void PlowField()
     {
         //if something is already there, destroy it
         currentPlant = null;
