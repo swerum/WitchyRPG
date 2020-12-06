@@ -7,7 +7,10 @@ public class CameraMovement : MonoBehaviour
     //SerializeField means that you can access this variable in the editor
     [SerializeField] Transform follow = null;
     [SerializeField] float spd = 0.1f;
-    //[SerializeField] Bounds worldBounds = new Bounds();
+
+    public enum MovementType { Following, WASD };
+    MovementType movementType = MovementType.Following;
+    public MovementType Movement { set { movementType = value; } }
 
     float z = -10;
 
@@ -19,9 +22,18 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         Vector2 pos = transform.position;
-        Vector2 dest = follow.transform.position;
-        float x = pos.x + Utility.GetXDirection(pos, dest, spd) * spd;
-        float y = pos.y + Utility.GetYDirection(pos, dest, spd) * spd;
+        float x;
+        float y;
+        if (movementType == MovementType.Following)
+        {
+            Vector2 dest = follow.transform.position;
+            x = pos.x + Utility.GetXDirection(pos, dest, spd) * spd;
+            y = pos.y + Utility.GetYDirection(pos, dest, spd) * spd;
+        } else
+        {
+            x = pos.x + Input.GetAxis("PlayerRight") * spd;
+            y = pos.y + Input.GetAxis("PlayerUp") * spd;
+        }
         transform.position = new Vector3(x, y, z);
     }
 }

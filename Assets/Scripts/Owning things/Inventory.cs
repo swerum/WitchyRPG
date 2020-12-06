@@ -16,21 +16,32 @@ public class Inventory : MonoBehaviour
     }
 
     #region public methods
-    public void AddToInventory(Item item)
+    /// <summary>
+    /// Add an item to the inventory
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns>returns true if it was successfully added, false, if the inventory was too full</returns>
+    public bool AddToInventory(Item item, int num)
     {
         if (items.Contains(item))
         {
             //add another item to list
             int index = items.BinarySearch(item);
-            items[index].numItem += item.numItem;
+            items[index].numItem += num;
             UpdateSprites(index);
         }
         else
         {
+            if (items.Count == slots.Count) return false;
             items.Add(item);
+            items[items.Count - 1].numItem = num;
             UpdateSprites(items.Count - 1);
         }
+        return true;
     }
+    public bool AddToInventory(Item item) { return AddToInventory(item, 1); }
+
+    public bool IsFull() { return (items.Count >= slots.Count); }
 
     /// <summary>
     /// Reduces the number in inventory at index by reduceNum

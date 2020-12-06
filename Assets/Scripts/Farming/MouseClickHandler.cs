@@ -46,16 +46,9 @@ public class MouseClickHandler : MonoBehaviour
         mousePos = Utility.SnapToGrid(mousePos);
         transform.position = mousePos;
         //click tile and do action
-        if (Input.GetMouseButtonDown(0))
-        {
-            ClickOnFarmableTile(currentFarmableTile);
-            if (currentGoblin != null) currentGoblin.GetComponent<DirectedMovement>().StartDoingChores();
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            Debug.Log(currentGoblin);
-            ClickOnGoblin(currentGoblin);
-        }
+        ClickOnFarmableTile(currentFarmableTile);
+        ClickOnGoblin(currentGoblin);
+
     }
 
     /// <summary>
@@ -63,25 +56,43 @@ public class MouseClickHandler : MonoBehaviour
     /// </summary>
     private void ClickOnFarmableTile(FarmableTile farmableTile)
     {
-        if (farmableTile == null) return;
-        //do farm action with non-null farmableTile
-        switch (clickAction)
+        if (Input.GetMouseButtonDown(0) && farmableTile != null)
         {
-            case ItemAction.Nothing: break;
-            case ItemAction.Plow: farmableTile.PlowField(); break;
-            case ItemAction.Plant: farmableTile.PlantSomething(plant); PlayerInventory.Instance.ReduceCurrentItem(1); break;
-            case ItemAction.Harvest: farmableTile.Harvest(); break;
-            case ItemAction.Water: farmableTile.WaterPlant(); break;
+            //do farm action with non-null farmableTile
+            switch (clickAction)
+            {
+                case ItemAction.Nothing: break;
+                case ItemAction.Plow: farmableTile.PlowField(); break;
+                case ItemAction.Plant: farmableTile.PlantSomething(plant); PlayerInventory.Instance.ReduceCurrentItem(1); break;
+                case ItemAction.Harvest: farmableTile.Harvest(); break;
+                case ItemAction.Water: farmableTile.WaterPlant(); break;
+            }
         }
     }
 
+    /// <summary>
+    /// This function gives goblins commands or items out of the players inventory if clicked on.
+    /// </summary>
+    /// <param name="goblin">The Goblin in question</param>
     private void ClickOnGoblin(Goblin goblin)
     {
         if (goblin == null) return;
-        Item item = PlayerInventory.Instance.GetCurrentItem();
-        if (item == null) return;
-        goblin.Inventory.AddToInventory(item);
-        PlayerInventory.Instance.ReduceCurrentItem(1);
+        if (Input.GetMouseButtonDown(0))
+        {
+            Item item = PlayerInventory.Instance.GetCurrentItem();
+            if (item == null) return;
+            if (goblin.Inventory.AddToInventory(item))
+                PlayerInventory.Instance.ReduceCurrentItem(1);
+        }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            goblin.GetComponent<DirectedMovement>().StartDoingChores();
+        }
+        else if (Input.GetMouseButtonDown(2))
+        {
+            goblin.Inventory.GiveLastItemBack();
+        }
+        
     }
 
 
@@ -100,14 +111,4 @@ public class MouseClickHandler : MonoBehaviour
         Goblin g = collision.gameObject.GetComponent<Goblin>();
         if (g == currentGoblin) { currentGoblin = null; }
     }
-
-    private GameObject GettMouseClickObject()
-    {
-        Vector3 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-        RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-        if (hit.collider == null) return null;
-        return hit.collider.gameObject;
-    }
-
 }
