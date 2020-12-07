@@ -22,7 +22,6 @@ public class DirectedMovement : MonoBehaviour
     void Update()
     {
         if (CheckAreMoving()) MoveTowardsDestination();
-
     }
 
     public void StartDoingChores()

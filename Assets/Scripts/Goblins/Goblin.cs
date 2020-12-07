@@ -8,6 +8,8 @@ public class Goblin : MonoBehaviour
     [SerializeField] ItemAction goblinAction = ItemAction.Harvest;
     [Tooltip("the List of Farmable Tiles the goblins are supposed to visit.")]
     [SerializeField] List<FarmableTile> farmableTiles = new List<FarmableTile>();
+    public List<FarmableTile> FarmableTiles { set { farmableTiles = value; } }
+
     [Tooltip("The Prefab for the goblin Inventory")]
     [SerializeField] GameObject goblinInventoryPrefab = null;
     [Tooltip("The prefab for the goblin command menu.")]
