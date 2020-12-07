@@ -209,8 +209,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d33b00962b800434183cbc65c6027843, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items: []
-  mouseScrollSensitivity: 0.1
+  items:
+  - {fileID: 11400000, guid: 61a5bbb702808480ba2c6107bfa25c7f, type: 2}
+  - {fileID: 11400000, guid: 3f6741daae3aa4fdba0cf47ea1dbafd6, type: 2}
+  - {fileID: 11400000, guid: fc71461ced961440ca34b52e7ce0e82c, type: 2}
+  - {fileID: 11400000, guid: 4b52679e6115c455d9898f76e68799e9, type: 2}
+  - {fileID: 11400000, guid: 93a9771a598b241cc8f071174d7eba7e, type: 2}
   slots:
   - {fileID: 2335221469848928417}
   - {fileID: 2269903738873598732}
@@ -220,6 +224,7 @@ MonoBehaviour:
   - {fileID: 8322356748002448497}
   - {fileID: 9188077263335224242}
   - {fileID: 7759567381442921758}
+  mouseScrollSensitivity: 0.1
   selectionSprite: {fileID: 1132079979848984295}
 --- !u!1 &2820689461601970880
 GameObject:

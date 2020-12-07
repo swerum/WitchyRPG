@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIElementFollow : MonoBehaviour
 {
     [SerializeField] Transform follow = null;
+    public Transform Follow { set { follow = value; } }
     [SerializeField] Vector2 offset = Vector2.zero;
     Camera main;
 

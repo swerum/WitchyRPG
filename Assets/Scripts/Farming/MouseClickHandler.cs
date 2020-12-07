@@ -79,18 +79,7 @@ public class MouseClickHandler : MonoBehaviour
         if (goblin == null) return;
         if (Input.GetMouseButtonDown(0))
         {
-            Item item = PlayerInventory.Instance.GetCurrentItem();
-            if (item == null) return;
-            if (goblin.Inventory.AddToInventory(item))
-                PlayerInventory.Instance.ReduceCurrentItem(1);
-        }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            goblin.GetComponent<DirectedMovement>().StartDoingChores();
-        }
-        else if (Input.GetMouseButtonDown(2))
-        {
-            goblin.Inventory.GiveLastItemBack();
+            goblin.Menu.gameObject.SetActive(true);
         }
         
     }

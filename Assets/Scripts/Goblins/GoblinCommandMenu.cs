@@ -1,18 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class GoblinCommandMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    Goblin goblin;
+    public Goblin Goblin { set { goblin = value; } }
+
+    private void Start()
     {
-        
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DoChores() { goblin.GetComponent<DirectedMovement>().StartDoingChores();  }
+    public void GiveItemBack() { goblin.Inventory.GiveLastItemBack(); }
+    public void AssignFarmableTiles() { }
+    public void GiveGoblinItem()
     {
-        
+        Item item = PlayerInventory.Instance.GetCurrentItem();
+        if (item == null) return;
+        if (goblin.Inventory.AddToInventory(item))
+            PlayerInventory.Instance.ReduceCurrentItem(1);
     }
 }

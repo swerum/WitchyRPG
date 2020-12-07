@@ -31,8 +31,8 @@ public class CameraMovement : MonoBehaviour
             y = pos.y + Utility.GetYDirection(pos, dest, spd) * spd;
         } else
         {
-            x = pos.x + Input.GetAxis("PlayerRight") * spd;
-            y = pos.y + Input.GetAxis("PlayerUp") * spd;
+            x = pos.x + Input.GetAxis("Horizontal") * spd;
+            y = pos.y + Input.GetAxis("Vertical") * spd;
         }
         transform.position = new Vector3(x, y, z);
     }

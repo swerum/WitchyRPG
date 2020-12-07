@@ -461,6 +461,7 @@ GameObject:
   - component: {fileID: 6823071092298570892}
   - component: {fileID: 6823071092298570895}
   - component: {fileID: 6823071092298570888}
+  - component: {fileID: 8876219614169959151}
   m_Layer: 5
   m_Name: GoblinInventory
   m_TagString: Untagged
@@ -515,7 +516,20 @@ MonoBehaviour:
   - {fileID: 7316203937568492961}
   - {fileID: 5859494298804587373}
   - {fileID: 5690622515051834967}
-  offset: {x: 0, y: 70}
+--- !u!114 &8876219614169959151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6823071092298570891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f565004f3fb246b98a7618344b42456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 0}
+  offset: {x: 0, y: 60}
 --- !u!1 &7666233565385886570
 GameObject:
   m_ObjectHideFlags: 0

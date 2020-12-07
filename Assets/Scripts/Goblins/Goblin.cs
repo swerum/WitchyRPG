@@ -10,17 +10,25 @@ public class Goblin : MonoBehaviour
     [SerializeField] List<FarmableTile> farmableTiles = new List<FarmableTile>();
     [Tooltip("The Prefab for the goblin Inventory")]
     [SerializeField] GameObject goblinInventoryPrefab = null;
+    [Tooltip("The prefab for the goblin command menu.")]
+    [SerializeField] GameObject goblinCommandMenuPrefab = null;
+
 
     PlantInfo plantInfo;
     GoblinInventory goblinInventory;
     public GoblinInventory Inventory { get { return goblinInventory; } }
+    GoblinCommandMenu commandMenu;
+    public GoblinCommandMenu Menu { get { return commandMenu; } }
 
     int indexOfPlant = -1;
 
     private void Start()
     {
         goblinInventory = Instantiate(goblinInventoryPrefab).GetComponent<GoblinInventory>();
-        goblinInventory.Goblin = transform;
+        goblinInventory.GetComponent<UIElementFollow>().Follow = transform;
+        commandMenu = Instantiate(goblinCommandMenuPrefab).GetComponent<GoblinCommandMenu>();
+        commandMenu.Goblin = this;
+        commandMenu.GetComponent<UIElementFollow>().Follow = transform;
         GetPlantSeed();
     }
 

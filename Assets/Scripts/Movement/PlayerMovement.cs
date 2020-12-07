@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //inputs can be changed under Edit --> Project Settings --> Input Manager
-        Vector2 movement = new Vector2(Input.GetAxis("PlayerRight")*playerSpeed, Input.GetAxis("PlayerUp")*playerSpeed);
+        Vector2 movement = new Vector2(Input.GetAxis("Horizontal")*playerSpeed, Input.GetAxis("Vertical")*playerSpeed);
         rb.velocity = movement;
     }
 }
