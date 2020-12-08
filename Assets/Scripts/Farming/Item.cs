@@ -12,4 +12,6 @@ public class Item : ScriptableObject
     public Sprite sprite;
     [Header("If this is a seed, add a Plant Info")]
     public PlantInfo plant;
+    [Header("If it is a placable Item, add a prefab")]
+    public GameObject placableObjectPrefab;
 }

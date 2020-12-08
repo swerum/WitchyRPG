@@ -13,6 +13,6 @@ public class GoblinInventory : Inventory
         if (index >= items.Count || index < 0) return;
         int num = items[index].numItem;
         PlayerInventory.Instance.AddToInventory(items[index], num);
-        ReduceItem(index, num);
+        ReduceItemAt(index, num);
     }
 }

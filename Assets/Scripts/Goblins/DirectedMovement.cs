@@ -73,7 +73,7 @@ public class DirectedMovement : MonoBehaviour
                 //get next position
                 time = 0f;
                 FarmableTile farmableTile = farmableTiles.Dequeue();
-                goblin.farmTile(farmableTile);
+                goblin.FarmTile(farmableTile);
                 if (farmableTiles.Count == 0) { currentDestination = ogPosition; return; }
                 currentDestination = farmableTiles.Peek().transform.position;
             }

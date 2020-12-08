@@ -2,22 +2,54 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound};
+public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound, PlaceObject};
 
 public class MouseClickHandler : MonoBehaviour
 {
     #region variables and initializing
-
+    //public
     ItemAction clickAction = ItemAction.Nothing;
-    public ItemAction ClickAction { set { clickAction = value; } }
-    Camera main;
-    FarmableTile currentFarmableTile = null;
-    Goblin currentGoblin;
-
+    public ItemAction ClickAction
+    {
+        set { clickAction = value; }
+        get { return clickAction; }
+    }
     PlantInfo plant = null;
-    public PlantInfo Plant { set { plant = value; } }
+    public PlantInfo Plant
+    {
+        set { plant = value; }
+        get { return plant; }
+    }
 
+    //private
+    Camera main;
+    ClickableItem clickableItem;
     private void Start() { main = Camera.main; }
+    #endregion
+
+    void Update()
+    {
+        //move mouse tile
+        Vector2 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = Utility.SnapToGrid(mousePos);
+        transform.position = mousePos;
+        //click tile and do action
+        if (Input.GetMouseButtonDown(0) & clickableItem != null) clickableItem.LeftClick();
+        else if (Input.GetMouseButtonDown(1) & clickableItem != null) clickableItem.RightClick();
+    }
+
+    #region keep track of ClickableItem
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        ClickableItem clickable = collision.gameObject.GetComponent<ClickableItem>();
+        if (clickable != null) { clickableItem = clickable; }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        ClickableItem clickable = collision.gameObject.GetComponent<ClickableItem>();
+        if (clickable == clickableItem) { clickableItem = null; }
+    }
     #endregion
 
     #region singleton
@@ -39,65 +71,4 @@ public class MouseClickHandler : MonoBehaviour
     }
     #endregion
 
-    void Update()
-    {
-        //move mouse tile
-        Vector2 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
-        mousePos = Utility.SnapToGrid(mousePos);
-        transform.position = mousePos;
-        //click tile and do action
-        ClickOnFarmableTile(currentFarmableTile);
-        ClickOnGoblin(currentGoblin);
-
-    }
-
-    /// <summary>
-    /// if you clicked on a farmable tile, do the current ItemAction on it
-    /// </summary>
-    private void ClickOnFarmableTile(FarmableTile farmableTile)
-    {
-        if (Input.GetMouseButtonDown(0) && farmableTile != null)
-        {
-            //do farm action with non-null farmableTile
-            switch (clickAction)
-            {
-                case ItemAction.Nothing: break;
-                case ItemAction.Plow: farmableTile.PlowField(); break;
-                case ItemAction.Plant: farmableTile.PlantSomething(plant); PlayerInventory.Instance.ReduceCurrentItem(1); break;
-                case ItemAction.Harvest: farmableTile.Harvest(); break;
-                case ItemAction.Water: farmableTile.WaterPlant(); break;
-            }
-        }
-    }
-
-    /// <summary>
-    /// This function gives goblins commands or items out of the players inventory if clicked on.
-    /// </summary>
-    /// <param name="goblin">The Goblin in question</param>
-    private void ClickOnGoblin(Goblin goblin)
-    {
-        if (goblin == null) return;
-        if (Input.GetMouseButtonDown(0))
-        {
-            goblin.Menu.gameObject.SetActive(true);
-        }
-        
-    }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
-        if (farmableTile != null) { currentFarmableTile = farmableTile; }
-        Goblin g = collision.gameObject.GetComponent<Goblin>();
-        if (g != null) { currentGoblin = g; }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
-        if (farmableTile == currentFarmableTile) { currentFarmableTile = null; }
-        Goblin g = collision.gameObject.GetComponent<Goblin>();
-        if (g == currentGoblin) { currentGoblin = null; }
-    }
 }

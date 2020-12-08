@@ -42,6 +42,7 @@ public class Inventory : MonoBehaviour
     public bool AddToInventory(Item item) { return AddToInventory(item, 1); }
 
     public bool IsFull() { return (items.Count >= slots.Count); }
+    public int RoomLeft() { return (slots.Count - items.Count); }
 
     /// <summary>
     /// Reduces the number in inventory at index by reduceNum
@@ -49,7 +50,7 @@ public class Inventory : MonoBehaviour
     /// <param name="index"></param>
     /// <param name="reduceNum"></param>
     /// <returns>Returns true if the item at index was removed</returns>
-    public bool ReduceItem(int index, int reduceNum)
+    public bool ReduceItemAt(int index, int reduceNum)
     {
         if (index >= items.Count || items[index] == null) return false;
         int newNumItem = items[index].numItem - reduceNum;
@@ -67,11 +68,27 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public bool ReduceItem(Item item, int reduceNum)
+    {
+        int index = GetItemIndex(item);
+        if (index == -1) return false;
+        return ReduceItemAt(index, reduceNum);
+    }
+
     public int GetFirstIndexOfElementOfType(ItemAction itemAction)
     {
         for (int i = 0; i < items.Count; i++)
         {
             if (items[i].itemAction == itemAction) return i;
+        }
+        return -1;
+    }
+
+    public int GetItemIndex(Item item)
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (items[i].Equals(item)) return i;
         }
         return -1;
     }
@@ -91,6 +108,13 @@ public class Inventory : MonoBehaviour
     {
         Item specifiedItem = items.Find(x => x.itemAction == itemAction);
         return (specifiedItem != null);
+    }
+
+    public int NumberItemInInventory(Item item)
+    {
+        Item specifiedItem = items.Find(x => x.Equals(item));
+        if (specifiedItem == null) return 0;
+        return specifiedItem.numItem;
     }
 
     public void UpdateSprites(int index)

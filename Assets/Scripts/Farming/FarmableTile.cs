@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FarmableTile : MonoBehaviour
+public class FarmableTile : ClickableItem
 {
     [SerializeField] Sprite defaultSprite    = null;
     [SerializeField] Sprite plowedTileSprite = null;
@@ -14,7 +14,7 @@ public class FarmableTile : MonoBehaviour
     int             daysSincePlanting       = 0;
     int             currentPlantSpriteIndex = -1;
 
-    ItemAction      ItemActionTaken         = ItemAction.Nothing;
+    ItemAction      itemActionTaken         = ItemAction.Nothing;
 
     PlantInfo       currentPlant            = null;
     SpriteRenderer  spriteRenderer;
@@ -22,29 +22,47 @@ public class FarmableTile : MonoBehaviour
 
     private void Start() { spriteRenderer = GetComponent<SpriteRenderer>(); }
 
+    public override void LeftClick()
+    {
+        ItemAction clickAction = MouseClickHandler.Instance.ClickAction;
+        switch (clickAction)
+        {
+            case ItemAction.Nothing: break;
+            case ItemAction.Plow: PlowField(); break;
+            case ItemAction.Plant:
+                {
+                    PlantSomething(MouseClickHandler.Instance.Plant);
+                    PlayerInventory.Instance.ReduceCurrentItem(1);
+                    break;
+                }
+            case ItemAction.Harvest: Harvest(); break;
+            case ItemAction.Water: WaterPlant(); break;
+        }
+    }
+
     public void PlowField()
     {
         //if something is already there, destroy it
         currentPlant = null;
         harvestable = false;
         spriteRenderer.sprite = plowedTileSprite;
-        ItemActionTaken = ItemAction.Plow;
+        itemActionTaken = ItemAction.Plow;
     }
 
     public void PlantSomething(PlantInfo plant)
     {
-        if (ItemActionTaken != ItemAction.Plow) return;
+        if (itemActionTaken != ItemAction.Plow) return;
         spriteRenderer.sprite = plant.plantSprites[0];
         currentPlantSpriteIndex = 0;
         currentPlant = plant;
         daysSincePlanting = 0;
         harvestable = false;
-        ItemActionTaken = ItemAction.Plant;
+        itemActionTaken = ItemAction.Plant;
     }
 
     public void WaterPlant()
     {
-        if (ItemActionTaken != ItemAction.Plant) return;
+        if (itemActionTaken != ItemAction.Plant) return;
         watered = true;
         //add water overlay sprite?
     }
@@ -78,7 +96,7 @@ public class FarmableTile : MonoBehaviour
         }
         //put plant in Inventory.Instance
         spriteRenderer.sprite = defaultSprite;
-        ItemActionTaken = ItemAction.Nothing;
+        itemActionTaken = ItemAction.Nothing;
         spriteRenderer.sprite = defaultSprite;
         PlayerInventory.Instance.AddToInventory(currentPlant.harvest);
         currentPlant = null;

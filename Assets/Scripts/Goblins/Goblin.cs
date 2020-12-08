@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goblin : MonoBehaviour
+public class Goblin : ClickableItem
 {
     [Tooltip("What this goblin can do.")]
     [SerializeField] ItemAction goblinAction = ItemAction.Harvest;
@@ -20,7 +20,6 @@ public class Goblin : MonoBehaviour
     GoblinInventory goblinInventory;
     public GoblinInventory Inventory { get { return goblinInventory; } }
     GoblinCommandMenu commandMenu;
-    public GoblinCommandMenu Menu { get { return commandMenu; } }
 
     int indexOfPlant = -1;
 
@@ -42,7 +41,7 @@ public class Goblin : MonoBehaviour
     }
 
 
-    public void farmTile(FarmableTile farmableTile)
+    public void FarmTile(FarmableTile farmableTile)
     {
         if (!goblinInventory.ContainsItemType(goblinAction)) return;
         switch(goblinAction)
@@ -53,7 +52,7 @@ public class Goblin : MonoBehaviour
                     GetPlantSeed();
                     if (indexOfPlant == -1) return;
                     farmableTile.PlantSomething(plantInfo);
-                    goblinInventory.ReduceItem(indexOfPlant, 1);
+                    goblinInventory.ReduceItemAt(indexOfPlant, 1);
                     break;
                 }
             case ItemAction.Plow: farmableTile.PlowField(); break;
@@ -71,5 +70,10 @@ public class Goblin : MonoBehaviour
         indexOfPlant = goblinInventory.GetFirstIndexOfElementOfType(goblinAction);
         if (indexOfPlant != -1) { plantInfo = goblinInventory.GetItemAtIndex(indexOfPlant).plant; }
         goblinInventory.UpdateAllSprites();
+    }
+
+    public override void LeftClick()
+    {
+        commandMenu.gameObject.SetActive(true);
     }
 }

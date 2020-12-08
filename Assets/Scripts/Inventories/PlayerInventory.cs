@@ -33,7 +33,7 @@ public class PlayerInventory : Inventory
     /// <param name="reduceNum"></param>
     public void ReduceCurrentItem(int reduceNum)
     {
-        if (ReduceItem(currentSelection, reduceNum)) ChangeSelection(currentSelection - 1);
+        if (ReduceItemAt(currentSelection, reduceNum)) ChangeSelection(currentSelection - 1);
     }
 
     public Item GetCurrentItem() { return GetItemAtIndex(currentSelection); }
