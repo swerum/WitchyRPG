@@ -26,7 +26,7 @@ public class Inventory : MonoBehaviour
         if (items.Contains(item))
         {
             //add another item to list
-            int index = items.BinarySearch(item);
+            int index = GetItemIndex(item);
             items[index].numItem += num;
             UpdateSprites(index);
         }
