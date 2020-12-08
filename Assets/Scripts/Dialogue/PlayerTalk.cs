@@ -13,42 +13,20 @@ namespace WitchyRPG.DialogueSystem
         [SerializeField] string     playerName = "Player";
 
         TextBox         currentTextBox = null;
-        List<NPCSpeech> npcs = new List<NPCSpeech>();
+        public TextBox TextBox { get { return currentTextBox; } }
         Transform       canvas;
 
         private void Start() { canvas = GameObject.FindGameObjectWithTag("Canvas").transform; }
 
-        void Update()
+        public void StartDialogue(NPCSpeech npc)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (currentTextBox == null & npc != null)
             {
-                if (currentTextBox == null)
-                {
-                    NPCSpeech npc = GetClosestNPC();
-                    if (npc == null) return;
-                    currentTextBox = Instantiate(textBoxPrefab).GetComponent<TextBox>();
-                    currentTextBox.SetTextBoxVariables(ConfigureSpeechInfos(npc.SpeechInfos), canvas);
-                }
-                else { currentTextBox.PlayNextText(); }
+                currentTextBox = Instantiate(textBoxPrefab).GetComponent<TextBox>();
+                currentTextBox.SetTextBoxVariables(ConfigureSpeechInfos(npc.SpeechInfos), canvas);
             }
         }
 
-        private NPCSpeech GetClosestNPC()
-        {
-            if (npcs.Count == 0) return null;
-            NPCSpeech closest = null;
-            float closestDist = float.MaxValue;
-            foreach (NPCSpeech npc in npcs)
-            {
-                float npcDist = Utility.GetDistance(npc.transform, transform);
-                if (npcDist < closestDist)
-                {
-                    closest = npc;
-                    closestDist = npcDist;
-                }
-            }
-            return closest;
-        }
 
         /// <summary>
         /// Configures the players text
@@ -68,17 +46,23 @@ namespace WitchyRPG.DialogueSystem
             return speechInfos;
         }
 
-        #region keep track of nearby npcs
-        private void OnTriggerEnter2D(Collider2D collision)
+
+        #region 
+        private static PlayerTalk _instance;
+        public static PlayerTalk Instance { get { return _instance; } }
+
+        private void Awake()
         {
-            NPCSpeech npc = collision.gameObject.GetComponent<NPCSpeech>();
-            if (npc != null) npcs.Add(npc);
-        }
-        private void OnTriggerExit2D(Collider2D collision)
-        {
-            NPCSpeech npc = collision.gameObject.GetComponent<NPCSpeech>();
-            if (npc != null) npcs.Remove(npc);
+            if (_instance != null && _instance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                _instance = this;
+            }
         }
         #endregion
     }
+
 }

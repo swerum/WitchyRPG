@@ -5,7 +5,7 @@ using UnityEngine;
 namespace WitchyRPG.DialogueSystem
 {
     [RequireComponent(typeof(BoxCollider2D))]
-    public class NPCSpeech : MonoBehaviour
+    public class NPCSpeech : ClickableItem
     {
         [SerializeField] string[]   text            = new string[2];
         [SerializeField] bool[]     playerSaysText  = new bool[2];
@@ -29,6 +29,11 @@ namespace WitchyRPG.DialogueSystem
                     speechInfos[i] = new SpeechInfo(face, text[i], npcName, false);
                 }
             }
+        }
+
+        public override void LeftClick()
+        {
+            PlayerTalk.Instance.StartDialogue(this);
         }
     }
 }

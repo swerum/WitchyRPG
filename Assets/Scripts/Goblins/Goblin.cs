@@ -74,6 +74,7 @@ public class Goblin : ClickableItem
 
     public override void LeftClick()
     {
-        commandMenu.gameObject.SetActive(true);
+        if (commandMenu.isActiveAndEnabled) commandMenu.gameObject.SetActive(false);
+        else commandMenu.gameObject.SetActive(true);
     }
 }

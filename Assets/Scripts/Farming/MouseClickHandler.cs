@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using WitchyRPG.DialogueSystem;
 
 public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound, PlaceObject};
 
@@ -34,7 +33,12 @@ public class MouseClickHandler : MonoBehaviour
         mousePos = Utility.SnapToGrid(mousePos);
         transform.position = mousePos;
         //click tile and do action
-        if (Input.GetMouseButtonDown(0) & clickableItem != null) clickableItem.LeftClick();
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (PlayerTalk.Instance.TextBox != null) PlayerTalk.Instance.TextBox.PlayNextText();
+            else if (clickableItem != null) clickableItem.LeftClick();
+        }
         else if (Input.GetMouseButtonDown(1) & clickableItem != null) clickableItem.RightClick();
     }
 
