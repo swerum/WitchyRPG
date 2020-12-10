@@ -26,7 +26,7 @@ public class GoblinCommandMenu : MonoBehaviour
 
     public void GiveGoblinItem()
     {
-        Item item = PlayerInventory.Instance.GetCurrentItem();
+        CountableItem item = PlayerInventory.Instance.GetCurrentItem();
         if (item == null) return;
         if (goblin.Inventory.AddToInventory(item))
             PlayerInventory.Instance.ReduceCurrentItem(1);

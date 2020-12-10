@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     [Header("Parent Variables")]
     [Tooltip("The items in your inventory")]
-    [SerializeField] protected List<Item> items = new List<Item>();
+    [SerializeField] protected List<CountableItem> items = new List<CountableItem>();
     [SerializeField] protected List<GameObject> slots = new List<GameObject>();
 
     private void Start()
@@ -21,25 +21,32 @@ public class Inventory : MonoBehaviour
     /// </summary>
     /// <param name="item"></param>
     /// <returns>returns true if it was successfully added, false, if the inventory was too full</returns>
-    public bool AddToInventory(Item item, int num)
+    public bool AddToInventory(CountableItem countableItem)
     {
-        if (items.Contains(item))
+        Item item = countableItem.item;
+        int num = countableItem.number;
+        int index = GetItemIndex(item);
+        Debug.Log(index);
+        if (index != -1)
         {
             //add another item to list
-            int index = GetItemIndex(item);
-            items[index].numItem += num;
+            items[index].number += num;
             UpdateSprites(index);
         }
         else
         {
             if (items.Count == slots.Count) return false;
-            items.Add(item);
-            items[items.Count - 1].numItem = num;
+            items.Add(countableItem);
+            items[items.Count - 1].number = num;
             UpdateSprites(items.Count - 1);
         }
         return true;
     }
-    public bool AddToInventory(Item item) { return AddToInventory(item, 1); }
+    public bool AddToInventory(Item item)
+    {
+        CountableItem countableItem = new CountableItem(item, 1);
+        return AddToInventory(countableItem);
+    }
 
     public bool IsFull() { return (items.Count >= slots.Count); }
     public int RoomLeft() { return (slots.Count - items.Count); }
@@ -53,7 +60,7 @@ public class Inventory : MonoBehaviour
     public bool ReduceItemAt(int index, int reduceNum)
     {
         if (index >= items.Count || items[index] == null) return false;
-        int newNumItem = items[index].numItem - reduceNum;
+        int newNumItem = items[index].number- reduceNum;
         if (newNumItem <= 0)
         {
             items.RemoveAt(index);
@@ -62,24 +69,24 @@ public class Inventory : MonoBehaviour
         }
         else
         {
-            items[index].numItem = newNumItem;
+            items[index].number = newNumItem;
             UpdateSprites(index);
             return false;
         }
     }
 
-    public bool ReduceItem(Item item, int reduceNum)
+    public bool ReduceItem(CountableItem item)
     {
-        int index = GetItemIndex(item);
+        int index = GetItemIndex(item.item);
         if (index == -1) return false;
-        return ReduceItemAt(index, reduceNum);
+        return ReduceItemAt(index, item.number);
     }
 
     public int GetFirstIndexOfElementOfType(ItemAction itemAction)
     {
         for (int i = 0; i < items.Count; i++)
         {
-            if (items[i].itemAction == itemAction) return i;
+            if (items[i].item.itemAction == itemAction) return i;
         }
         return -1;
     }
@@ -88,12 +95,12 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < items.Count; i++)
         {
-            if (items[i].Equals(item)) return i;
+            if (items[i].item.Equals(item)) return i;
         }
         return -1;
     }
 
-    public Item GetItemAtIndex(int index)
+    public CountableItem GetItemAtIndex(int index)
     {
         if (index >= items.Count) return null;
         return items[index];
@@ -106,25 +113,31 @@ public class Inventory : MonoBehaviour
     /// <returns>True if such an item exists.</returns>
     public bool ContainsItemType(ItemAction itemAction)
     {
-        Item specifiedItem = items.Find(x => x.itemAction == itemAction);
+        CountableItem specifiedItem = items.Find(x => x.item.itemAction == itemAction);
         return (specifiedItem != null);
     }
 
-    public int NumberItemInInventory(Item item)
+    public bool ContainsItem(Item item)
     {
-        Item specifiedItem = items.Find(x => x.Equals(item));
+        CountableItem specifiedItem = items.Find(x => x.item == item);
+        return (specifiedItem != null);
+    }
+
+    public int NumberItemInInventory(CountableItem item)
+    {
+        CountableItem specifiedItem = items.Find(x => x.Equals(item));
         if (specifiedItem == null) return 0;
-        return specifiedItem.numItem;
+        return specifiedItem.number;
     }
 
     public void UpdateSprites(int index)
     {
-        Item item = items[index];
+        CountableItem item = items[index];
         if (item == null) return;
         GameObject slot = slots[index];
         slot.SetActive(true);
-        slot.GetComponent<Image>().sprite = item.sprite;
-        slot.transform.GetChild(0).GetComponent<Text>().text = "" + item.numItem;
+        slot.GetComponent<Image>().sprite = item.item.sprite;
+        slot.transform.GetChild(0).GetComponent<Text>().text = "" + item.number;
     }
 
     public void UpdateAllSprites()

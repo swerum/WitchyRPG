@@ -68,7 +68,7 @@ public class Goblin : ClickableItem
     private void GetPlantSeed()
     {
         indexOfPlant = goblinInventory.GetFirstIndexOfElementOfType(goblinAction);
-        if (indexOfPlant != -1) { plantInfo = goblinInventory.GetItemAtIndex(indexOfPlant).plant; }
+        if (indexOfPlant != -1) { plantInfo = goblinInventory.GetItemAtIndex(indexOfPlant).item.plant; }
         goblinInventory.UpdateAllSprites();
     }
 

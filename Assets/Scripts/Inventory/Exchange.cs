@@ -6,11 +6,11 @@ public class Exchange : MonoBehaviour
 {
     [Header("Price")]
     [SerializeField] int moneyInput = 0;
-    [SerializeField] List<Item> itemInput = new List<Item>();
+    [SerializeField] List<CountableItem> itemInput = new List<CountableItem>();
 
     [Header("Reward")]
     [SerializeField] int moneyOutput = 0;
-    [SerializeField] List<Item> itemOutput = new List<Item>();
+    [SerializeField] List<CountableItem> itemOutput = new List<CountableItem>();
 
     [Header("Child Reference")]
     [SerializeField] Image darkCover = null;
@@ -31,11 +31,11 @@ public class Exchange : MonoBehaviour
         //if we have the things for it
         if (!HasInputNeeded()) return;
         //actually exchange goods
-        foreach (Item item in itemInput)
+        foreach (CountableItem item in itemInput)
         {
-            PlayerInventory.Instance.ReduceItem(item, 1);
+            PlayerInventory.Instance.ReduceItem(item);
         }
-        foreach (Item item in itemOutput)
+        foreach (CountableItem item in itemOutput)
         {
             PlayerInventory.Instance.AddToInventory(item);
         }
@@ -60,7 +60,7 @@ public class Exchange : MonoBehaviour
     {
         //if we don't have enough money
         if (!Wallet.Instance.HasEnoughMoney(moneyInput)) return false;
-        foreach (Item item in itemInput)
+        foreach (CountableItem item in itemInput)
         {
             if (PlayerInventory.Instance.NumberItemInInventory(item) <= 0) return false;
         }

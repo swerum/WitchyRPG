@@ -36,7 +36,7 @@ public class PlayerInventory : Inventory
         if (ReduceItemAt(currentSelection, reduceNum)) ChangeSelection(currentSelection - 1);
     }
 
-    public Item GetCurrentItem() { return GetItemAtIndex(currentSelection); }
+    public CountableItem GetCurrentItem() { return GetItemAtIndex(currentSelection); }
 
     #endregion
 
@@ -53,8 +53,8 @@ public class PlayerInventory : Inventory
         if (currentSelection >= items.Count || items[currentSelection] == null) { MouseClickHandler.Instance.ClickAction = ItemAction.Nothing; }
         else
         {
-            MouseClickHandler.Instance.ClickAction = items[currentSelection].itemAction;
-            MouseClickHandler.Instance.Plant = items[currentSelection].plant;
+            MouseClickHandler.Instance.ClickAction = items[currentSelection].item.itemAction;
+            MouseClickHandler.Instance.Plant = items[currentSelection].item.plant;
         }
     }
     #endregion
