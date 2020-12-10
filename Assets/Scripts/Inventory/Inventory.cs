@@ -26,7 +26,6 @@ public class Inventory : MonoBehaviour
         Item item = countableItem.item;
         int num = countableItem.number;
         int index = GetItemIndex(item);
-        Debug.Log(index);
         if (index != -1)
         {
             //add another item to list

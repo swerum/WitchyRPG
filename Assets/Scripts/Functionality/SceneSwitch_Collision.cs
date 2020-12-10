@@ -9,6 +9,7 @@ public class SceneSwitch_Collision : MonoBehaviour
     [SerializeField] string sceneName = "Scene";
     [Tooltip("The direction the player should be moving in order to pass through.")]
     [SerializeField] Vector2 entryDirection = Vector2.zero;
+    [SerializeField] Vector2 entryPosition = Vector2.zero;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,6 +21,8 @@ public class SceneSwitch_Collision : MonoBehaviour
             {
                 //switch Scenes
                 SceneManager.LoadScene(sceneName);
+                PlayerMovement.Instance.transform.position = entryPosition;
+                Camera.main.transform.position = entryPosition;
             }
         }
     }
