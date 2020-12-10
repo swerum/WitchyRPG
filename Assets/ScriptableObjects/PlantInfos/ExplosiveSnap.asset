@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fce77293624b46dc84b810440b503e2, type: 3}
+  m_Name: ExplosiveSnap
+  m_EditorClassIdentifier: 
+  plantName: ExplosiveSnap
+  seedBagSprite: {fileID: -1104945060024926252, guid: 527f1c522218446c6861880cb5c4db90,
+    type: 3}
+  harvest: {fileID: 0}
+  days: 020000000400000006000000
+  plantSprites:
+  - {fileID: 2111202108594649051, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: -7957322761170915563, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: -8417433976052490294, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  - {fileID: -5595859447497972490, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  itemNeeded: 0

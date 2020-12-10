@@ -23,6 +23,7 @@ namespace WitchyRPG.DialogueSystem
             if (currentTextBox == null & npc != null)
             {
                 currentTextBox = Instantiate(textBoxPrefab).GetComponent<TextBox>();
+                currentTextBox.transform.SetParent(canvas);
                 currentTextBox.SetTextBoxVariables(ConfigureSpeechInfos(npc.SpeechInfos), canvas);
             }
         }

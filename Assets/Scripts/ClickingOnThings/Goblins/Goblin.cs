@@ -47,7 +47,7 @@ public class Goblin : ClickableItem
         switch(goblinAction)
         {
             case ItemAction.Harvest: farmableTile.Harvest(); break;
-            case ItemAction.Plant:
+            case ItemAction.Seed:
                 {
                     GetPlantSeed();
                     if (indexOfPlant == -1) return;

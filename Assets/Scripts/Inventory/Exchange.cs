@@ -15,8 +15,10 @@ public class Exchange : MonoBehaviour
     [Header("Child Reference")]
     [SerializeField] Image darkCover = null;
 
+    ExchangeButtonParent parent;
     private void Start()
     {
+        parent = GetComponentInParent<ExchangeButtonParent>();
         UpdateImage();
     }
 
@@ -41,6 +43,7 @@ public class Exchange : MonoBehaviour
         }
         Wallet.Instance.SpendMoney(moneyInput);
         Wallet.Instance.AddMoney(moneyOutput);
+        parent.UpdateButtons();
     }
 
     /// <summary>

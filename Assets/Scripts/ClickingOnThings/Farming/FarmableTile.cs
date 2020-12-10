@@ -29,7 +29,7 @@ public class FarmableTile : ClickableItem
         {
             case ItemAction.Nothing: break;
             case ItemAction.Plow: PlowField(); break;
-            case ItemAction.Plant:
+            case ItemAction.Seed:
                 {
                     PlantSomething(MouseClickHandler.Instance.Plant);
                     PlayerInventory.Instance.ReduceCurrentItem(1);
@@ -57,12 +57,12 @@ public class FarmableTile : ClickableItem
         currentPlant = plant;
         daysSincePlanting = 0;
         harvestable = false;
-        itemActionTaken = ItemAction.Plant;
+        itemActionTaken = ItemAction.Seed;
     }
 
     public void WaterPlant()
     {
-        if (itemActionTaken != ItemAction.Plant) return;
+        if (itemActionTaken != ItemAction.Seed) return;
         watered = true;
         //add water overlay sprite?
     }

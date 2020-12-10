@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using WitchyRPG.DialogueSystem;
 
-public enum ItemAction { Nothing, Plow, Plant, Harvest, Water, DeafenSound, PlaceObject};
+public enum ItemAction { Nothing, Plow, Seed, Harvest, Water, DeafenSound, PlaceObject};
 
 public class MouseClickHandler : MonoBehaviour
 {
@@ -36,10 +36,22 @@ public class MouseClickHandler : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (PlayerTalk.Instance.TextBox != null) PlayerTalk.Instance.TextBox.PlayNextText();
+            float dist = Utility.GetDistance(transform, PlayerMovement.Instance.transform);
+            if (dist < 2 & clickAction == ItemAction.PlaceObject)
+            {
+                PlaceObject();
+            }
+            else if (PlayerTalk.Instance.TextBox != null) { PlayerTalk.Instance.TextBox.PlayNextText(); }
             else if (clickableItem != null) clickableItem.LeftClick();
         }
         else if (Input.GetMouseButtonDown(1) & clickableItem != null) clickableItem.RightClick();
+    }
+
+    private void PlaceObject()
+    {
+        GameObject objectToBeInstantiated = PlayerInventory.Instance.GetCurrentItem().item.placableObjectPrefab;
+        Instantiate(objectToBeInstantiated).transform.position = transform.position;
+        PlayerInventory.Instance.ReduceCurrentItem(1);
     }
 
     #region keep track of ClickableItem

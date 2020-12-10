@@ -6,9 +6,7 @@ using UnityEngine;
 public class Item : ScriptableObject
 {
     public string itemName;
-    public float price = 5f;
     public ItemAction itemAction;
-    public int numItem = 1;
     public Sprite sprite;
     [Header("If this is a seed, add a Plant Info")]
     public PlantInfo plant;

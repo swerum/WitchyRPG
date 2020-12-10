@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a450400f99c8450a8dcb1307a2d498e, type: 3}
-  m_Name: Mandrake_Item
+  m_Name: ExplosiveSnap_Seed
   m_EditorClassIdentifier: 
   itemName: Explosive Snap
   itemAction: 2
-  sprite: {fileID: 1424126403081524601, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  sprite: {fileID: -1104945060024926252, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
   plant: {fileID: 11400000, guid: 9b37ce129a7e04061a35a3c85168477b, type: 2}
   placableObjectPrefab: {fileID: 0}
