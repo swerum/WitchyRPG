@@ -35,7 +35,8 @@ public class Inventory : MonoBehaviour
         else
         {
             if (items.Count == slots.Count) return false;
-            items.Add(countableItem);
+            CountableItem newCountable = new CountableItem(item, num);
+            items.Add(newCountable);
             items[items.Count - 1].number = num;
             UpdateSprites(items.Count - 1);
         }

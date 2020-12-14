@@ -9,6 +9,7 @@ public class MouseClickHandler : MonoBehaviour
     //public
     [Tooltip("How close do you have to be to your mouse click to place an item there.")]
     [SerializeField] float distanceToPlaceItem = 4;
+    [SerializeField] GameObject cursorObject = null;
     ItemAction clickAction = ItemAction.Nothing;
     public ItemAction ClickAction
     {
@@ -32,6 +33,7 @@ public class MouseClickHandler : MonoBehaviour
     {
         //move mouse tile
         Vector2 mousePos = main.ScreenToWorldPoint(Input.mousePosition);
+        cursorObject.transform.position = mousePos;
         mousePos = Utility.SnapToGrid(mousePos);
         transform.position = mousePos;
         //click tile and do action

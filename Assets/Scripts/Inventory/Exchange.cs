@@ -10,7 +10,7 @@ public class Exchange : MonoBehaviour
 
     [Header("Reward")]
     [SerializeField] int moneyOutput = 0;
-    [SerializeField] List<CountableItem> itemOutput = new List<CountableItem>();
+    [SerializeField] private List<CountableItem> itemOutput = new List<CountableItem>();
 
     [Header("Child Reference")]
     [SerializeField] Image darkCover = null;

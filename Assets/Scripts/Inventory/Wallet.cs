@@ -16,13 +16,24 @@ public class Wallet : MonoBehaviour
     {
         numMoney += money;
         text.text = ""+numMoney;
+        UpdateExchangeParents();
+    }
 
+    private void UpdateExchangeParents()
+    {
+        GameObject[] parents = GameObject.FindGameObjectsWithTag("ExchangeButtonParent");
+        foreach (GameObject p in parents)
+        {
+            ExchangeButtonParent e = p.GetComponent<ExchangeButtonParent>();
+            if (e != null) e.UpdateButtons();
+        }
     }
 
     public void SpendMoney(int money)
     {
         numMoney -= money;
         text.text = "" + numMoney;
+        UpdateExchangeParents();
     }
 
     public int GetNumMoney() { return numMoney; }

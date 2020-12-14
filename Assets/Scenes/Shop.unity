@@ -4564,7 +4564,7 @@ PrefabInstance:
     - target: {fileID: 9188825071829509916, guid: 5ef41d64582184421bf45915717be37d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 106
+      value: 282
       objectReference: {fileID: 0}
     - target: {fileID: 9188825071829509916, guid: 5ef41d64582184421bf45915717be37d,
         type: 3}
@@ -4631,7 +4631,7 @@ GameObject:
   - component: {fileID: 383114322}
   m_Layer: 5
   m_Name: Shop_Menu
-  m_TagString: Untagged
+  m_TagString: ExchangeButtonParent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4657,7 +4657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -375}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383114322

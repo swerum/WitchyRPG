@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Canvas
   - RoomBorders
+  - ExchangeButtonParent
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
 [CustomPropertyDrawer(typeof(CountableItem))]
 public class CountableItemDrawer : PropertyDrawer
 {
@@ -32,5 +33,5 @@ public class CountableItemDrawer : PropertyDrawer
 
         EditorGUI.EndProperty();
     }
-
 }
+#endif
