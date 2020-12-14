@@ -7,6 +7,7 @@ public class CameraMovement : MonoBehaviour
 {
     //SerializeField means that you can access this variable in the editor
     [SerializeField] Transform follow = null;
+    public Transform Follow { set { follow = value; } }
     [SerializeField] float spd = 0.1f;
 
     public enum MovementType { Following, WASD };
@@ -18,7 +19,6 @@ public class CameraMovement : MonoBehaviour
     Vector2 min;
 
     private void Start() {
-        z = transform.position.z;
         transform.position = follow.transform.position;
     }
 

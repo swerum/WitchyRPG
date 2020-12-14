@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelBounds : MonoBehaviour
 {
     [SerializeField] Bounds bounds = new Bounds();
+    public Bounds Bounds { get { return bounds; } }
 
     private void Start()
     {

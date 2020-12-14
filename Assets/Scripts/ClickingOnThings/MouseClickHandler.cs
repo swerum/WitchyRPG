@@ -7,6 +7,8 @@ public class MouseClickHandler : MonoBehaviour
 {
     #region variables and initializing
     //public
+    [Tooltip("How close do you have to be to your mouse click to place an item there.")]
+    [SerializeField] float distanceToPlaceItem = 4;
     ItemAction clickAction = ItemAction.Nothing;
     public ItemAction ClickAction
     {
@@ -36,17 +38,21 @@ public class MouseClickHandler : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            float dist = Utility.GetDistance(transform, PlayerMovement.Instance.transform);
-            if (dist < 2 & clickAction == ItemAction.PlaceObject)
-            {
-                PlaceObject();
-            }
+            if (ShouldPlaceObject()) { PlaceObject(); }
             else if (PlayerTalk.Instance.TextBox != null) { PlayerTalk.Instance.TextBox.PlayNextText(); }
             else if (clickableItem != null) clickableItem.LeftClick();
         }
         else if (Input.GetMouseButtonDown(1) & clickableItem != null) clickableItem.RightClick();
     }
 
+    private bool ShouldPlaceObject()
+    {
+        float dist = Utility.GetDistance(transform, PlayerMovement.Instance.transform);
+        bool canPlace = dist < distanceToPlaceItem & clickAction == ItemAction.PlaceObject;
+        bool nothingThere = clickableItem == null || clickableItem.CanPlaceObjectOnThis;
+        return canPlace & nothingThere;
+
+    }
     private void PlaceObject()
     {
         GameObject objectToBeInstantiated = PlayerInventory.Instance.GetCurrentItem().item.placableObjectPrefab;

@@ -55,4 +55,5 @@ public class Utility
     {
         return new Vector2(Mathf.RoundToInt(pos.x), Mathf.RoundToInt(pos.y));
     }
+
 }

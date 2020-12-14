@@ -7,7 +7,15 @@ public class PlayerMovement : MonoBehaviour
     bool canMove = true;
     [SerializeField] float playerSpeed = 0.01f;
     Rigidbody2D rb;
-    private void Start() { rb = GetComponent<Rigidbody2D>(); }
+    Animator animator;
+    SpriteRenderer spriteRenderer;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        animator.speed = 3;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     void FixedUpdate()
     {
@@ -15,6 +23,12 @@ public class PlayerMovement : MonoBehaviour
         //inputs can be changed under Edit --> Project Settings --> Input Manager
         Vector2 movement = new Vector2(Input.GetAxis("Horizontal")*playerSpeed, Input.GetAxis("Vertical")*playerSpeed);
         rb.velocity = movement;
+        //set animations
+        int yDirection = (int)(movement.y);
+        animator.SetInteger("yDirection", yDirection);
+        animator.SetInteger("xDirection", (int)movement.x);
+        if (yDirection == 0 && movement.x < 0) spriteRenderer.flipX = false;
+        else if (movement.x > 0) spriteRenderer.flipX = true;
     }
 
     public void Freeze()    { canMove = false; }

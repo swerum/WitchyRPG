@@ -17,6 +17,7 @@ namespace WitchyRPG.DialogueSystem
 
         public void SetTextBoxVariables(SpeechInfo[] speechInfos, Transform canvas)
         {
+            if (canvas == null) { canvas = GameObject.FindGameObjectWithTag("Canvas").transform; }
             transform.SetParent(canvas);
             GetComponent<RectTransform>().anchoredPosition = position;
             this.speechInfos = speechInfos;
