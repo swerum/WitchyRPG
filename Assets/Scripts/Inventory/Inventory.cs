@@ -48,7 +48,15 @@ public class Inventory : MonoBehaviour
         return AddToInventory(countableItem);
     }
 
+    /// <summary>
+    /// Checks if the inventory still has room
+    /// </summary>
+    /// <returns>if the inventory is full</returns>
     public bool IsFull() { return (items.Count >= slots.Count); }
+    /// <summary>
+    /// checks how much room is left in the inventory
+    /// </summary>
+    /// <returns>The number of still free slots.</returns>
     public int RoomLeft() { return (slots.Count - items.Count); }
 
     /// <summary>
@@ -75,6 +83,11 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Remove an item from the inventory item.num times
+    /// </summary>
+    /// <param name="item">The countable item containing the item and how many we are supposed to subtract</param>
+    /// <returns></returns>
     public bool ReduceItem(CountableItem item)
     {
         int index = GetItemIndex(item.item);
@@ -82,6 +95,11 @@ public class Inventory : MonoBehaviour
         return ReduceItemAt(index, item.number);
     }
 
+    /// <summary>
+    /// Finds the first element in the inventory to be of a certain type
+    /// </summary>
+    /// <param name="itemAction">The type we are looking for.</param>
+    /// <returns></returns>
     public int GetFirstIndexOfElementOfType(ItemAction itemAction)
     {
         for (int i = 0; i < items.Count; i++)
@@ -91,6 +109,11 @@ public class Inventory : MonoBehaviour
         return -1;
     }
 
+    /// <summary>
+    /// Find the index in the inventory of a certain item.
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns></returns>
     public int GetItemIndex(Item item)
     {
         for (int i = 0; i < items.Count; i++)
@@ -100,6 +123,11 @@ public class Inventory : MonoBehaviour
         return -1;
     }
 
+    /// <summary>
+    /// get the countable Item at a certain index.
+    /// </summary>
+    /// <param name="index"></param>
+    /// <returns></returns>
     public CountableItem GetItemAtIndex(int index)
     {
         if (index >= items.Count) return null;
@@ -117,19 +145,33 @@ public class Inventory : MonoBehaviour
         return (specifiedItem != null);
     }
 
+    /// <summary>
+    /// Does the inventory contain an item?
+    /// </summary>
+    /// <param name="item">The item we are looking for.</param>
+    /// <returns></returns>
     public bool ContainsItem(Item item)
     {
         CountableItem specifiedItem = items.Find(x => x.item == item);
         return (specifiedItem != null);
     }
 
-    public int NumberItemInInventory(CountableItem item)
+    /// <summary>
+    /// How many of a certain item do we have in our inventory.
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns></returns>
+    public int NumberItemInInventory(Item item)
     {
-        CountableItem specifiedItem = items.Find(x => x.Equals(item));
+        CountableItem specifiedItem = items.Find(x => x.item.Equals(item));
         if (specifiedItem == null) return 0;
         return specifiedItem.number;
     }
 
+    /// <summary>
+    /// Update the sprites for one slot in the inventory.
+    /// </summary>
+    /// <param name="index">The index at which we are to update the sprites</param>
     public void UpdateSprites(int index)
     {
         CountableItem item = items[index];
@@ -140,6 +182,9 @@ public class Inventory : MonoBehaviour
         slot.transform.GetChild(0).GetComponent<Text>().text = "" + item.number;
     }
 
+    /// <summary>
+    /// update the sprites in all the inventories.
+    /// </summary>
     public void UpdateAllSprites()
     {
         for (int i = 0; i < items.Count; i++) { UpdateSprites(i); }

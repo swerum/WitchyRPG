@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+//contains the functions called by the buttons in the goblin command menu
 public class GoblinCommandMenu : MonoBehaviour
 {
     Goblin goblin;

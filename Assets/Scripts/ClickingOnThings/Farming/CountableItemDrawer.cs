@@ -2,6 +2,7 @@
 using UnityEngine;
 
 #if UNITY_EDITOR
+//this is a custom editor for countable items.
 [CustomPropertyDrawer(typeof(CountableItem))]
 public class CountableItemDrawer : PropertyDrawer
 {
@@ -20,7 +21,7 @@ public class CountableItemDrawer : PropertyDrawer
 
         // Calculate rects
         var amountRect = new Rect(position.x, position.y, 30, position.height);
-        var unitRect = new Rect(position.x + 35, position.y, 50, position.height);
+        var unitRect = new Rect(position.x + 35, position.y, 100, position.height);
         //var nameRect = new Rect(position.x + 90, position.y, position.width - 90, position.height);
 
         // Draw fields - passs GUIContent.none to each so they are drawn without labels

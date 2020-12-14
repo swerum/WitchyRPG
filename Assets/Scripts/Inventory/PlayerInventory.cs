@@ -18,6 +18,9 @@ public class PlayerInventory : Inventory
         ChangeSelection(0);
     }
 
+    /// <summary>
+    /// check for mouseScrol changing the selected item
+    /// </summary>
     private void Update()
     {
         float mouseScroll = Input.mouseScrollDelta.y;
@@ -36,11 +39,19 @@ public class PlayerInventory : Inventory
         if (ReduceItemAt(currentSelection, reduceNum)) ChangeSelection(currentSelection - 1);
     }
 
+    /// <summary>
+    /// get currently selected item.
+    /// </summary>
+    /// <returns></returns>
     public CountableItem GetCurrentItem() { return GetItemAtIndex(currentSelection); }
 
     #endregion
 
     #region private methods
+    /// <summary>
+    /// change currently selected item in inventory to be the one at index
+    /// </summary>
+    /// <param name="index">The index of the newly selected item.</param>
     private void ChangeSelection(int index)
     {
         //circle around to start/end of inventory

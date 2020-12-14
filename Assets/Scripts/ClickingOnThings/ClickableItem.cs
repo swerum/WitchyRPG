@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//parent class that is clicked on to some effect.
 public class ClickableItem : MonoBehaviour
 {
     [SerializeField] bool canPlaceObjectOnThis = false;

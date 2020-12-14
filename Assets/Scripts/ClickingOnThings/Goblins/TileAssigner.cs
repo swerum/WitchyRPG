@@ -26,6 +26,7 @@ public class TileAssigner : MonoBehaviour
         MouseClickHandler.Instance.gameObject.SetActive(false);
     }
 
+    //check for mouse input
     void Update()
     {
         //move mouse tile
@@ -41,6 +42,9 @@ public class TileAssigner : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Destroys itself and the objects it has created for visualization
+    /// </summary>
     public void DestroySelf()
     {
         Destroy(button);
@@ -49,6 +53,7 @@ public class TileAssigner : MonoBehaviour
         Destroy(gameObject);
     }
 
+    //adds a tile to its list and marks is with a mark sprite
     private void AddFarmableTile(FarmableTile tile)
     {
         tiles.Add(tile);
@@ -57,6 +62,7 @@ public class TileAssigner : MonoBehaviour
         marks.Add(mark);
     }
 
+    //removes tile from its list and destroys the mark that was on it.
     private void RemoveFarmableTile(FarmableTile tile)
     {
         int index = tiles.FindIndex(x => x.Equals(tile));
@@ -66,6 +72,7 @@ public class TileAssigner : MonoBehaviour
         Destroy(mark);
     }
 
+    #region Keeps track of the farmable tile we're on
     private void OnTriggerEnter2D(Collider2D collision)
     {
         FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
@@ -77,4 +84,5 @@ public class TileAssigner : MonoBehaviour
         FarmableTile farmableTile = collision.gameObject.GetComponent<FarmableTile>();
         if (farmableTile == currentFarmableTile) { currentFarmableTile = null; }
     }
+    #endregion
 }

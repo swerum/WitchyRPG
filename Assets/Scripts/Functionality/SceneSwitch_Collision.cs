@@ -9,8 +9,10 @@ public class SceneSwitch_Collision : MonoBehaviour
     [SerializeField] string sceneName = "Scene";
     [Tooltip("The direction the player should be moving in order to pass through.")]
     [SerializeField] Vector2 entryDirection = Vector2.zero;
+    [Tooltip("What coordinates should the player be at in the new scene.")]
     [SerializeField] Vector2 entryPosition = Vector2.zero;
 
+    ///if player collides with this and is walking in the right direction, change scenes
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();

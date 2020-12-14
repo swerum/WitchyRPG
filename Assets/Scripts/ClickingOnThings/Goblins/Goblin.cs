@@ -23,6 +23,7 @@ public class Goblin : ClickableItem
 
     int indexOfPlant = -1;
 
+    //create all the ui objects a goblin needs 
     private void Start()
     {
         goblinInventory = Instantiate(goblinInventoryPrefab).GetComponent<GoblinInventory>();

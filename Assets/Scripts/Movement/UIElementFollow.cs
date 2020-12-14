@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class UIElementFollow : MonoBehaviour
 {
+    [Tooltip("The regular game element this UI object is following")]
     [SerializeField] Transform follow = null;
     public Transform Follow { set { follow = value; } }
+
+    [Tooltip("How much should this object be offset from the object it is following.")]
     [SerializeField] Vector2 offset = Vector2.zero;
     Camera main;
 

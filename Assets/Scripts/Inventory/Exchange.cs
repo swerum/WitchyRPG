@@ -47,7 +47,7 @@ public class Exchange : MonoBehaviour
     }
 
     /// <summary>
-    /// Makes image slightly transparent if we cannot buy/make this item
+    /// Adds a dark overlay to the button, if we cannot buy/make this item
     /// </summary>
     public void UpdateImage()
     {
@@ -65,7 +65,7 @@ public class Exchange : MonoBehaviour
         if (!Wallet.Instance.HasEnoughMoney(moneyInput)) return false;
         foreach (CountableItem item in itemInput)
         {
-            if (PlayerInventory.Instance.NumberItemInInventory(item) <= 0) return false;
+            if (PlayerInventory.Instance.NumberItemInInventory(item.item) <= 0) return false;
         }
         return true;
     }

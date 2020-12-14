@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    bool canMove = true;
+    [Tooltip("How fast can the player walk. Careful: The player moves by adding force, so its speed will differ from the camera's speed for the same value.")]
     [SerializeField] float playerSpeed = 0.01f;
-    Rigidbody2D rb;
-    Animator animator;
-    SpriteRenderer spriteRenderer;
+
+    bool            canMove         = true;
+    Rigidbody2D     rb;
+    Animator        animator;
+    SpriteRenderer  spriteRenderer;
+
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        animator.speed = 3;
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb              = GetComponent<Rigidbody2D>();
+        animator        = GetComponent<Animator>();
+        animator.speed  = 3;
+        spriteRenderer  = GetComponent<SpriteRenderer>();
     }
 
+    //add force to player, update animator
     void FixedUpdate()
     {
         if (!canMove) return;

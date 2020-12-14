@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+//simply a class to keep track of some number of items.
 [System.Serializable]
 public class CountableItem 
 {

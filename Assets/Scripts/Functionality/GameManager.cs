@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject mouseClickManager = null;
     Camera mainCamera;
 
+    //creates all the objects needed for the game.
     void Start()
     {
         //check if the items we're creating already exist

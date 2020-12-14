@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class FarmableTile : ClickableItem
 {
+    [Tooltip("The sprite for when it's regular ground. Nothing has been done to it.")]
     [SerializeField] Sprite defaultSprite    = null;
+    [Tooltip("The sprite for when this tile has been plowed.")]
     [SerializeField] Sprite plowedTileSprite = null;
 
     //private variables
@@ -22,7 +24,8 @@ public class FarmableTile : ClickableItem
 
     private void Start() { spriteRenderer = GetComponent<SpriteRenderer>(); }
 
-    public override void LeftClick()
+    //depending on the MouseClickHandlers clickAction, do some farming on the tile
+    public override void RightClick()
     {
         ItemAction clickAction = MouseClickHandler.Instance.ClickAction;
         switch (clickAction)

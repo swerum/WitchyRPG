@@ -8,8 +8,11 @@ namespace WitchyRPG.DialogueSystem
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerTalk : MonoBehaviour
     {
+        [Tooltip("The prefab for the text box.")]
         [SerializeField] GameObject textBoxPrefab = null;
+        [Tooltip("The sprite that is displayed on the textbox as the Player's face.")]
         [SerializeField] Sprite     face = null;
+        [Tooltip("The name that is displayed as the player's name.")]
         [SerializeField] string     playerName = "Player";
 
         TextBox         currentTextBox = null;
@@ -18,6 +21,10 @@ namespace WitchyRPG.DialogueSystem
 
         private void Start() { canvas = GameObject.FindGameObjectWithTag("Canvas").transform; }
 
+        /// <summary>
+        /// A textbox is created with the npc you clicked on. If you clicked on no one or a textbox already exists, nothing happens.
+        /// </summary>
+        /// <param name="npc">The NPC you clicked on.</param>
         public void StartDialogue(NPCSpeech npc)
         {
             if (currentTextBox == null & npc != null)
@@ -48,7 +55,7 @@ namespace WitchyRPG.DialogueSystem
         }
 
 
-        #region 
+        #region  singleton
         private static PlayerTalk _instance;
         public static PlayerTalk Instance { get { return _instance; } }
 

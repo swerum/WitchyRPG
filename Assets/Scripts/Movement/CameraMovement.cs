@@ -8,6 +8,7 @@ public class CameraMovement : MonoBehaviour
     //SerializeField means that you can access this variable in the editor
     [SerializeField] Transform follow = null;
     public Transform Follow { set { follow = value; } }
+    [Tooltip("How fast can the camera move.")]
     [SerializeField] float spd = 0.1f;
 
     public enum MovementType { Following, WASD };
@@ -27,6 +28,7 @@ public class CameraMovement : MonoBehaviour
         Vector2 pos = transform.position;
         float deltaX;
         float deltaY;
+        //check how camera should move based on movement type
         if (movementType == MovementType.Following)
         {
             Vector2 dest = follow.transform.position;
@@ -37,11 +39,16 @@ public class CameraMovement : MonoBehaviour
             deltaX = Input.GetAxis("Horizontal") * spd;
             deltaY = Input.GetAxis("Vertical") * spd;
         }
+        //check if camera out of bounds
         if (pos.x + deltaX > max.x || pos.x + deltaX < min.x) deltaX = 0;
         if (pos.y + deltaY > max.y || pos.y + deltaY < min.y) deltaY = 0;
         transform.position = new Vector3(pos.x + deltaX, pos.y + deltaY, z);
     }
 
+    /// <summary>
+    /// Set the Bounds for the camera
+    /// </summary>
+    /// <param name="bounds"></param>
     public void SetBounds(Bounds bounds)
     {
         Camera cam = GetComponent<Camera>();

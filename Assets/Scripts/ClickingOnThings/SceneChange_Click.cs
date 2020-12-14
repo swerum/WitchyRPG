@@ -8,6 +8,9 @@ public class SceneChange_Click : ClickableItem
     [SerializeField] string sceneName = "Scene";
     [SerializeField] Vector2 entryPosition = Vector2.zero;
 
+    /// <summary>
+    /// Go to specified scene.
+    /// </summary>
     public override void LeftClick()
     {
         SceneManager.LoadScene(sceneName);

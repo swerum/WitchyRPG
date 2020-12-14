@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class LevelBounds : MonoBehaviour
 {
+    [Tooltip("The bounds of the player and the camera. Neither can go outside the box these bounds create.")]
     [SerializeField] Bounds bounds = new Bounds();
     public Bounds Bounds { get { return bounds; } }
 
+    /// <summary>
+    /// configures its four colliders to be a rectangular room bound for the player and the camera
+    /// </summary>
     private void Start()
     {
         transform.position = bounds.center;

@@ -24,6 +24,9 @@ public class DirectedMovement : MonoBehaviour
         if (CheckAreMoving()) MoveTowardsDestination();
     }
 
+    /// <summary>
+    /// The goblin starts visiting every tile in their list to farm them.
+    /// </summary>
     public void StartDoingChores()
     {
         if (headedSomewhere) return;

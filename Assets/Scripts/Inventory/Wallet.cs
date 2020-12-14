@@ -12,6 +12,10 @@ public class Wallet : MonoBehaviour
         text.text = "" + numMoney;
     }
 
+    /// <summary>
+    /// Add money to wallet.
+    /// </summary>
+    /// <param name="money">The amount of money earned.</param>
     public void AddMoney(int money)
     {
         numMoney += money;
@@ -19,16 +23,10 @@ public class Wallet : MonoBehaviour
         UpdateExchangeParents();
     }
 
-    private void UpdateExchangeParents()
-    {
-        GameObject[] parents = GameObject.FindGameObjectsWithTag("ExchangeButtonParent");
-        foreach (GameObject p in parents)
-        {
-            ExchangeButtonParent e = p.GetComponent<ExchangeButtonParent>();
-            if (e != null) e.UpdateButtons();
-        }
-    }
-
+    /// <summary>
+    /// Remove money from wallet
+    /// </summary>
+    /// <param name="money">The amount of money spent</param>
     public void SpendMoney(int money)
     {
         numMoney -= money;
@@ -38,6 +36,19 @@ public class Wallet : MonoBehaviour
 
     public int GetNumMoney() { return numMoney; }
     public bool HasEnoughMoney(int price) { return (numMoney >= price); }
+
+    /// <summary>
+    /// has all button parents update their children to check if the player has enough money
+    /// </summary>
+    private void UpdateExchangeParents()
+    {
+        GameObject[] parents = GameObject.FindGameObjectsWithTag("ExchangeButtonParent");
+        foreach (GameObject p in parents)
+        {
+            ExchangeButtonParent e = p.GetComponent<ExchangeButtonParent>();
+            if (e != null) e.UpdateButtons();
+        }
+    }
 
     #region Singleton
     private static Wallet _instance;
