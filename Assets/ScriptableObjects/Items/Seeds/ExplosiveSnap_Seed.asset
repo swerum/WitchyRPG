@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Explosive Snap
   itemAction: 2
-  sprite: {fileID: -1104945060024926252, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
+  sprite: {fileID: 2111202108594649051, guid: 527f1c522218446c6861880cb5c4db90, type: 3}
   plant: {fileID: 11400000, guid: 9b37ce129a7e04061a35a3c85168477b, type: 2}
   placableObjectPrefab: {fileID: 0}

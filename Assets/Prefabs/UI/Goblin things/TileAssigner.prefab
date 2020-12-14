@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3570667574193021845}
   - component: {fileID: 2440174743123707715}
   - component: {fileID: 67793568287899333}
+  - component: {fileID: 8365608487092318035}
   m_Layer: 0
   m_Name: TileAssigner
   m_TagString: Untagged
@@ -148,3 +149,14 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!210 &8365608487092318035
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3570667574193021864}
+  m_Enabled: 1
+  m_SortingLayerID: -1380295563
+  m_SortingLayer: -1
+  m_SortingOrder: 2

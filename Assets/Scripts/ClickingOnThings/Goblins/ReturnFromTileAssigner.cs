@@ -15,7 +15,8 @@ public class ReturnFromTileAssigner : MonoBehaviour
     {
         GameObject canvas = GameObject.FindGameObjectWithTag("Canvas");
         transform.SetParent(canvas.transform);
-        transform.position = position;
+        GetComponent<RectTransform>().anchoredPosition = position;
+        //transform.position = position;
     }
 
     public void ReturnToGame()

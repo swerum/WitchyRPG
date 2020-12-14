@@ -40,11 +40,14 @@ public class MouseClickHandler : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (ShouldPlaceObject()) { PlaceObject(); }
-            else if (PlayerTalk.Instance.TextBox != null) { PlayerTalk.Instance.TextBox.PlayNextText(); }
+            if (PlayerTalk.Instance.TextBox != null) { PlayerTalk.Instance.TextBox.PlayNextText(); }
             else if (clickableItem != null) clickableItem.LeftClick();
         }
-        else if (Input.GetMouseButtonDown(1) & clickableItem != null) clickableItem.RightClick();
+        else if (Input.GetMouseButtonDown(1))
+        {
+            if (ShouldPlaceObject()) { PlaceObject(); }
+            else if (clickableItem != null) clickableItem.RightClick();
+        }
     }
 
     private bool ShouldPlaceObject()
